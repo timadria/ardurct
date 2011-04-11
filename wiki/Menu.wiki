@@ -5,7 +5,6 @@
  * [Remote Remote]
   * [Sensors Sensors option]
   * [GPS GPS option]
-----
  * [Libraries Libraries]
   * [LCD_PCD8544 LCD_PCD8544 library]
   * [HMC6352 HMC6352 library]
