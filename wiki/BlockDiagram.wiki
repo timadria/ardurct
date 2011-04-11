@@ -3,4 +3,4 @@
 = Block diagram =
 
 ===Overview===
-http://
+http://ardurct.googlecode.com/svn/images/ArduRCT_detail1.png
