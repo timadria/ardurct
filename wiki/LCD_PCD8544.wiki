@@ -1,1 +1,3 @@
 #summary Details about the LCD_PCD8544 library
+
+<img src="http://dlnmh9ip6v2uc.cloudfront.net/images/products/07915-07-L.jpg" width="300">
