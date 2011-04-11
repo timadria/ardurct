@@ -2,7 +2,7 @@
 =Arduino library for HMC6352=
 <img src="http://ardurct.googlecode.com/svn/images/HMC6352.jpg" width="300">
 
-===Usage===
+===Example usage===
 {{{
 #include <Wire.h>
 #include <HMC6352.h>
