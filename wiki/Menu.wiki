@@ -1,6 +1,5 @@
 ==ArduRCT reference==
 
-===Appendix===
- * [Libraries Libraries]
-  * [LCD_PCD8544 LCD_PCD8544]
-  * [HMC6352 HMC6352]
+*Appendix*
+ * [LCD_PCD8544 LCD_PCD8544 library]
+ * [HMC6352 HMC6352 library]
