@@ -1,3 +1,3 @@
 #summary Details about the HMC6352 library
-=HMC6352=
+=Arduino library for HMC6352=
 <img src="http://ardurct.googlecode.com/svn/images/HMC6352.jpg" width="300">
