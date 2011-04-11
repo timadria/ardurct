@@ -4,4 +4,4 @@
 
 ArduRCT uses a number of libraries. They have been developped to be as generic as possible. Each one provides a number of examples to better understand the usage of the library.
 
-== [LCD_PCD8544] ==
+=== [LCD_PCD8544] ===
