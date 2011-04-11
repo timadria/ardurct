@@ -62,17 +62,17 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="3.0950129"
-     inkscape:cx="275.85638"
+     inkscape:cx="339.47691"
      inkscape:cy="883.6569"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      showguides="true"
      inkscape:guide-bbox="true"
-     inkscape:window-width="1440"
+     inkscape:window-width="1436"
      inkscape:window-height="848"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8" />
+     inkscape:window-x="0"
+     inkscape:window-y="14" />
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -339,7 +339,7 @@
        id="rect6147"
        width="16.9319"
        height="10.706937"
-       x="470.70285"
+       x="455.19403"
        y="170.47885"
        inkscape:export-filename="E:\projects\ArduRCT\images\ArduRCT_detail1.png"
        inkscape:export-xdpi="149.50629"
@@ -355,20 +355,20 @@
        inkscape:export-xdpi="149.50629"
        inkscape:export-ydpi="149.50629" />
     <rect
-       style="opacity:1;fill:#bbf3fa;fill-opacity:1;stroke:#000000;stroke-width:0.8;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="opacity:1;fill:#bbf3fa;fill-opacity:1;stroke:#000000;stroke-width:0.52951515;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect6151"
-       width="103.81245"
-       height="61.502224"
-       x="303.07468"
-       y="146.90775"
+       width="87.281715"
+       height="32.04747"
+       x="302.93945"
+       y="146.77249"
        inkscape:export-filename="E:\projects\ArduRCT\images\ArduRCT_detail1.png"
        inkscape:export-xdpi="149.50629"
        inkscape:export-ydpi="149.50629" />
     <text
        xml:space="preserve"
        style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Calibri;-inkscape-font-specification:Calibri"
-       x="347.78275"
-       y="217.74562"
+       x="340.02835"
+       y="189.31279"
        id="text6153"
        sodipodi:linespacing="100%"
        inkscape:export-filename="E:\projects\ArduRCT\images\ArduRCT_detail1.png"
@@ -376,26 +376,26 @@
        inkscape:export-ydpi="149.50629"><tspan
          sodipodi:role="line"
          id="tspan6155"
-         x="347.78275"
-         y="217.74562"
+         x="340.02835"
+         y="189.31279"
          style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:Calibri;-inkscape-font-specification:Calibri">Local</tspan></text>
     <rect
-       style="opacity:1;fill:#c6ffb4;fill-opacity:1;stroke:#000000;stroke-width:0.8;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="opacity:1;fill:#c6ffb4;fill-opacity:1;stroke:#000000;stroke-width:0.74384511;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect6157"
-       width="50.781063"
-       height="61.470322"
-       x="465.60626"
-       y="148.16866"
+       width="85.732063"
+       height="31.478136"
+       x="450.06937"
+       y="148.14056"
        inkscape:export-filename="E:\projects\ArduRCT\images\ArduRCT_detail1.png"
        inkscape:export-xdpi="149.50629"
        inkscape:export-ydpi="149.50629" />
     <rect
-       style="opacity:1;fill:#eeeeee;fill-opacity:1;stroke:#000000;stroke-width:0.91785353;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:1.83570715, 1.83570715;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:#eeeeee;fill-opacity:1;stroke:#000000;stroke-width:0.66584182;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:1.33168373, 1.33168373;stroke-dashoffset:0;stroke-opacity:1"
        id="rect6183"
-       width="75.708252"
-       height="61.305195"
-       x="172.49809"
-       y="146.8284"
+       width="75.960266"
+       height="32.155067"
+       x="172.37209"
+       y="146.70239"
        inkscape:export-filename="E:\projects\ArduRCT\images\ArduRCT_detail1.png"
        inkscape:export-xdpi="149.50629"
        inkscape:export-ydpi="149.50629" />
@@ -404,14 +404,14 @@
        id="rect6205"
        width="28.75802"
        height="21.629635"
-       x="375.74615"
+       x="357.74615"
        y="152.06598"
        inkscape:export-filename="E:\projects\ArduRCT\images\ArduRCT_detail1.png"
        inkscape:export-xdpi="149"
        inkscape:export-ydpi="149" />
     <path
        style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 404.49037,161.5293 L 410.48278,161.78664 L 414.06022,144.15857 L 415.89074,144.46313 L 412.63865,164.20341 L 404.49215,164.71985 L 404.49037,161.5293 z"
+       d="M 386.49037,161.5293 L 392.48278,161.78664 L 396.06022,144.15857 L 397.89074,144.46313 L 394.63865,164.20341 L 386.49215,164.71985 L 386.49037,161.5293 z"
        id="path6207"
        sodipodi:nodetypes="ccccccc"
        inkscape:export-filename="E:\projects\ArduRCT\images\ArduRCT_detail1.png"
@@ -420,7 +420,7 @@
     <text
        xml:space="preserve"
        style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Calibri;-inkscape-font-specification:Calibri"
-       x="379.75995"
+       x="361.75995"
        y="166.00824"
        id="text6209"
        sodipodi:linespacing="100%"
@@ -429,49 +429,24 @@
        inkscape:export-ydpi="149.50629"><tspan
          sodipodi:role="line"
          id="tspan6211"
-         x="379.75995"
+         x="361.75995"
          y="166.00824"
          style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:Calibri;-inkscape-font-specification:Calibri">XBee</tspan></text>
     <rect
-       style="opacity:1;fill:#d1d1d1;fill-opacity:1;stroke:#000000;stroke-width:0.91734856;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect6213"
-       width="40.708126"
-       height="21.485893"
-       x="307.95819"
-       y="152.13786"
-       inkscape:export-filename="E:\projects\ArduRCT\images\ArduRCT_detail1.png"
-       inkscape:export-xdpi="149"
-       inkscape:export-ydpi="149" />
-    <text
-       xml:space="preserve"
-       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Calibri;-inkscape-font-specification:Calibri"
-       x="311.02002"
-       y="166.03998"
-       id="text6215"
-       sodipodi:linespacing="100%"
-       inkscape:export-filename="E:\projects\ArduRCT\images\ArduRCT_detail1.png"
-       inkscape:export-xdpi="149.50629"
-       inkscape:export-ydpi="149.50629"><tspan
-         sodipodi:role="line"
-         id="tspan6217"
-         x="311.02002"
-         y="166.03998"
-         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:Calibri;-inkscape-font-specification:Calibri">FT232RL</tspan></text>
-    <rect
-       style="opacity:1;fill:#8ba7f3;fill-opacity:1;stroke:#000000;stroke-width:0.91734855999999998;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:#8ba7f3;fill-opacity:1;stroke:#000000;stroke-width:0.91734856;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect6219"
        width="40.708126"
        height="21.485893"
-       x="336.77002"
-       y="182.60063"
+       x="308.98337"
+       y="152.55229"
        inkscape:export-filename="E:\projects\ArduRCT\images\ArduRCT_detail1.png"
        inkscape:export-xdpi="149"
        inkscape:export-ydpi="149" />
     <text
        xml:space="preserve"
        style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Calibri;-inkscape-font-specification:Calibri"
-       x="341.00049"
-       y="196.50276"
+       x="313.21384"
+       y="166.45442"
        id="text6221"
        sodipodi:linespacing="100%"
        inkscape:export-filename="E:\projects\ArduRCT\images\ArduRCT_detail1.png"
@@ -479,22 +454,21 @@
        inkscape:export-ydpi="149.50629"><tspan
          sodipodi:role="line"
          id="tspan6223"
-         x="341.00049"
-         y="196.50276"
+         x="313.21384"
+         y="166.45442"
          style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:Calibri;-inkscape-font-specification:Calibri">Arduino</tspan></text>
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 346.52954,182.14196 L 338.9068,174.08243"
+       d="M 339.27444,174.49686 L 338.9068,174.08243"
        id="path6225"
        inkscape:connector-type="polyline"
        inkscape:connection-start="#rect6219"
-       inkscape:connection-end="#rect6213"
        inkscape:export-filename="E:\projects\ArduRCT\images\ArduRCT_detail1.png"
        inkscape:export-xdpi="149"
        inkscape:export-ydpi="149" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 369.25907,182.14196 L 377.99017,174.08242"
+       d="M 350.15017,163.09365 L 357.35935,163.02382"
        id="path6227"
        inkscape:connector-type="polyline"
        inkscape:connection-start="#rect6219"
@@ -507,14 +481,14 @@
        id="rect6229"
        width="28.75802"
        height="21.629635"
-       x="468.44897"
+       x="452.94016"
        y="153.25885"
        inkscape:export-filename="E:\projects\ArduRCT\images\ArduRCT_detail1.png"
        inkscape:export-xdpi="149"
        inkscape:export-ydpi="149" />
     <path
        style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 468.75502,161.65506 L 462.76261,161.9124 L 459.18517,144.28433 L 457.35465,144.58889 L 460.60674,164.32917 L 468.75324,164.84561 L 468.75502,161.65506 z"
+       d="M 453.2462,161.65506 L 447.25379,161.9124 L 443.67635,144.28433 L 441.84583,144.58889 L 445.09792,164.32917 L 453.24442,164.84561 L 453.2462,161.65506 z"
        id="path6231"
        sodipodi:nodetypes="ccccccc"
        inkscape:export-filename="E:\projects\ArduRCT\images\ArduRCT_detail1.png"
@@ -523,7 +497,7 @@
     <text
        xml:space="preserve"
        style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Calibri;-inkscape-font-specification:Calibri"
-       x="472.46277"
+       x="456.95395"
        y="167.20111"
        id="text6233"
        sodipodi:linespacing="100%"
@@ -532,14 +506,14 @@
        inkscape:export-ydpi="149.50629"><tspan
          sodipodi:role="line"
          id="tspan6235"
-         x="472.46277"
+         x="456.95395"
          y="167.20111"
          style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:Calibri;-inkscape-font-specification:Calibri">XBee</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Calibri;-inkscape-font-specification:Calibri"
-       x="477.49054"
-       y="219.10725"
+       x="477.16745"
+       y="190.35132"
        id="text6237"
        sodipodi:linespacing="100%"
        inkscape:export-filename="E:\projects\ArduRCT\images\ArduRCT_detail1.png"
@@ -547,24 +521,24 @@
        inkscape:export-ydpi="149.50629"><tspan
          sodipodi:role="line"
          id="tspan6239"
-         x="477.49054"
-         y="219.10725"
+         x="477.16745"
+         y="190.35132"
          style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:Calibri;-inkscape-font-specification:Calibri">Remote</tspan></text>
     <rect
        style="opacity:1;fill:#8ba7f3;fill-opacity:1;stroke:#000000;stroke-width:0.91734856;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect6241"
        width="40.708126"
        height="21.485893"
-       x="470.73901"
-       y="182.95633"
+       x="491.41745"
+       y="152.90799"
        inkscape:export-filename="E:\projects\ArduRCT\images\ArduRCT_detail1.png"
        inkscape:export-xdpi="149"
        inkscape:export-ydpi="149" />
     <text
        xml:space="preserve"
        style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Calibri;-inkscape-font-specification:Calibri"
-       x="474.56305"
-       y="197.04401"
+       x="496.21078"
+       y="166.34947"
        id="text6243"
        sodipodi:linespacing="100%"
        inkscape:export-filename="E:\projects\ArduRCT\images\ArduRCT_detail1.png"
@@ -572,14 +546,14 @@
        inkscape:export-ydpi="149.50629"><tspan
          sodipodi:role="line"
          id="tspan6245"
-         x="474.56305"
-         y="197.04401"
+         x="496.21078"
+         y="166.34947"
          style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:Calibri;-inkscape-font-specification:Calibri">Arduino</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Calibri;-inkscape-font-specification:Calibri"
-       x="190.74072"
-       y="216.68257"
+       x="190.41762"
+       y="187.92664"
        id="text6247"
        sodipodi:linespacing="100%"
        inkscape:export-filename="E:\projects\ArduRCT\images\ArduRCT_detail1.png"
@@ -587,19 +561,19 @@
        inkscape:export-ydpi="149.50629"><tspan
          sodipodi:role="line"
          id="tspan6249"
-         x="190.74072"
-         y="216.68257"
+         x="190.41762"
+         y="187.92664"
          style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:Calibri;-inkscape-font-specification:Calibri">Computer</tspan></text>
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline"
-       d="M 248.10586,162.50442 L 307.49952,162.78314"
+       d="M 247.62634,162.58996 L 308.52469,163.1156"
        id="path6251"
        inkscape:connector-type="polyline"
        inkscape:connection-start="#rect6257"
-       inkscape:connection-end="#rect6213"
        inkscape:export-filename="E:\projects\ArduRCT\images\ArduRCT_detail1.png"
        inkscape:export-xdpi="149"
-       inkscape:export-ydpi="149" />
+       inkscape:export-ydpi="149"
+       inkscape:connection-end="#rect6219" />
     <rect
        style="opacity:1;fill:none;fill-opacity:1;stroke:none;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect6253"
@@ -647,7 +621,7 @@
          style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:Calibri;-inkscape-font-specification:Calibri">USB</tspan></text>
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 485.95307,175.27529 L 487.968,182.49766"
+       d="M 482.08498,163.93325 L 490.95878,163.84886"
        id="path6263"
        inkscape:connector-type="polyline"
        inkscape:connection-start="#rect6229"
@@ -657,7 +631,7 @@
        inkscape:export-ydpi="149" />
     <path
        style="fill:#fffc07;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.06407425;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 416.70932,154.67854 L 437.2138,147.02096 L 436.17822,152.35806 L 453.36885,148.41325 L 432.86436,156.30287 L 433.2786,151.19782 L 416.70932,154.67854 z"
+       d="M 401.2005,154.67854 L 421.70498,147.02096 L 420.6694,152.35806 L 437.86003,148.41325 L 417.35554,156.30287 L 417.76978,151.19782 L 401.2005,154.67854 z"
        id="path6265"
        sodipodi:nodetypes="ccccccc"
        inkscape:export-filename="E:\projects\ArduRCT\images\ArduRCT_detail1.png"
