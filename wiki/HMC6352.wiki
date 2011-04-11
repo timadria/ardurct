@@ -3,7 +3,7 @@
 <img src="http://ardurct.googlecode.com/svn/images/HMC6352.jpg" width="300">
 
 ===Content===
-A simple library to get the heading value out of a HMC6352.<br>
+A simple library to get the heading value out of a [http://www.sparkfun.com/products/7915 HMC6352].<br>
 It relies on the Wire library, which is included with Arduino.
 
 ===Example usage===
