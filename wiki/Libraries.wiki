@@ -1,0 +1,3 @@
+#summary Arduino libraries which can be used for other projects
+
+= Arduino libraries =
