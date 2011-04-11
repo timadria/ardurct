@@ -1,4 +1,5 @@
- * [Articles HOWTO articles]
+ * [Welcome Welcome]
+ * [SubMenu submenu]
   * [ArticlesXSS Web security]
   * [ArticlesDom DOM manipulation]
   * [ArticlesStyle CSS and style]
