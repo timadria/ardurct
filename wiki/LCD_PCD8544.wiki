@@ -1,7 +1,19 @@
 #summary Details about the LCD_PCD8544 library
 =Arduino library for LCD_PCD8544=
 <img src="http://ardurct.googlecode.com/svn/images/LCD_PCD8544.jpg" width="300">
-===Example usage===
+
+===Content===
+The library contains code to drive one or several LCD displays at the same time (see the Dual screen example below) such as [http://www.sparkfun.com/products/10168 LCD_PCD8544].<br>
+This library contains 2 drivers:
+ * a text based library <LCD_PCD8544.h> to print simple texts on the screen. See the Terminal example below.
+  * it can act as a terminal (including new lines)
+  * it can draw progress bars
+ * a vector graphic library <LCD_PCD8544_VG.h> to draw text and graphical elements. See the Graphism example below.
+  * it can draw or fill points, lines, circles, rectangles and ellipses.
+  * it can draw lines of various thickness.  
+
+===Example usages===
+<u>Terminal</u><br>
 {{{
 #include <LCD_PCD8544.h>
 
@@ -15,5 +27,44 @@ void setup() {
 void loop() {
     if (Serial.available() > 0) 
         lcd.print((uint8_t)Serial.read()); 
+}
+}}}
+
+<br>
+<u>Graphism</u><br>
+{{{
+#include <LCD_PCD8544_VG.h>
+
+LCD_PCD8544_VG lcd();
+
+void setup() {
+    lcd.begin();
+    lcd.drawEllipse(42, 24, 15, 10, ON);
+    lcd.updateScreen();
+}
+
+void loop() {
+}
+}}}
+
+
+<br>
+<u>Dual screen</u><br>
+{{{
+#include <LCD_PCD8544.h>
+#include <LCD_PCD8544_VG.h>
+
+LCD_PCD8544_VG lcdG(7);    // uses D7 as SCE
+LCD_PCD8544 lcdT(8);       // uses D8 as SCE
+
+void setup() {
+    lcdG.begin();
+    lcdG.drawEllipse(42, 24, 15, 10, ON);
+    lcdG.updateScreen();
+    lcdT.begin();
+    lcdT.print("Hello world");
+}
+
+void loop() {
 }
 }}}
