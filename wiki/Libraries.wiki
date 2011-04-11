@@ -5,7 +5,7 @@
 ArduRCT uses a number of libraries. They have been developped to be as generic as possible. Each one provides a number of examples to better understand the usage of the library.
 
 <table>
-<tr><td>Image
+<tr><td><img src="http://ardurct.googlecode.com/svn/images/LCD_PCD8544.jpg" width="150">
 <td>
 *[LCD_PCD8544]*<br>
 A library to drive a Nokia 5110 graphical screen which uses the PCD8544 driver.<br>
@@ -13,7 +13,7 @@ Such a screen can be found at [http://www.sparkfun.com Sparkfun]  under sku: [ht
 <br>
 <br>
 <tr>
-<td>Image
+<td><img src="http://ardurct.googlecode.com/svn/images/HMC6352.jpg" width="150">
 <td>
 *[HMC6352]*<br>
 A library to drive a HMC6352 magnetometer. <br>
