@@ -1,3 +1,11 @@
 #summary Introduction page for the project
 
 = What is ArduRCT? =
+
+ArduRCT is a versatile solution for controlling and receiving telemetry from any remotely controlled vehicule.
+
+http://ardurct.googlecode.com/svn/images/ArduRCT_overview.png
+
+ArduRCT provides 2 sub-systems:
+  * a local one, which can be autonomous or connected to a computer. It sends commands and displays telemetry.
+  * a remote one, which can be used in replacement of any Receiver on a RC vehicule. It processes commands and sends telemetry.
