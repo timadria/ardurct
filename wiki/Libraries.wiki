@@ -4,11 +4,19 @@
 
 ArduRCT uses a number of libraries. They have been developped to be as generic as possible. Each one provides a number of examples to better understand the usage of the library.
 
+<table>
+<tr><td>Image
+<td>
 *[LCD_PCD8544]*<br>
 A library to drive a Nokia 5110 graphical screen which uses the PCD8544 driver.<br>
 Such a screen can be found at [http://www.sparkfun.com Sparkfun]  under sku: [http://www.sparkfun.com/products/10168 LCD-10168].
-
-
+<br>
+<br>
+<tr>
+<td>Image
+<td>
 *[HMC6352]*<br>
 A library to drive a HMC6352 magnetometer. <br>
 Such a magnetometer can be found at [http://www.sparkfun.com Sparkfun]  under sku: [http://www.sparkfun.com/products/7915 SEN-07915].
+<br>
+<br>
