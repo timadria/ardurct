@@ -1,0 +1,2 @@
+#summary Details about the HMC6352 library
+=HMC6352=
