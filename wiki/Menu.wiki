@@ -1,9 +1,6 @@
- * [Welcome Welcome]
- * [SubMenu submenu]
-  * [ArticlesXSS Web security]
-  * [ArticlesDom DOM manipulation]
-  * [ArticlesStyle CSS and style]
- * [ArticlesTips Tips and tricks]
-  * [DOMReference DOM reference]
-  * [HTMLElements HTML reference]
-  * [CSSReference CSS reference]
+==ArduRCT reference==
+
+===Appendix===
+ * [Libraries Libraries]
+  * [LCD_PCD8544 LCD_PCD8544]
+  * [HMC6352 HMC6352]
