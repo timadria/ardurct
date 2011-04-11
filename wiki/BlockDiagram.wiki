@@ -6,7 +6,7 @@
 http://ardurct.googlecode.com/svn/images/ArduRCT_detail1.png
 
 The sub-systems are based upon :
- * Arduino compatible boards to allow easy reprogramming for different type of RC vehicules.
- * XBee modems to allow the choice of the transmitting power, and therefore of the range.
+ * Arduino compatible boards to allow for easy reprogramming for different type of RC vehicules.
+ * XBee modems to allow for the choice of transmitting power, and therefore of range.
 
 ===Details===
