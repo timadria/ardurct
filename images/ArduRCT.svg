@@ -61,9 +61,9 @@
      objecttolerance="10"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="3.0950129"
-     inkscape:cx="339.47691"
-     inkscape:cy="883.6569"
+     inkscape:zoom="2.1885046"
+     inkscape:cx="427.33187"
+     inkscape:cy="922.42895"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -88,6 +88,16 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
+    <rect
+       style="opacity:1;fill:#ffffd5;fill-opacity:1;stroke:#000000;stroke-width:0.45298502;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect2449"
+       width="277.37268"
+       height="58.2271"
+       x="272.828"
+       y="48.720325"
+       inkscape:export-filename="E:\projects\ArduRCT\images\ArduRCT_overview.png"
+       inkscape:export-xdpi="149.50629"
+       inkscape:export-ydpi="149.50629" />
     <rect
        style="opacity:1;fill:none;fill-opacity:1;stroke:none;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4472"
@@ -637,5 +647,17 @@
        inkscape:export-filename="E:\projects\ArduRCT\images\ArduRCT_detail1.png"
        inkscape:export-xdpi="149"
        inkscape:export-ydpi="149" />
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Calibri;-inkscape-font-specification:Calibri Bold"
+       x="395.70377"
+       y="120.3458"
+       id="text3233"
+       sodipodi:linespacing="100%"
+       inkscape:export-filename="E:\projects\ArduRCT\images\ArduRCT_overview.png"
+       inkscape:export-xdpi="149.50629"
+       inkscape:export-ydpi="149.50629"><tspan
+         sodipodi:role="line"
+         id="tspan3237">ArduRCT</tspan></text>
   </g>
 </svg>
