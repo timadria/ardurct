@@ -1,5 +1,10 @@
 ==ArduRCT reference==
  * [BlockDiagram Block diagram]
+ * [Local Local]
+  * [Magnetometer Magnetometer]
+ * [Remote Remote]
+  * [Sensors Sensors option]
+  * [GPS GPS option]
 ----
 ====Appendix====
  * [LCD_PCD8544 LCD_PCD8544 library]
