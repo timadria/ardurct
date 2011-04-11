@@ -1,3 +1,22 @@
 #summary Details about the HMC6352 library
 =Arduino library for HMC6352=
 <img src="http://ardurct.googlecode.com/svn/images/HMC6352.jpg" width="300">
+
+===Usage===
+{{{
+#include <Wire.h>
+#include <HMC6352.h>
+
+void setup() {
+    // Initialize the magnetometer
+    Hmc6352.begin();
+    // Initialize the serial port
+    Serial.begin(9600);
+}
+
+void loop() {
+    Serial.print("Heading: ");
+    Serial.println(Hmc6352.getHeading());
+    delay(500);
+}
+}}}
