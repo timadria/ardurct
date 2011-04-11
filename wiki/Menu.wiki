@@ -6,5 +6,6 @@
   * [Sensors Sensors option]
   * [GPS GPS option]
 ----
- * [LCD_PCD8544 LCD_PCD8544 library]
- * [HMC6352 HMC6352 library]
+ * Libraries
+  * [LCD_PCD8544 LCD_PCD8544 library]
+  * [HMC6352 HMC6352 library]
