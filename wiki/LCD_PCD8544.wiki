@@ -40,7 +40,7 @@ LCD_PCD8544_VG lcd();
 void setup() {
     lcd.begin();
     lcd.drawEllipse(42, 24, 15, 10, ON);
-    lcd.updateScreen();
+    lcd.updateDisplay();
 }
 
 void loop() {
@@ -60,7 +60,7 @@ LCD_PCD8544 lcdT(8);       // uses D8 as SCE
 void setup() {
     lcdG.begin();
     lcdG.drawEllipse(42, 24, 15, 10, ON);
-    lcdG.updateScreen();
+    lcdG.updateDisplay();
     lcdT.begin();
     lcdT.print("Hello world");
 }
