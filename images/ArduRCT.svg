@@ -96,9 +96,9 @@
      objecttolerance="10"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.1383325"
-     inkscape:cx="376.95391"
-     inkscape:cy="743.492"
+     inkscape:zoom="2.1887716"
+     inkscape:cx="384.42509"
+     inkscape:cy="734.05794"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -130,7 +130,10 @@
        height="158.60695"
        width="469.66983"
        sodipodi:absref="E:\projects\ArduRCT\googlecode\images\vehicules.png"
-       xlink:href="vehicules.png" />
+       xlink:href="vehicules.png"
+       inkscape:export-filename="E:\projects\ArduRCT\googlecode\images\concepts.png"
+       inkscape:export-xdpi="149"
+       inkscape:export-ydpi="149" />
     <rect
        style="opacity:1;fill:#ffffd5;fill-opacity:1;stroke:#000000;stroke-width:0.45298502;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect2449"
@@ -702,39 +705,14 @@
        inkscape:export-ydpi="149.50629"><tspan
          sodipodi:role="line"
          id="tspan3237">ArduRCT</tspan></text>
-    <rect
-       style="opacity:1;fill:none;fill-opacity:1;stroke:none;stroke-width:0.80000001;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect2598"
-       width="137.14409"
-       height="71.928719"
-       x="143.85744"
-       y="221.82526" />
-    <g
-       id="g3452"
-       transform="matrix(0.7263078,9.4020733e-2,-8.0364434e-2,0.6208132,117.69803,51.200232)"
-       inkscape:transform-center-x="8.6435965"
-       inkscape:transform-center-y="25.49861">
-      <path
-         id="path3446"
-         d="M 252.39218,297.98335 L 259.01978,298.78462 L 259.16384,292.73411 L 251.48459,291.88187 L 252.39218,297.98335 z"
-         style="fill:#12eb3b;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.40000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         sodipodi:nodetypes="ccccc" />
-      <path
-         sodipodi:nodetypes="cccsc"
-         id="path3448"
-         d="M 258.47658,292.88183 C 261.35778,290.72093 270.78135,286.7224 270.78135,286.7224 L 270.73289,290.08435 C 270.73289,290.08435 259.3079,299.50492 259.16384,298.92868 C 259.01978,298.35244 258.62064,292.88183 258.47658,292.88183 z"
-         style="fill:#12eb3b;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.40000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <path
-         id="path3450"
-         d="M 252.04405,291.90694 C 252.04405,291.90694 258.5876,292.73411 259.16384,292.59005 C 259.74008,292.44599 270.3912,286.63742 270.3912,286.63742 L 266.23162,285.11907 L 252.04405,291.90694 z"
-         style="fill:#12eb3b;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.40000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         sodipodi:nodetypes="csccc" />
-    </g>
     <g
        id="g3457"
        transform="matrix(0.7263078,9.4020733e-2,-8.0364434e-2,0.6208132,246.90839,64.429549)"
        inkscape:transform-center-x="8.6435965"
-       inkscape:transform-center-y="25.49861">
+       inkscape:transform-center-y="25.49861"
+       inkscape:export-filename="E:\projects\ArduRCT\googlecode\images\concepts.png"
+       inkscape:export-xdpi="149"
+       inkscape:export-ydpi="149">
       <path
          id="path3459"
          d="M 252.39218,297.98335 L 259.01978,298.78462 L 259.16384,292.73411 L 251.48459,291.88187 L 252.39218,297.98335 z"
@@ -755,7 +733,10 @@
        id="g3465"
        transform="matrix(0.7263078,9.4020733e-2,-8.0364434e-2,0.6208132,405.63758,146.54456)"
        inkscape:transform-center-x="8.6435965"
-       inkscape:transform-center-y="25.49861">
+       inkscape:transform-center-y="25.49861"
+       inkscape:export-filename="E:\projects\ArduRCT\googlecode\images\concepts.png"
+       inkscape:export-xdpi="149"
+       inkscape:export-ydpi="149">
       <path
          id="path3467"
          d="M 252.39218,297.98335 L 259.01978,298.78462 L 259.16384,292.73411 L 251.48459,291.88187 L 252.39218,297.98335 z"
@@ -778,10 +759,16 @@
        width="14.91542"
        height="6.8840399"
        x="208.6833"
-       y="366.6947" />
+       y="366.6947"
+       inkscape:export-filename="E:\projects\ArduRCT\googlecode\images\concepts.png"
+       inkscape:export-xdpi="149"
+       inkscape:export-ydpi="149" />
     <g
        id="g3520"
-       transform="matrix(0.9233895,0,0,0.9505791,195.0493,15.5649)">
+       transform="matrix(0.9233895,0,0,0.9505791,195.0493,15.5649)"
+       inkscape:export-filename="E:\projects\ArduRCT\googlecode\images\concepts.png"
+       inkscape:export-xdpi="149"
+       inkscape:export-ydpi="149">
       <path
          id="path3522"
          d="M 166.32126,431.79667 L 184.73955,408.42978 L 232.37307,407.13163 L 248.25092,429.84943 L 166.32126,431.79667 z"
@@ -835,61 +822,85 @@
          style="fill:#060000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
     </g>
     <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#Arrow2Mstart);marker-end:url(#Arrow2Mend)"
+       style="fill:none;fill-rule:evenodd;stroke:#0000ff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:none;marker-end:url(#Arrow2Mend);marker-mid:none"
        d="M 340.45221,418.69084 L 243.6478,379.87555"
-       id="path3610" />
+       id="path3610"
+       inkscape:export-filename="E:\projects\ArduRCT\googlecode\images\concepts.png"
+       inkscape:export-xdpi="149"
+       inkscape:export-ydpi="149" />
     <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#Arrow2Mstart);marker-end:url(#Arrow2Mend)"
+       style="fill:#1e00f1;fill-rule:evenodd;stroke:#161dec;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#Arrow2Mstart);marker-end:none;fill-opacity:1"
        d="M 302.10457,304.11558 L 361.49664,395.77579"
-       id="path3616" />
+       id="path3616"
+       inkscape:export-filename="E:\projects\ArduRCT\googlecode\images\concepts.png"
+       inkscape:export-xdpi="149"
+       inkscape:export-ydpi="149" />
     <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#Arrow2Mstart);marker-end:url(#Arrow2Mend)"
-       d="M 459.70401,297.56842 L 406.85909,389.22863"
-       id="path3618" />
+       style="fill:none;fill-rule:evenodd;stroke:#1900ff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker-start:url(#Arrow2Mstart);marker-end:none;stroke-opacity:1"
+       d="M 455.70401,297.56842 L 402.85909,389.22863"
+       id="path3618"
+       inkscape:export-filename="E:\projects\ArduRCT\googlecode\images\concepts.png"
+       inkscape:export-xdpi="149"
+       inkscape:export-ydpi="149" />
     <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#Arrow2Mstart);marker-end:url(#Arrow2Mend)"
-       d="M 528.44916,392.96986 L 432.11241,417.28788"
-       id="path3620" />
+       style="fill:none;fill-rule:evenodd;stroke:#0600ff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker-start:url(#Arrow2Mstart);marker-end:none;stroke-opacity:1"
+       d="M 528.44916,396.96986 L 432.11241,421.28788"
+       id="path3620"
+       inkscape:export-filename="E:\projects\ArduRCT\googlecode\images\concepts.png"
+       inkscape:export-xdpi="149"
+       inkscape:export-ydpi="149" />
     <text
        xml:space="preserve"
        style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#0800fb;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Calibri;-inkscape-font-specification:Calibri"
-       x="310.98999"
-       y="310.66275"
+       x="256.16473"
+       y="318.88654"
        id="text8101"
-       sodipodi:linespacing="125%"><tspan
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="E:\projects\ArduRCT\googlecode\images\concepts.png"
+       inkscape:export-xdpi="149"
+       inkscape:export-ydpi="149"><tspan
          sodipodi:role="line"
          id="tspan8103"
-         x="310.98999"
-         y="310.66275">Commands</tspan></text>
+         x="256.16473"
+         y="318.88654">Commands</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#0800fb;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Calibri;-inkscape-font-specification:Calibri"
-       x="462.49774"
-       y="305.58969"
+       x="398.99179"
+       y="303.3053"
        id="text8105"
-       sodipodi:linespacing="125%"><tspan
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="E:\projects\ArduRCT\googlecode\images\concepts.png"
+       inkscape:export-xdpi="149"
+       inkscape:export-ydpi="149"><tspan
          sodipodi:role="line"
          id="tspan8107"
-         x="462.49774"
-         y="305.58969">Commands</tspan></text>
+         x="398.99179"
+         y="303.3053">Commands</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#0800fb;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Calibri;-inkscape-font-specification:Calibri"
-       x="519.55151"
-       y="404.73236"
+       x="517.724"
+       y="409.30115"
        id="text8109"
-       sodipodi:linespacing="125%"><tspan
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="E:\projects\ArduRCT\googlecode\images\concepts.png"
+       inkscape:export-xdpi="149"
+       inkscape:export-ydpi="149"><tspan
          sodipodi:role="line"
          id="tspan8111"
-         x="519.55151"
-         y="404.73236">Commands</tspan></text>
+         x="517.724"
+         y="409.30115">Commands</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#0800fb;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Calibri;-inkscape-font-specification:Calibri"
        x="216.04402"
        y="399.12051"
        id="text8113"
-       sodipodi:linespacing="125%"><tspan
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="E:\projects\ArduRCT\googlecode\images\concepts.png"
+       inkscape:export-xdpi="149"
+       inkscape:export-ydpi="149"><tspan
          sodipodi:role="line"
          id="tspan8115"
          x="216.04402"
@@ -900,7 +911,10 @@
        x="381.5936"
        y="360.90222"
        id="text8117"
-       sodipodi:linespacing="125%"><tspan
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="E:\projects\ArduRCT\googlecode\images\concepts.png"
+       inkscape:export-xdpi="149"
+       inkscape:export-ydpi="149"><tspan
          sodipodi:role="line"
          id="tspan8145"
          x="382.72641"
@@ -915,7 +929,10 @@
        x="420.1217"
        y="387.88052"
        id="text8129"
-       sodipodi:linespacing="125%"><tspan
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="E:\projects\ArduRCT\googlecode\images\concepts.png"
+       inkscape:export-xdpi="149"
+       inkscape:export-ydpi="149"><tspan
          sodipodi:role="line"
          id="tspan8135"
          x="420.1217"
@@ -927,17 +944,72 @@
     <text
        xml:space="preserve"
        style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#4bdf1a;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Calibri;-inkscape-font-specification:Calibri"
-       x="319.20511"
-       y="388.78467"
+       x="321.20511"
+       y="378.78467"
        id="text8139"
-       sodipodi:linespacing="125%"><tspan
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="E:\projects\ArduRCT\googlecode\images\concepts.png"
+       inkscape:export-xdpi="149"
+       inkscape:export-ydpi="149"><tspan
          sodipodi:role="line"
          id="tspan8149"
-         x="320.33792"
-         y="388.78467">Altitude, </tspan><tspan
+         x="322.33792"
+         y="378.78467">Altitude, </tspan><tspan
          sodipodi:role="line"
          id="tspan8151"
-         x="319.20511"
-         y="401.28467">Direction</tspan></text>
+         x="321.20511"
+         y="391.28467">Direction</tspan></text>
+    <path
+       style="fill:#1e00f1;fill-opacity:1;fill-rule:evenodd;stroke:#54c92e;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker-start:url(#Arrow2Mstart);marker-end:none;stroke-opacity:1"
+       d="M 369.04172,392.91711 L 309.64965,301.2569"
+       id="path12369"
+       inkscape:export-filename="E:\projects\ArduRCT\googlecode\images\concepts.png"
+       inkscape:export-xdpi="149"
+       inkscape:export-ydpi="149" />
+    <g
+       id="g12371"
+       transform="matrix(0.7263078,9.4020733e-2,-8.0364434e-2,0.6208132,117.76435,51.851014)"
+       inkscape:transform-center-x="8.6435965"
+       inkscape:transform-center-y="25.49861"
+       inkscape:export-filename="E:\projects\ArduRCT\googlecode\images\concepts.png"
+       inkscape:export-xdpi="149"
+       inkscape:export-ydpi="149">
+      <path
+         id="path12373"
+         d="M 252.39218,297.98335 L 259.01978,298.78462 L 259.16384,292.73411 L 251.48459,291.88187 L 252.39218,297.98335 z"
+         style="fill:#12eb3b;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.40000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         sodipodi:nodetypes="ccccc" />
+      <path
+         sodipodi:nodetypes="cccsc"
+         id="path12375"
+         d="M 258.47658,292.88183 C 261.35778,290.72093 270.78135,286.7224 270.78135,286.7224 L 270.73289,290.08435 C 270.73289,290.08435 259.3079,299.50492 259.16384,298.92868 C 259.01978,298.35244 258.62064,292.88183 258.47658,292.88183 z"
+         style="fill:#12eb3b;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.40000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         id="path12377"
+         d="M 252.04405,291.90694 C 252.04405,291.90694 258.5876,292.73411 259.16384,292.59005 C 259.74008,292.44599 270.3912,286.63742 270.3912,286.63742 L 266.23162,285.11907 L 252.04405,291.90694 z"
+         style="fill:#12eb3b;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.40000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         sodipodi:nodetypes="csccc" />
+    </g>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#5dca0f;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker-start:url(#Arrow2Mstart);marker-end:none;stroke-opacity:1"
+       d="M 408.48938,395.02608 L 461.3343,303.36587"
+       id="path12379"
+       inkscape:export-filename="E:\projects\ArduRCT\googlecode\images\concepts.png"
+       inkscape:export-xdpi="149"
+       inkscape:export-ydpi="149" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#56d81c;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker-start:none;marker-mid:none;marker-end:url(#Arrow2Mend);stroke-opacity:1"
+       d="M 246.3741,373.22197 L 343.17851,412.03726"
+       id="path12381"
+       inkscape:export-filename="E:\projects\ArduRCT\googlecode\images\concepts.png"
+       inkscape:export-xdpi="149"
+       inkscape:export-ydpi="149" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#65ca22;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker-start:url(#Arrow2Mstart);marker-end:none;stroke-opacity:1"
+       d="M 429.20707,412.73105 L 525.54382,388.41303"
+       id="path12383"
+       inkscape:export-filename="E:\projects\ArduRCT\googlecode\images\concepts.png"
+       inkscape:export-xdpi="149"
+       inkscape:export-ydpi="149" />
   </g>
 </svg>
