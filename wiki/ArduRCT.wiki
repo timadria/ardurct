@@ -4,7 +4,7 @@
 
 ArduRCT is a versatile solution for controlling and receiving telemetry from any remotely controlled vehicule.
 
-[http://ardurct.googlecode.com/svn/images/ArduRCT_concept.png 450]
+[http://ardurct.googlecode.com/svn/images/ArduRCT_concept.png]
 
 http://ardurct.googlecode.com/svn/images/ArduRCT_overview.png
 
