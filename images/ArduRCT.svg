@@ -125,12 +125,12 @@
      inkscape:groupmode="layer"
      id="layer1">
     <rect
-       style="fill:#ffffe0;fill-opacity:1;stroke:#000000;stroke-width:0.9833706;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="fill:#ffffe0;fill-opacity:1;stroke:#000000;stroke-width:0.98038208;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect3613"
-       width="430.15665"
-       height="176.94119"
-       x="197.69102"
-       y="769.19897"
+       width="427.53888"
+       height="176.94418"
+       x="197.68953"
+       y="769.19751"
        inkscape:export-filename="E:\projects\ArduRCT\googlecode\images\ArduRCT_detail2.png"
        inkscape:export-xdpi="150"
        inkscape:export-ydpi="150" />
@@ -1103,7 +1103,7 @@
        id="rect2518"
        width="47.111794"
        height="32.295391"
-       x="119.8452"
+       x="123.8452"
        y="835.32092"
        inkscape:export-filename="E:\projects\ArduRCT\googlecode\images\ArduRCT_detail2.png"
        inkscape:export-xdpi="150.00934"
@@ -1197,7 +1197,7 @@
     <text
        xml:space="preserve"
        style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Calibri;-inkscape-font-specification:Calibri"
-       x="123.73997"
+       x="127.73997"
        y="876.6153"
        id="text2556"
        sodipodi:linespacing="100%"
@@ -1206,12 +1206,12 @@
        inkscape:export-ydpi="150.00934"><tspan
          sodipodi:role="line"
          id="tspan2558"
-         x="123.73997"
+         x="127.73997"
          y="876.6153"
          style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:Calibri;-inkscape-font-specification:Calibri">Computer</tspan></text>
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.08383584;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:6.25150764, 2.08383588;stroke-dashoffset:0;stroke-opacity:1;display:inline"
-       d="M 167.21975,851.75004 L 211.94739,852.27851"
+       d="M 171.21975,851.76301 L 211.94739,852.2664"
        id="path2560"
        inkscape:connector-type="polyline"
        inkscape:export-filename="E:\projects\ArduRCT\googlecode\images\ArduRCT_detail2.png"
@@ -1224,7 +1224,7 @@
        id="rect2562"
        width="44.579147"
        height="21.444199"
-       x="121.60167"
+       x="125.60167"
        y="840.36414"
        inkscape:export-filename="E:\projects\ArduRCT\googlecode\images\ArduRCT_detail2.png"
        inkscape:export-xdpi="150.00934"
@@ -1232,7 +1232,7 @@
     <text
        xml:space="preserve"
        style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Calibri;-inkscape-font-specification:Calibri"
-       x="174.93547"
+       x="176.93547"
        y="847.09119"
        id="text2564"
        sodipodi:linespacing="100%"
@@ -1241,7 +1241,7 @@
        inkscape:export-ydpi="150.00934"><tspan
          sodipodi:role="line"
          id="tspan2566"
-         x="174.93547"
+         x="176.93547"
          y="847.09119"
          style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:Calibri;-inkscape-font-specification:Calibri">USB</tspan></text>
     <path
