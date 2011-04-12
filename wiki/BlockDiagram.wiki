@@ -10,3 +10,4 @@ The sub-systems are based upon :
  * XBee modems to allow for the choice of transmitting power, and therefore of range.
 
 ===Details===
+http://ardurct.googlecode.com/svn/images/ArduRCT_detail2.png
