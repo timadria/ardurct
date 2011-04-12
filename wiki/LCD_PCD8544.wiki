@@ -2,6 +2,7 @@
 =Arduino library for LCD_PCD8544=
 <img src="http://ardurct.googlecode.com/svn/images/LCD_PCD8544.jpg" width="300">
 
+[http://code.google.com/p/ardurct/downloads/list Download]
 ===Content===
 The library contains code to drive one or several LCD displays at the same time (see the Dual screen example below) such as [http://www.sparkfun.com/products/10168 LCD_PCD8544].<br>
 This library contains 2 drivers:
