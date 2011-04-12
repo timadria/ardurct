@@ -2,12 +2,23 @@
 
 = What is ArduRCT? =
 
-ArduRCT is a versatile solution for controlling and receiving telemetry from any remotely controlled vehicule.
-
-[http://ardurct.googlecode.com/svn/images/ArduRCT_concept.png]
+===Overview===
+[http://ardurct.googlecode.com/svn/images/ArduRCT_concept.png ArduRCT] stands for *Ardu* ino *R* emote *C* ontrol and *T* elemetry.<br> It is a versatile solution for controlling and receiving telemetry from any remotely controlled vehicule.
 
 http://ardurct.googlecode.com/svn/images/ArduRCT_overview.png
 
 ArduRCT provides 2 sub-systems:
-  * a local one, which can be autonomous or connected to a computer. It sends commands and displays telemetry.
-  * a remote one, which can be used in replacement of any Receiver on a RC vehicule. It processes commands and sends telemetry.
+ * a local one which:
+  * can be standalone or connected to a computer,
+  * sends command and displays telemetry.
+ * a remote one which:
+  * can be used in replacement of any Receiver on a RC vehicule,
+  * processes commands and sends telemetry.
+
+===Guiding principles===
+ * Describe both the hardware and the firmware (software) required to build the ArduRCT solution. 
+ * Promote re-usability of software components through extensive use of libraries.
+ * Use easily available hardware.
+ * The main trunk aims at controlling an [http://code.google.com/p/arducopter/ ArduCopter].
+ 
+
