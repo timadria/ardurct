@@ -19,6 +19,5 @@ ArduRCT provides 2 sub-systems:
  * Describe both the hardware and the firmware (software) required to build the ArduRCT solution. 
  * Promote re-usability of software components through extensive use of libraries.
  * Use easily available hardware.
- * The main trunk aims at controlling an [http://code.google.com/p/arducopter/ ArduCopter].
+ * Aim the main trunk at controlling an [http://code.google.com/p/arducopter/ ArduCopter].
  
-
