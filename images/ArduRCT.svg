@@ -97,9 +97,9 @@
      objecttolerance="10"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.76313804"
-     inkscape:cx="321.77433"
-     inkscape:cy="427.05542"
+     inkscape:zoom="2.7663301"
+     inkscape:cx="450.64056"
+     inkscape:cy="206.38938"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -125,7 +125,7 @@
      inkscape:groupmode="layer"
      id="layer1">
     <rect
-       style="fill:#ffffe0;fill-opacity:1;stroke:#000000;stroke-width:0.98038208;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="fill:#ffffe0;fill-opacity:1;stroke:#000000;stroke-width:0.6;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect3613"
        width="427.53888"
        height="176.94418"
@@ -137,7 +137,7 @@
     <text
        xml:space="preserve"
        style="font-size:12px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Calibri;-inkscape-font-specification:Calibri Bold"
-       x="437.20175"
+       x="389.69434"
        y="958.14795"
        id="text3615"
        sodipodi:linespacing="100%"
@@ -145,11 +145,11 @@
        inkscape:export-xdpi="150"
        inkscape:export-ydpi="150"><tspan
          y="958.14795"
-         x="437.20175"
+         x="389.69434"
          sodipodi:role="line"
          id="tspan3617">ArduRCT</tspan></text>
     <rect
-       style="fill:#ffffe0;fill-opacity:1;stroke:#000000;stroke-width:0.42778167000000000;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="fill:#ffffe0;fill-opacity:1;stroke:#000000;stroke-width:0.6;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect2819"
        width="247.25917"
        height="58.252304"
@@ -160,8 +160,8 @@
        inkscape:export-ydpi="149.50629" />
     <text
        xml:space="preserve"
-       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Calibri;-inkscape-font-specification:Calibri Bold"
-       x="412.47672"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Calibri;-inkscape-font-specification:Calibri Bold"
+       x="413.45331"
        y="679.44019"
        id="text2821"
        sodipodi:linespacing="100%"
@@ -169,7 +169,7 @@
        inkscape:export-xdpi="149.50629"
        inkscape:export-ydpi="149.50629"><tspan
          y="679.44019"
-         x="412.47672"
+         x="413.45331"
          sodipodi:role="line"
          id="tspan2823">ArduRCT</tspan></text>
     <g
@@ -1064,7 +1064,7 @@
          style="fill:none;fill-rule:evenodd;stroke:#65ca22;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker-start:url(#Arrow2Mstart);marker-end:none;stroke-opacity:1" />
     </g>
     <rect
-       style="fill:#bbf3fa;fill-opacity:1;stroke:#000000;stroke-width:0.76507568;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#bbf3fa;fill-opacity:1;stroke:#000000;stroke-width:0.8;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect2510"
        width="218.92487"
        height="152.40547"
@@ -1089,7 +1089,7 @@
          y="940.36011"
          style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:Calibri;-inkscape-font-specification:Calibri">Local</tspan></text>
     <rect
-       style="fill:#c6ffb4;fill-opacity:1;stroke:#000000;stroke-width:0.76924688;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#c6ffb4;fill-opacity:1;stroke:#000000;stroke-width:0.8;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect2516"
        width="137.01573"
        height="120.10036"
