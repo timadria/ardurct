@@ -97,9 +97,9 @@
      objecttolerance="10"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.7663301"
-     inkscape:cx="450.64056"
-     inkscape:cy="206.38938"
+     inkscape:zoom="2.0480292"
+     inkscape:cx="374.55542"
+     inkscape:cy="188.77207"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -1099,7 +1099,7 @@
        inkscape:export-xdpi="150.00934"
        inkscape:export-ydpi="150.00934" />
     <rect
-       style="fill:#eeeeee;fill-opacity:1;stroke:#000000;stroke-width:0.52551872;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:1.05103755, 1.05103755;stroke-dashoffset:0;stroke-opacity:1"
+       style="fill:#eeeeee;fill-opacity:1;stroke:#000000;stroke-width:0.80000001;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:2.40000004,2.40000004;stroke-dashoffset:0;stroke-opacity:1"
        id="rect2518"
        width="47.111794"
        height="32.295391"
@@ -1329,7 +1329,7 @@
        inkscape:export-xdpi="150.00934"
        inkscape:export-ydpi="150.00934" />
     <rect
-       style="fill:#f0f0b1;fill-opacity:1;stroke:#000000;stroke-width:0.70267779;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:2.10803336, 0.70267779;stroke-dashoffset:0;stroke-opacity:1"
+       style="fill:#f0f0b1;fill-opacity:1;stroke:#000000;stroke-width:0.70267779;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:2.10803336,2.10803336;stroke-dashoffset:0;stroke-opacity:1"
        id="rect3396"
        width="38.658325"
        height="23.901276"
@@ -1339,7 +1339,7 @@
        inkscape:export-xdpi="150.00934"
        inkscape:export-ydpi="150.00934" />
     <rect
-       style="fill:#f0b1b1;fill-opacity:1;stroke:#000000;stroke-width:0.65743113;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:1.97229338, 0.65743113;stroke-dashoffset:0;stroke-opacity:1"
+       style="fill:#f0b1b1;fill-opacity:1;stroke:#000000;stroke-width:0.65743113;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:1.97229338,1.97229338;stroke-dashoffset:0;stroke-opacity:1"
        id="rect3406"
        width="34.992329"
        height="23.114222"
@@ -1369,7 +1369,7 @@
          style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;font-family:Calibri;-inkscape-font-specification:Calibri"
          id="tspan3420">sensors</tspan></text>
     <rect
-       style="fill:#f0f0b1;fill-opacity:1;stroke:#000000;stroke-width:0.73834527;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:2.2150358, 0.73834527;stroke-dashoffset:0;stroke-opacity:1"
+       style="fill:#f0f0b1;fill-opacity:1;stroke:#000000;stroke-width:0.73834527;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:2.2150358,2.2150358;stroke-dashoffset:0;stroke-opacity:1"
        id="rect3412"
        width="42.746262"
        height="23.865608"
@@ -1414,7 +1414,7 @@
          style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;font-family:Calibri;-inkscape-font-specification:Calibri"
          id="tspan3402">GPS</tspan></text>
     <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:3,3;stroke-dashoffset:0"
        d="M 546.33566,887.29318 L 558.44294,870.16547"
        id="path3422"
        inkscape:connector-type="polyline"
@@ -1438,7 +1438,7 @@
          x="519.61237"
          y="852.82166">Serial</tspan></text>
     <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:3,3;stroke-dashoffset:0"
        d="M 576.39939,870.16547 L 586.93673,887.29313"
        id="path3430"
        inkscape:connector-type="polyline"
@@ -1462,7 +1462,7 @@
          x="590.73993"
          y="878.86481">Wire</tspan></text>
     <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:3,3;stroke-dashoffset:0"
        d="M 554.22989,843.00205 L 536.32676,825.3996"
        id="path3438"
        inkscape:connector-type="polyline"
@@ -1795,7 +1795,7 @@
          x="359.15256"
          y="832.77539">LCD_PCD8544</tspan></text>
     <rect
-       style="fill:#f0b1b1;fill-opacity:1;stroke:#000000;stroke-width:0.76454705;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:2.29364117, 0.76454705;stroke-dashoffset:0;stroke-opacity:1"
+       style="fill:#f0b1b1;fill-opacity:1;stroke:#000000;stroke-width:0.76454705;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:2.29364115,2.29364115;stroke-dashoffset:0;stroke-opacity:1"
        id="rect2616"
        width="42.210846"
        height="25.914091"
@@ -1940,7 +1940,7 @@
          style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;font-family:Calibri;-inkscape-font-specification:Calibri"
          id="tspan3445">1, 2</tspan></text>
     <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:3,3;stroke-dashoffset:0"
        d="M 338.83291,866.74537 L 380.74193,897.27654"
        id="path3447"
        inkscape:connector-type="polyline"
