@@ -8,11 +8,12 @@
 The library contains code to drive one or several LCD displays at the same time (see the Dual screen example below) such as a [http://www.sparkfun.com/products/10168 Nokia5100 LCD].<br>
 This library contains 2 drivers:
  * a text based driver [http://code.google.com/p/ardurct/source/browse/trunk/libraries/LCD_PCD8544/LCD_PCD8544.h <LCD_PCD8544.h>] to print simple texts on the screen. See the Terminal example below.
-  * it can act as a terminal (including new lines)
-  * it can draw progress bars
+  * can act as a terminal (including new lines)
+  * can draw progress bars
  * a vector graphic driver [http://code.google.com/p/ardurct/source/browse/trunk/libraries/LCD_PCD8544/LCD_PCD8544.h <LCD_PCD8544_VG.h>] to draw text and graphical elements. See the Graphism example below.
-  * it can draw or fill points, lines, circles, rectangles and ellipses.
-  * it can draw lines of various thickness.  
+  * can draw or fill points, lines, circles, rectangles and ellipses.
+  * can draw lines of various thickness.  
+  * can draw text with 3 different font size (3x5, 4x6, 5x7).
 
 ===Example usages===
 <u>Terminal</u><br>
