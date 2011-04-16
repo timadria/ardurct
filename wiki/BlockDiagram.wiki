@@ -12,7 +12,7 @@ The sub-systems are based upon :
 ===Details===
 http://ardurct.googlecode.com/svn/images/ArduRCT_detail2.png
 
-The grey blocks form the minimum working system, the dashed ones are optional. The red text describes which Arduino library is used to manage the block from the Arduino MCU.
+The grey blocks form the minimum working system, the dashed ones are optional. <br>The red text describes which Arduino library is used to manage the block from the Arduino MCU.
 
 The two pink blocks go together: the GPS knows the position of the remote vehicule and the magnetometer can therefore give the position and the heading of the remote vehicule relative to the local station.<br>
 This allows remote control without line of sight (fog, rain, darkness, long distance...).<br>
