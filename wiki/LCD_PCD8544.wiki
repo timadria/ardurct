@@ -16,7 +16,7 @@ This library contains 2 drivers:
   * can draw lines of various thickness.  
   * can draw text with 3 different font size:
     * 3x5, complete lowercase letters are transformed in uppercase
-    * 4x6, only number and space (to be used with special functions: see drawMediumFontTime and drawMediumFontValueRA in LCD_PCD8544_VG.h)
+    * 4x6, only numbers and space (see drawMediumFontTime and drawMediumFontValueRA in LCD_PCD8544_VG.h)
     * 5x7, complete
 <br>
 The 2 drivers exist because the graphic one will take 504 bytes of RAM to store the screen. The text one will not take any but still allows limited graphics through bitmaps.
