@@ -18,7 +18,6 @@ This library contains 2 drivers:
     * 3x5, complete lowercase letters are transformed in uppercase
     * 4x6, only numbers and space (see drawMediumFontTime and drawMediumFontValueRA in LCD_PCD8544_VG.h)
     * 5x7, complete
-<br>
 The 2 drivers exist because the graphic one will take 504 bytes of RAM to store the screen. The text one will not take any but still allows limited graphics through bitmaps.
 
 ===Example usage===
