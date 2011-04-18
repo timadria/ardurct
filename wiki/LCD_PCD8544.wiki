@@ -10,10 +10,16 @@ This library contains 2 drivers:
  * a text based driver [http://code.google.com/p/ardurct/source/browse/trunk/libraries/LCD_PCD8544/LCD_PCD8544.h <LCD_PCD8544.h>] to print simple texts on the screen. 
   * can act as a terminal (including new lines)
   * can draw progress bars
+  * allows definition and printing of glyphs
  * a vector graphic driver [http://code.google.com/p/ardurct/source/browse/trunk/libraries/LCD_PCD8544/LCD_PCD8544.h <LCD_PCD8544_VG.h>] to draw text and graphical elements. 
   * can draw or fill points, lines, circles, rectangles and ellipses.
   * can draw lines of various thickness.  
-  * can draw text with 3 different font size (3x5, 4x6 [only numbers], 5x7).
+  * can draw text with 3 different font size:
+    * 3x5, complete lowercase letters are transformed in uppercase
+    * 4x6, only number and space (to be used with special functions: see drawMediumFontTime and drawMediumFontValueRA in [http://code.google.com/p/ardurct/source/browse/trunk/libraries/LCD_PCD8544/LCD_PCD8544.h <LCD_PCD8544_VG.h>])
+    * 5x7, complete
+<br>
+The 2 drivers exist because the graphic one will take 504 bytes of RAM to store the screen. The text one will not take any but still allows limited graphics through bitmaps.
 
 ===Example usage===
 http://ardurct.googlecode.com/svn/images/LCD_PCD8544_library1.jpg<br>
