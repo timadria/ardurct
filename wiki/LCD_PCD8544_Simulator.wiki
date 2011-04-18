@@ -14,7 +14,7 @@ The idea is to write code in java as if it was code for Arduino and then copy an
  # Modify it to suit your needs,
  # Modify TestToPerform to reflect the name you have choosen for your test,
  # and run the application.
-<u>Example
+<u>Example</u>
 {{{
 package com.google.code.ardurct.lcd_pcd8544_simulator.tests;
 
