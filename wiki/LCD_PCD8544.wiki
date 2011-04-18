@@ -5,54 +5,18 @@
 [http://code.google.com/p/ardurct/downloads/list http://www.gstatic.com/codesite/ph/images/dl_arrow.gif] [http://code.google.com/p/ardurct/downloads/list Download]
 
 ===Content===
-The library contains code to drive one or several LCD displays at the same time (see the Dual screen example below) such as a [http://www.sparkfun.com/products/10168 Nokia5100 LCD].<br>
+The library contains code to drive one or several LCD displays at the same time (see the dual screen example below) such as a [http://www.sparkfun.com/products/10168 Nokia5100 LCD].<br>
 This library contains 2 drivers:
- * a text based driver [http://code.google.com/p/ardurct/source/browse/trunk/libraries/LCD_PCD8544/LCD_PCD8544.h <LCD_PCD8544.h>] to print simple texts on the screen. See the Terminal example below.
+ * a text based driver [http://code.google.com/p/ardurct/source/browse/trunk/libraries/LCD_PCD8544/LCD_PCD8544.h <LCD_PCD8544.h>] to print simple texts on the screen. 
   * can act as a terminal (including new lines)
   * can draw progress bars
- * a vector graphic driver [http://code.google.com/p/ardurct/source/browse/trunk/libraries/LCD_PCD8544/LCD_PCD8544.h <LCD_PCD8544_VG.h>] to draw text and graphical elements. See the Graphism example below.
+ * a vector graphic driver [http://code.google.com/p/ardurct/source/browse/trunk/libraries/LCD_PCD8544/LCD_PCD8544.h <LCD_PCD8544_VG.h>] to draw text and graphical elements. 
   * can draw or fill points, lines, circles, rectangles and ellipses.
   * can draw lines of various thickness.  
   * can draw text with 3 different font size (3x5, 4x6, 5x7).
 
-===Example usages===
-<u>Terminal</u><br>
-{{{
-#include <LCD_PCD8544.h>
+===Example usage===
 
-LCD_PCD8544 lcd();
-
-void setup() {
-    Serial.begin(9600);
-    lcd.begin();
-}
-
-void loop() {
-    if (Serial.available() > 0) 
-        lcd.print((uint8_t)Serial.read()); 
-}
-}}}
-
-<br>
-<u>Graphism</u><br>
-{{{
-#include <LCD_PCD8544_VG.h>
-
-LCD_PCD8544_VG lcd();
-
-void setup() {
-    lcd.begin();
-    lcd.drawEllipse(42, 24, 15, 10, ON);
-    lcd.updateDisplay();
-}
-
-void loop() {
-}
-}}}
-
-
-<br>
-<u>Dual screen</u><br>
 {{{
 #include <LCD_PCD8544.h>
 #include <LCD_PCD8544_VG.h>
@@ -60,12 +24,36 @@ void loop() {
 LCD_PCD8544_VG lcdG(7);    // uses D7 as SCE
 LCD_PCD8544 lcdT(8);       // uses D8 as SCE
 
+header[] = { 
+    0x5F, 0x45, 0x5B, 0x40, 0x54, 0x48, 0x54, 0x40, 0x40, 0x50, 0x50, 0x50, 0x58, 0x58, 0x58, 0x5C, 
+    0x5C, 0x5C, 0x5E, 0x5E, 0x5E, 0x5F, 0x5F, 0x5F, 0x40, 0x40, 0x40, 0x7F, 0x40, 0x40, 0x5F, 0x45, 0x5B,
+    0x40, 0x5F, 0x55, 0x51, 0x40, 0x5F, 0x42, 0x5F, 0x40, 0x40, 0x5F, 0x51, 0x51, 0x51, 0x51,
+    0x51, 0x51, 0x51, 0x51, 0x51, 0x51, 0x51, 0x51, 0x51, 0x51, 0x51, 0x51, 0x51, 0x51, 0x51, 0x51,
+    0x51, 0x51, 0x51, 0x51, 0x51, 0x51, 0x51, 0x51, 0x51, 0x51, 0x51, 0x51, 0x51, 0x51, 0x51, 0x51,
+    0x51, 0x5F, 0x4E, 0x4E };
+
 void setup() {
-    lcdG.begin();
-    lcdG.drawEllipse(42, 24, 15, 10, ON);
-    lcdG.updateDisplay();
     lcdT.begin();
-    lcdT.print("Hello world");
+    lcdT.drawBitmap(header, 0, 0, 84, 8);
+    lcdT.setCursor(0, 2);
+    lcdT.print("Ya");
+    lcdT.drawProgressBar(2, 2, 12, 50, LCD_PCD8544_PROGRESS_BAR_STYLE_LINE);
+    lcdT.setCursor(0, 3);
+    lcdT.print("Th");
+    lcdT.drawProgressBar(2, 3, 12, 80, LCD_PCD8544_PROGRESS_BAR_STYLE_FILLED);
+		
+    lcdG.begin();
+    lcdG.setCursor(0, 0);
+    lcdG.print("Hello world");
+    lcdG.drawSmallFontText("Hello world", 0, 10);
+    lcdG.setCursor(7, 3);
+    lcdG.print("8:20:35");
+    lcdG.drawMediumFontTime(8, 20, 35, 50, 33);
+    lcdG.drawSmallFontText("8:20:35", 56, 42);
+    lcdG.drawEllipse(10, 30, 9, 8, true);
+    lcdG.drawLine(10, 30, 20, 48, true, 2);
+    lcdG.fillRectangle(23, 20, 28, 28, true);
+    lcdG.updateDisplay();
 }
 
 void loop() {
