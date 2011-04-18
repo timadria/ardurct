@@ -16,6 +16,7 @@ This library contains 2 drivers:
   * can draw text with 3 different font size (3x5, 4x6, 5x7).
 
 ===Example usage===
+<img src="http://ardurct.googlecode.com/svn/images/LCD_PCD8544_library1.jpg" width="300">
 http://ardurct.googlecode.com/svn/images/LCD_PCD8544_library1.jpg<br>
 {{{
 #include <LCD_PCD8544.h>
@@ -31,15 +32,6 @@ uint8_t tdHeader[] = {
     0x51, 0x51, 0x51, 0x51, 0x51, 0x51, 0x51, 0x51, 0x51, 0x51, 0x51, 0x51, 0x51, 0x51, 0x51, 0x51, 0x51, 0x51, 0x5F, 0x4E, 0x4E };
 
 void setup() {
-    lcdT.begin();
-    lcdT.drawBitmap(header, 0, 0, 84, 8);
-    lcdT.setCursor(0, 2);
-    lcdT.print("Ya");
-    lcdT.drawProgressBar(2, 2, 12, 50, LCD_PCD8544_PROGRESS_BAR_STYLE_LINE);
-    lcdT.setCursor(0, 3);
-    lcdT.print("Th");
-    lcdT.drawProgressBar(2, 3, 12, 80, LCD_PCD8544_PROGRESS_BAR_STYLE_FILLED);
-		
     lcdG.begin();
     lcdG.setCursor(0, 0);
     lcdG.print("Hello world");
@@ -52,6 +44,15 @@ void setup() {
     lcdG.drawLine(10, 30, 20, 48, true, 2);
     lcdG.fillRectangle(23, 20, 28, 28, true);
     lcdG.updateDisplay();
+
+    lcdT.begin();
+    lcdT.drawBitmap(header, 0, 0, 84, 8);
+    lcdT.setCursor(0, 2);
+    lcdT.print("Ya");
+    lcdT.drawProgressBar(2, 2, 12, 50, LCD_PCD8544_PROGRESS_BAR_STYLE_LINE);
+    lcdT.setCursor(0, 3);
+    lcdT.print("Th");
+    lcdT.drawProgressBar(2, 3, 12, 80, LCD_PCD8544_PROGRESS_BAR_STYLE_FILLED);
 }
 
 void loop() {
