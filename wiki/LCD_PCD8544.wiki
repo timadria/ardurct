@@ -16,7 +16,7 @@ This library contains 2 drivers:
   * can draw text with 3 different font size (3x5, 4x6, 5x7).
 
 ===Example usage===
-
+http://ardurct.googlecode.com/svn/images/LCD_PCD8544_library1.jpg<br>
 {{{
 #include <LCD_PCD8544.h>
 #include <LCD_PCD8544_VG.h>
