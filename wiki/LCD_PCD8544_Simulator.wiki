@@ -1,1 +1,82 @@
-#summary Java simulator for the library
+#summary Java simulator for the LCD_PCD8544 Arduino library
+
+http://ardurct.googlecode.com/svn/images/LCD_PCD8544_library1.jpg
+
+[http://code.google.com/p/ardurct/downloads/list http://www.gstatic.com/codesite/ph/images/dl_arrow.gif] [http://code.google.com/p/ardurct/downloads/list Download]
+
+===Content===
+This archive contains the Ecclipse source for a simulator of the LCD. This facilitates the development of screen layouts for the Nokia 5100 type display.
+
+The idea is to write code in java as if it was code for Arduino and then copy and paste the code in Arduino and obtain the same result on the hardware. That is to say: fill in a setup and a loop function.
+
+===Usage===
+ # Copy one the file under test,
+ # Modify it to suit your needs,
+ # Modify TestToPerform to reflect the name you have choosen for your test,
+ # and run the application.
+<u>Example
+{{{
+package com.google.code.ardurct.lcd_pcd8544_simulator.tests;
+
+import com.google.code.ardurct.lcd_pcd8544_simulator.LCDGraphicPanel;
+import com.google.code.ardurct.lcd_pcd8544_simulator.LCDTextPanel;
+
+public class Tests {
+	
+	private int header[] = { 
+			0x5F, 0x45, 0x5B, 0x40, 0x54, 0x48, 0x54, 0x40, 0x40, 0x50, 0x50, 0x50, 0x58, 0x58, 0x58, 0x5C, 
+			0x5C, 0x5C, 0x5E, 0x5E, 0x5E, 0x5F, 0x5F, 0x5F, 0x40, 0x40, 0x40, 0x7F, 0x40, 0x40, 0x5F, 0x45, 0x5B,
+			0x40, 0x5F, 0x55, 0x51, 0x40, 0x5F, 0x42, 0x5F, 0x40, 0x40, 0x5F, 0x51, 0x51, 0x51, 0x51,
+			0x51, 0x51, 0x51, 0x51, 0x51, 0x51, 0x51, 0x51, 0x51, 0x51, 0x51, 0x51, 0x51, 0x51, 0x51, 0x51,
+			0x51, 0x51, 0x51, 0x51, 0x51, 0x51, 0x51, 0x51, 0x51, 0x51, 0x51, 0x51, 0x51, 0x51, 0x51, 0x51,
+			0x51, 0x5F, 0x4E, 0x4E };
+	
+	public void setup() {
+		lcdT.begin();
+		lcdT.drawBitmap(header, 0, 0, 84, 8);
+		lcdT.setCursor(0, 2);
+		lcdT.print("Ya");
+		lcdT.setCursor(0, 3);
+		lcdT.print("Th");
+		lcdT.drawProgressBar(2, 2, 12, 50, false);
+		lcdT.drawProgressBar(2, 3, 12, 80, true);
+		
+		lcdG.begin();
+		lcdG.setCursor(0, 0);
+		lcdG.print("Hello world");
+		lcdG.drawSmallFontText("Hello world", 0, 10);
+		lcdG.setCursor(7, 3);
+		lcdG.print("8:20:35");
+		lcdG.drawMediumFontTime(8, 20, 35, 50, 33);
+		lcdG.drawSmallFontText("8:20:35", 56, 42);
+		lcdG.drawEllipse(10, 30, 9, 8, true);
+		lcdG.drawLine(10, 30, 20, 48, true, 2);
+		lcdG.fillRectangle(23, 20, 28, 28, true);
+		lcdG.updateDisplay();
+	}
+	
+	public void loop() {
+	}
+
+	/* ------------------ No need to change below this line  ------------------ */
+	
+	private LCDGraphicPanel lcdG;
+	private LCDTextPanel lcdT;
+
+	public Tests() {
+	}
+	
+	public void setDisplays(LCDGraphicPanel lcdG, LCDTextPanel lcdT) {
+		this.lcdG = lcdG;
+		this.lcdT = lcdT;
+	}
+	
+	public void delay(long ms) {
+		try {
+			Thread.sleep(ms);			
+		} catch (Exception e) {
+		}
+	}
+
+}
+}}}
