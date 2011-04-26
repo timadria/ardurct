@@ -26,9 +26,9 @@ void setup() {
 void loop() {
     // run the servo manager: needs to be called at least once per 20ms (50Hz)
     ServoManager.run();
-	// wait between command reads
-	delay(5);
-	// adjust the servo position accordig to the command
-	ServoManager.mapSet(THROTTLE, analogRead(THROTTLE_COMMAND), 0, 1023);
+    // wait between command reads
+    delay(5);
+    // adjust the servo position accordig to the command
+    ServoManager.mapSet(THROTTLE, analogRead(THROTTLE_COMMAND), 0, 1023);
 }
 }}}
