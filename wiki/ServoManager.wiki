@@ -28,7 +28,7 @@ void loop() {
     ServoManager.run();
     // wait between command reads
     delay(5);
-    // adjust the servo position accordig to the command
+    // adjust the servo position according to the command
     ServoManager.mapSet(THROTTLE, analogRead(THROTTLE_COMMAND), 0, 1023);
 }
 }}}
