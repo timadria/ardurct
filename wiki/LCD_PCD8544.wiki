@@ -21,7 +21,7 @@ This library contains 2 drivers:
 The 2 drivers co-exist because the graphic one will take 504 bytes of RAM to store the screen. The text one will not take any but still allows limited graphics through bitmaps.
 
 ===Pin mapping===
-||Arduino||LCD||
+||*Arduino*||*LCD*||
 || +3.3v || VCC ||
 || GND || GND ||
 ||  3  || SCLK ||
