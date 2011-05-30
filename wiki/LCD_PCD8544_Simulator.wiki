@@ -12,18 +12,16 @@ The idea is to write code in java as if it was code for Arduino and then copy an
 ===Usage===
  # Duplicate one of the files under the tests folder, such as Tests,
  # Modify it to suit your needs,
- # Modify !TestToPerform to reflect the name you have choosen for your test class,
- # Run the application,
- # Copy the content of setup and loop in your Arduino code.
+ # Run the 'Simulator' application, and choose from the menu your test.
+ # Copy the content of setup and loop into your Arduino code.
 <u>Example</u><br>
 To produce the image above, use the following code.
 {{{
 package com.google.code.ardurct.lcd_pcd8544_simulator.tests;
 
-import com.google.code.ardurct.lcd_pcd8544_simulator.LCDGraphicPanel;
-import com.google.code.ardurct.lcd_pcd8544_simulator.LCDTextPanel;
+import com.google.code.ardurct.lcd_pcd8544_simulator.LCDTest;
 
-public class Tests {
+public class Tests extends LCDTest {
 	
 	private int header[] = { 
 		0x5F, 0x45, 0x5B, 0x40, 0x54, 0x48, 0x54, 0x40, 0x40, 0x50, 0x50, 0x50, 0x58, 0x58, 0x58, 0x5C,
@@ -59,26 +57,5 @@ public class Tests {
 	
 	public void loop() {
 	}
-
-	/* ------------------ No need to change anything below this line  ------------------ */
-	
-	private LCDGraphicPanel lcdG;
-	private LCDTextPanel lcdT;
-
-	public Tests() {
-	}
-	
-	public void setDisplays(LCDGraphicPanel lcdG, LCDTextPanel lcdT) {
-		this.lcdG = lcdG;
-		this.lcdT = lcdT;
-	}
-	
-	public void delay(long ms) {
-		try {
-			Thread.sleep(ms);			
-		} catch (Exception e) {
-		}
-	}
-
 }
 }}}
