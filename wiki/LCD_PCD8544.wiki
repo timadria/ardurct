@@ -20,6 +20,21 @@ This library contains 2 drivers:
     * 5x7, complete
 The 2 drivers co-exist because the graphic one will take 504 bytes of RAM to store the screen. The text one will not take any but still allows limited graphics through bitmaps.
 
+===Pin mapping===
+||Arduino||LCD||
+|| +3.3v || VCC ||
+|| GND || GND ||
+||  3  || SCLK ||
+||  4  || SDIN ||
+||  5  || DC ||
+||  6  || RESET ||
+||  7  || SCE ||
+
+This default mapping can be overwritten by calling {{{LCD_PCD8544(uint8_t sce, uint8_t sclk, uint8_t sdin, uint8_t dc, uint8_t reset);}}} 
+at initialization with as many parameters as required in your design.
+
+It can also be changed in LCD_PCD8544_Config.cpp.
+
 ===Example usage===
 http://ardurct.googlecode.com/svn/images/LCD_PCD8544_library1.jpg<br>
 ,,Note: this screen copy is obtained with the ,,[http://code.google.com/p/ardurct/downloads/list LCD_PCD8544_Simulator]
