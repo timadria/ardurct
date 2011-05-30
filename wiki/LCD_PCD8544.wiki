@@ -47,9 +47,9 @@ void setup() {
     lcdG.print("8:20:35");
     lcdG.drawMediumFontTime(8, 20, 35, 50, 33);
     lcdG.drawSmallFontText("8:20:35", 56, 42);
-    lcdG.drawEllipse(10, 30, 9, 8, true);
-    lcdG.drawLine(10, 30, 20, 48, true, 2);
-    lcdG.fillRectangle(23, 20, 28, 28, true);
+    lcdG.drawEllipse(10, 30, 9, 8, ON);
+    lcdG.drawLine(10, 30, 20, 48, ON, 2);
+    lcdG.fillRectangle(23, 20, 28, 28, ON);
     lcdG.updateDisplay();
 
     lcdT.begin();
