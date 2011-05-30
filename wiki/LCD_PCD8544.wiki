@@ -32,7 +32,7 @@ The 2 drivers co-exist because the graphic one will take 504 bytes of RAM to sto
 
 This default mapping can be overwritten by calling 
 {{{LCD_PCD8544(uint8_t sce, uint8_t sclk, uint8_t sdin, uint8_t dc, uint8_t reset);}}} 
-at initialization with as many parameters as required in your design.
+at initialization with as many parameters as required by your design.
 
 It can also be changed in LCD_PCD8544_Config.cpp.
 
