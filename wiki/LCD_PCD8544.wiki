@@ -15,10 +15,10 @@ This library contains 2 drivers:
   * can draw or fill points, lines, circles, rectangles and ellipses.
   * can draw lines of various thickness.  
   * can draw text with 3 different font size:
-    * 3x5, complete lowercase letters are transformed in uppercase
+    * 3x5, complete: lowercase letters are transformed in uppercase
     * 4x6, only numbers and space (see drawMediumFontTime and drawMediumFontValueRA in LCD_PCD8544_VG.h)
     * 5x7, complete
-The 2 drivers exist because the graphic one will take 504 bytes of RAM to store the screen. The text one will not take any but still allows limited graphics through bitmaps.
+The 2 drivers co-exist because the graphic one will take 504 bytes of RAM to store the screen. The text one will not take any but still allows limited graphics through bitmaps.
 
 ===Example usage===
 http://ardurct.googlecode.com/svn/images/LCD_PCD8544_library1.jpg<br>
