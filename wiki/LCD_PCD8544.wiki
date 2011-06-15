@@ -31,7 +31,7 @@ at initialization with as many parameters as required by your design.
 It can also be changed in LCD_PCD8544_Config.cpp.
 
 ===Example usage===
-http://ardurct.googlecode.com/svn/images/LCD_PCD8544_library1.jpg<br>
+http://ardurct.googlecode.com/svn/images/LCD_PCD8544_library.jpg<br>
 ,,Note: this screen copy is obtained with the ,,[http://code.google.com/p/ardurct/downloads/list LCD_PCD8544_Simulator]
 {{{
 #include <LCD_PCD8544.h>
