@@ -2,6 +2,6 @@
 
 = Local sub-system =
 
-<img src="http://ardurct.googlecode.com/svn/images/ArduRCT_Local.jpg" width="600">
+<img src="http://ardurct.googlecode.com/svn/images/ArduRCT_Local.jpg" width="500">
 
-<img src="http://ardurct.googlecode.com/svn/images/ArduRCT_Local1.jpg" width="600">
+<img src="http://ardurct.googlecode.com/svn/images/ArduRCT_Local1.jpg" width="500">
