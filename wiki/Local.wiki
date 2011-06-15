@@ -1,3 +1,6 @@
 #summary Details about the local subsystem
 
 = Local sub-system =
+
+<img src="http://ardurct.googlecode.com/svn/images/ArduRCT_Local.jpg" width="300">
+<img src="http://ardurct.googlecode.com/svn/images/ArduRCT_Local1.jpg" width="300">
