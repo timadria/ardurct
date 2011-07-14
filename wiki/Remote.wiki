@@ -2,11 +2,11 @@
 
 = Remote sub-system =
 
+===ArduRCT Remote without connectors===
 <img src="http://ardurct.googlecode.com/svn/images/ArduRCT_Remote1.jpg" width="500"><br>
-ArduRCT Remote without connectors.
-
+----
+===ArduRCT Remote with connectors===
 <img src="http://ardurct.googlecode.com/svn/images/ArduRCT_Remote2.jpg" width="500"><br>
-ArduRCT Remote with connectors.
-
+----
+===ArduRCT Remote with connectors and Xbee_900===
 <img src="http://ardurct.googlecode.com/svn/images/ArduRCT_Remote.jpg" width="500"><br>
-ArduRCT Remote with connectors and Xbee_900.
