@@ -2,11 +2,19 @@
 
 = Remote sub-system =
 
-===ArduRCT Remote without connectors===
-<img src="http://ardurct.googlecode.com/svn/images/ArduRCT_Remote1.jpg" width="500"><br>
+<img src="http://ardurct.googlecode.com/svn/images/ArduRCT_Remote.jpg" width="500">
+
+The remote system can manage :
+ * Up to 17 RC channels.
+ * A GPS (or any serial device) at the same time.
+ * Channel A0 to A8 can also be used to monitor analog values.
+ * Channel A4 and A5 can be used to monitor I2C devices. An adaptater is required if the I2C devices 
+ * Channel D11, D12 and D13 
 ----
-===ArduRCT Remote with connectors===
-<img src="http://ardurct.googlecode.com/svn/images/ArduRCT_Remote2.jpg" width="500"><br>
+<u>ArduRCT Remote without connectors
+
+<img src="http://ardurct.googlecode.com/svn/images/ArduRCT_Remote1.jpg" width="200"><br>
 ----
-===ArduRCT Remote with connectors and Xbee_900===
-<img src="http://ardurct.googlecode.com/svn/images/ArduRCT_Remote.jpg" width="500"><br>
+<u>ArduRCT Remote with connectors
+
+<img src="http://ardurct.googlecode.com/svn/images/ArduRCT_Remote2.jpg" width="200"><br>
