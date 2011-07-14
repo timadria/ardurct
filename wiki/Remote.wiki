@@ -2,7 +2,6 @@
 
 = Remote sub-system =
 
+<img src="http://ardurct.googlecode.com/svn/images/ArduRCT_Remote1.jpg" width="280">
+<img src="http://ardurct.googlecode.com/svn/images/ArduRCT_Remote2.jpg" width="280">
 <img src="http://ardurct.googlecode.com/svn/images/ArduRCT_Remote.jpg" width="500">
-
-<img src="http://ardurct.googlecode.com/svn/images/ArduRCT_Remote1.jpg" width="250">
-<img src="http://ardurct.googlecode.com/svn/images/ArduRCT_Remote2.jpg" width="250">
