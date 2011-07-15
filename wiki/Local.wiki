@@ -19,6 +19,7 @@ By using the buttons below the screen, a menu system can be displayed to enable 
  * Oversized on-off button with handle big enough to go through a 3mm box.
  * Edge leds to display activity outside of the box
  * Edge connector to add a second screen and a second joystick
+ * FTDI chip on board for reprogramming of the board and direct communication with the Remote.
  * Can act as an Arduino programmer for any Arduino compatible board. This allows the Local board to upgrade the firmware of the Remote board.
 <br>
 ----
