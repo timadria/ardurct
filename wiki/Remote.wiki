@@ -6,10 +6,11 @@
 
 The remote system can manage :
  * Up to 17 RC channels.
- * A GPS (or any serial device) at the same time.
+ * A GPS (or any serial device running at 5V) at the same time.
  * Channel A0 to A8 can alternatively be used to monitor analog values.
  * Channel A4 and A5 can be used to monitor I2C devices. An adaptater is required if the I2C devices needs to run in 3.3V.
  * Channel D11, D12 and D13 can be used to connect SPI devices.
+<br>
 
 ----
 <u>ArduRCT Remote without connectors
