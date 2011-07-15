@@ -15,7 +15,7 @@ By using the buttons below the screen, a menu system can be displayed to enable 
  * 2 slots to facilitate the attachment of a battery with a ziptie.
  * Battery connector and charger (up to 500mA)
  * I2C connector under the screen to attach a magnetometer
- * ULDO converter to be able to use the battery as much as possible without depleting it completely.
+ * ULDO converter to be able to use the battery as much as possible without depleting it completely. The capacity of 800mA is enough to drive the strongest Xbee as well as the screens with any backlight.
  * Oversized on-off button with handle big enough to go through a 3mm box.
  * Edge leds to display activity outside of the box
  * Edge connector to add a second screen and a second joystick
