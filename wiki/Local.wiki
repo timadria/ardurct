@@ -2,6 +2,24 @@
 
 = Local sub-system =
 
-<img src="http://ardurct.googlecode.com/svn/images/ArduRCT_Local.jpg" width="500">
+<a href="http://ardurct.googlecode.com/svn/images/ArduRCT_Local.jpg"><img src="http://ardurct.googlecode.com/svn/images/ArduRCT_Local.jpg"><a>
 
-<img src="http://ardurct.googlecode.com/svn/images/ArduRCT_Local1.jpg" width="500">
+In the basic configuration, the local board has 3 channels (2 in a joystick, 1 in a potentiometer). <br>
+This single board option is designed for use with cars (the potentiometer is the wheel, the joystick the speed) or boats. 
+<br>
+By using the buttons below the screen, a menu system can be displayed to enable a number of toggles (lights, sounds...).<br>
+<br>
+Features:
+ * 2 slots to facilitate the attachment of a battery with a ziptie.
+ * Battery connector and charger (up to 500mA)
+ * I2C connector under the screen to attach a magnetometer
+ * ULDO converter to be able to use the battery as much as possible without depleting it completely.
+ * The button board comes attached with the PCB
+<br>
+----
+<u> Doubling<br>
+
+<a href="http://ardurct.googlecode.com/svn/images/ArduRCT_Local1.jpg"><img src="http://ardurct.googlecode.com/svn/images/ArduRCT_Local1.jpg" width="600"><a><br>
+As in most case PCBs are delivered in pairs by the fab houses, the board has been designed to be reversible. When you connect a second PCB at the right edge of the main board, you just have to populate the screen and the joystick and connect its left edge to the main board.<br>
+This option gives you 5 direct channels plus any number of toggles.
+It is designed for use with planes and quadcopters.
