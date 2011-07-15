@@ -2,7 +2,7 @@
 
 = Remote sub-system =
 
-<img src="http://ardurct.googlecode.com/svn/images/ArduRCT_Remote.jpg" width="600">
+<img src="http://ardurct.googlecode.com/svn/images/ArduRCT_Remote.jpg" >
 
 The remote system can manage :
  * Up to 17 RC channels.
