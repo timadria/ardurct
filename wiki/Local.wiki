@@ -9,7 +9,7 @@ This single board option is designed for use with cars (the potentiometer is the
 <br>
 By using the buttons below the screen, a menu system can be displayed to enable a number of toggles (lights, sounds...).<br>
 <br>
-<u>Features:
+<u>Features:<br>
  * Arduino compatible
  * 2 slots to facilitate the attachment of a battery with a ziptie.
  * Battery connector and charger (up to 500mA)
