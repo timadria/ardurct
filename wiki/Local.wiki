@@ -10,11 +10,15 @@ This single board option is designed for use with cars (the potentiometer is the
 By using the buttons below the screen, a menu system can be displayed to enable a number of toggles (lights, sounds...).<br>
 <br>
 Features:
+ * Arduino compatible
  * 2 slots to facilitate the attachment of a battery with a ziptie.
  * Battery connector and charger (up to 500mA)
  * I2C connector under the screen to attach a magnetometer
  * ULDO converter to be able to use the battery as much as possible without depleting it completely.
- * The button board comes attached with the PCB
+ * Oversized on-off button with handle big enough to go through a 3mm box.
+ * Edge leds to display activity outside of the box
+ * Edge connector to add a second screen and a second joystick
+ * Can act as an Arduino programmer for any Arduino compatible board. This allows the Local board to upgrade the firmware of the Remote board.
 <br>
 ----
 <u> Doubling<br>
