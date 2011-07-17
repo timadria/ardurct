@@ -16,8 +16,8 @@ The remote system can manage :
 ----
 <u>ArduRCT Remote without connectors
 
-<a href="http://ardurct.googlecode.com/svn/images/ArduRCT_Remote1.jpg"><img src="http://ardurct.googlecode.com/svn/images/ArduRCT_Remote1.jpg" width="300"><a><br>
+<a href="http://ardurct.googlecode.com/svn/images/ArduRCT_Remote1.jpg"><img src="http://ardurct.googlecode.com/svn/images/ArduRCT_Remote1.jpg" width="400"><a><br>
 ----
 <u>ArduRCT Remote with connectors
 
-<a href="http://ardurct.googlecode.com/svn/images/ArduRCT_Remote2.jpg"><img src="http://ardurct.googlecode.com/svn/images/ArduRCT_Remote2.jpg" width="300"><a><br>
+<a href="http://ardurct.googlecode.com/svn/images/ArduRCT_Remote2.jpg"><img src="http://ardurct.googlecode.com/svn/images/ArduRCT_Remote2.jpg" width="400"><a><br>
