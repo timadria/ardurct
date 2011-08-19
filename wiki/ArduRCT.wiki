@@ -32,5 +32,4 @@ ArduRCT provides 2 sub-systems:
 <tr>
 <td><img src="http://ardurct.googlecode.com/svn/images/ArduRCT_Remote.jpg" width="250">
 <td>[ArduRCT Remote]
-<table>
-<br>
+<tr><table>
