@@ -15,6 +15,9 @@ ArduRCT provides 2 sub-systems:
   * can be used in replacement of any Receiver on a RC vehicule,
   * processes commands and sends telemetry.
 
+===Hardware===
+<a href="http://ardurct.googlecode.com/svn/images/ArduRCT_Local1.jpg"><img src="http://ardurct.googlecode.com/svn/images/ArduRCT_Local1.jpg"width="550"><a><a href="http://ardurct.googlecode.com/svn/images/ArduRCT_Remote.jpg"><img src="http://ardurct.googlecode.com/svn/images/ArduRCT_Remote.jpg" width="250" style="margin-left: 40px" align="right"><a>
+
 ===Guiding principles===
  * Describe both the hardware and the firmware (software) required to build the ArduRCT solution. 
  * Promote re-usability of software components through extensive use of libraries.
