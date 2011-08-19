@@ -1,6 +1,6 @@
 #summary Java simulator for the LCD_PCD8544 Arduino library
 
-http://ardurct.googlecode.com/svn/images/LCD_PCD8544_library1.jpg
+http://ardurct.googlecode.com/svn/images/LCD_PCD8544_library.jpg
 
 [http://code.google.com/p/ardurct/downloads/list http://www.gstatic.com/codesite/ph/images/dl_arrow.gif] [http://code.google.com/p/ardurct/downloads/list Download]
 
