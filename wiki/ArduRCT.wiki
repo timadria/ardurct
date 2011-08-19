@@ -28,8 +28,8 @@ ArduRCT provides 2 sub-systems:
 <table>
 <tr><td>
 <img src="http://ardurct.googlecode.com/svn/images/ArduRCT_Local.jpg" width="250">
-<td>[ArduRCT Local]
+<td>[Local Local]
 <tr>
 <td><img src="http://ardurct.googlecode.com/svn/images/ArduRCT_Remote.jpg" width="250">
-<td>[ArduRCT Remote]
+<td>[Remote Remote]
 <tr><table>
