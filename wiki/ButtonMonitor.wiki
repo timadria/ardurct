@@ -7,12 +7,12 @@
 ===Content===
 A library to get the state of a pushbutton [http://www.sparkfun.com/products/97 COM-00097].<br>
 Each monitored button can be ascertained to be in the following states : 
-* NOT_DEPRESSED,
-* DEPRESSED : the button has been pushed down, once retrived, the state will be PRESSED
-* PRESSED : the button is down, 
-* REPEATING : the button has been down for some time, 
+ * NOT_DEPRESSED,
+ * DEPRESSED : the button has been pushed down, once retrived, the state will be PRESSED
+ * PRESSED : the button is down, 
+ * REPEATING : the button has been down for some time, 
 FAST_REPEATING : the button has been down for a long time,
-* RELEASED : the button has been releasedn, once retrived, the state will be NOT_DEPRESSED.
+ * RELEASED : the button has been releasedn, once retrived, the state will be NOT_DEPRESSED.
 
 ===Example usage===
 {{{
