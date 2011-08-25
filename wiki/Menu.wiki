@@ -11,3 +11,4 @@
    * [LCD_PCD8544_Simulator  Simulator]
   * [HMC6352 HMC6352 library]
   * [ServoManager ServoManager library]
+  * [ButtonMonitor ButtonMonitor library]
