@@ -1,4 +1,5 @@
 #summary Introduction page for the project
+#labels Featured
 
 = What is ArduRCT? =
 
