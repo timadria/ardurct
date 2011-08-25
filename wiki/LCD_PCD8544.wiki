@@ -9,7 +9,7 @@ The library contains code to drive one or several LCD displays at the same time 
 This library contains 2 drivers:
  * a text based driver [http://code.google.com/p/ardurct/source/browse/trunk/libraries/LCD_PCD8544/LCD_PCD8544.h <LCD_PCD8544.h>] to print simple texts on the screen. 
   * can act as a terminal (including new lines)
-  * can draw progress bars
+  * can draw progress bars and toggle switches
   * allows definition and printing of glyphs
  * a vector graphic driver [http://code.google.com/p/ardurct/source/browse/trunk/libraries/LCD_PCD8544/LCD_PCD8544.h <LCD_PCD8544_VG.h>] to draw text and graphical elements. 
   * can draw or fill points, lines, circles, rectangles and ellipses.
@@ -70,6 +70,9 @@ void setup() {
     lcdT.setCursor(0, 3);
     lcdT.print("Th");
     lcdT.drawProgressBar(2, 3, 12, 80, LCD_PCD8544_PROGRESS_BAR_STYLE_FILLED);
+    lcdT.setCursor(0, 5);
+    lcdT.print("Au");
+    lcdT.drawToggleSwitch(2,5, 12, 4, 1);
 }
 
 void loop() {
