@@ -1,4 +1,5 @@
 #summary Arduino libraries which can be used for other projects
+#labels Featured
 
 = Arduino libraries =
 
