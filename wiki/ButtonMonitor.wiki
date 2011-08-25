@@ -1,0 +1,45 @@
+#summary Details about the ButtonMonitor library
+=Arduino library to monitor buttons=
+<img src="http://ardurct.googlecode.com/svn/images/Button.jpg" width="200"><img src="http://ardurct.googlecode.com/svn/images/Button.jpg" width="200"><img src="http://ardurct.googlecode.com/svn/images/Button.jpg" width="200">
+
+[http://code.google.com/p/ardurct/downloads/list http://www.gstatic.com/codesite/ph/images/dl_arrow.gif] [http://code.google.com/p/ardurct/downloads/list Download]
+
+===Content===
+A library to get the state of a pushbutton [http://www.sparkfun.com/products/97 COM-00097].<br>
+Each monitored button can be ascertained to be in the following states : 
+* NOT_DEPRESSED,
+* DEPRESSED : the button has been pushed down, once retrived, the state will be PRESSED
+* PRESSED : the button is down, 
+* REPEATING : the button has been down for some time, 
+FAST_REPEATING : the button has been down for a long time,
+* RELEASED : the button has been releasedn, once retrived, the state will be NOT_DEPRESSED.
+
+===Example usage===
+{{{
+#include <ButtonMonitor.h>
+
+#define BUTTON1 0
+#define BUTTON1_PIN 2
+#define BUTTON2 1
+#define BUTTON2_PIN 3
+
+#define LED 13
+
+void setup() {
+    // Monitor the buttons
+    ButtonMonitor.add(BUTTON1, BUTTON1_PIN);
+    ButtonMonitor.add(BUTTON2, BUTTON2_PIN);
+    // set the led as an output
+    pinMode(LED, OUTPUT);
+}
+
+void loop() {
+    // monitor the buttons: needs to be called at least once per BUTTON_MONITOR_DEBOUNCE_DELAY_MS (50ms)
+    ButtonMonitor.update();
+    // wait between command reads
+    delay(5);
+    // adjust the led according to the command
+    if (ButtonMonitor.isDepressed(BUTTON1)) digitalWrite(LED, HIGH);
+    if (ButtonMonitor.isDepressed(BUTTON2)) digitalWrite(LED, LOW);
+}
+}}}
