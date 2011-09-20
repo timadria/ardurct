@@ -17,10 +17,12 @@ This library relies on timer1, it is designed to be as compatible as possible wi
 #define THROTTLE_COMMAND A0
 
 void setup() {
+    // Setup the ServoManager
+    ServoManager.setup();
     // Attach the THROTTLE servo to THROTTLE_SERVO_PIN
     ServoManager.attach(THROTTLE, THROTTLE_SERVO_PIN);
-    // set it to 2000 microseconds
-    ServoManager.set(THROTTLE, 2000);
+    // set it to mid course
+    ServoManager.set(THROTTLE, 90);
 }
 
 void loop() {
