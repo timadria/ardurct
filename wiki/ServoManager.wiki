@@ -6,7 +6,7 @@
 
 ===Content===
 A library to manage [http://www.sparkfun.com/products/9065 servo motors] connected to any pins of an Arduino compatible board .<br>
-This library does not rely on a timer, it is therefore compatible with the [http://arduiniana.org/libraries/newsoftserial/ NewSoftSerial] library; but is not as precise as the standard Servo library.
+This library relies on timer1, it is designed to be as compatible as possible with the [http://arduiniana.org/libraries/newsoftserial/ NewSoftSerial] library; Meaning that up to 19200 bauds, they will coexist happily. For higher speeds, the ServoManager library manages a RTS pin for receiving and an isPulsing() function to check before transmitting.
 
 ===Example usage===
 {{{
@@ -24,8 +24,6 @@ void setup() {
 }
 
 void loop() {
-    // run the servo manager loop: needs to be called at least once per 20ms (50Hz)
-    ServoManager.loop();
     // wait between command reads
     delay(5);
     // adjust the servo position according to the command
