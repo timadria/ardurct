@@ -2,8 +2,8 @@
 
 = Introduction =
 
-TouScruino is a contraction for Tou(ch panel) Scr(een) (Ard)uino.
-It is a versatile Arduino compatible board.
+TouScruino is a contraction for Tou(ch panel) Scr(een) (Ard)uino.<br>
+It is a versatile Arduino compatible board.<br>
 It copies the connector positions of the Arduino Uno and offers almost the same functions at the same pin positions (PWM are remapped and I2C also).
 
 = Features =
