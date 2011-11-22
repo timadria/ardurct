@@ -26,5 +26,3 @@ The remote part leverages an [Remotuino] to control servos and send back telemet
 The two pink blocks go together: the GPS knows the position of the remote vehicule and the magnetometer can therefore give the position and the heading of the remote vehicule relative to the local station.<br>
 This allows remote control without line of sight (fog, rain, darkness, long distance...).<br>
 We assume that the local station is not moving too much, which is the case in most scenarios.
-
-Further information can be found in [Local] and [Remote].
