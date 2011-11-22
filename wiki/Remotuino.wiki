@@ -6,8 +6,8 @@
 <img src="http://ardurct.googlecode.com/svn/images/Remotuino.jpg" width="600"><a>
 
 Features :
- * Runs in 5v, the analog section can be run in 3.3v through a jumper.
- * Up to 24 RC channels.
+ * Can run in 3.3v or 5v through a solder jumper, the analog section can be run in 3.3v through a jumper.
+ * Up to 24 RC channels, 20 of which with 3 pins Servo connector.
  * A GPS (or any serial device running at 5V) at the same time.
  * Channel A0 to A8 can alternatively be used to monitor analog values.
  * Channel D18 and D19 can be used to monitor I2C devices. An adaptater is required if the I2C devices needs to run in 3.3V.
@@ -16,10 +16,10 @@ Features :
 <br>
 
 ----
-<u>ArduRCT Remote without connectors
+<u>Remotuino without connectors
 
 <a href="http://ardurct.googlecode.com/svn/images/Remotuino1.jpg"><img src="http://ardurct.googlecode.com/svn/images/Remotuino1.jpg" width="400"><a><br>
 ----
-<u>ArduRCT Remote with connectors
+<u>Remotuino with connectors
 
 <a href="http://ardurct.googlecode.com/svn/images/Remotuino2.jpg"><img src="http://ardurct.googlecode.com/svn/images/Remotuino2.jpg" width="400"><a><br>
