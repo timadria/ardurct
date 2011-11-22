@@ -8,8 +8,8 @@ It copies the connector positions of the Arduino Uno and offers almost the same 
 
 = Features =
 
-* Can be used as a shield or as a standalone Arduino compatible board, capable of plugging into shields.
-* TouScruino uses an Atmega1284, which has:
+ * Can be used as a shield or as a standalone Arduino compatible board,  capable of plugging into shields.
+ * TouScruino uses an Atmega1284, which has:
   * 12 more pins than the Atmega328. The TFT screen and the touch panels can be controlled by the processor without having to use the Arduino connector pins.
   * an additional serial port: Serial2. An XBee can be connected at the same time as an usb bridge.
 
