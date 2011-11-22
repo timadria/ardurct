@@ -1,0 +1,25 @@
+#summary Details about the Remotuino
+
+= Overview =
+
+<a href="http://ardurct.googlecode.com/svn/images/ArduRCT_Remote.jpg">
+<img src="http://ardurct.googlecode.com/svn/images/ArduRCT_Remote.jpg" width="600"><a>
+
+Features :
+ * Runs in 5v, the analog section can be run in 3.3v through a jumper.
+ * Up to 24 RC channels.
+ * A GPS (or any serial device running at 5V) at the same time.
+ * Channel A0 to A8 can alternatively be used to monitor analog values.
+ * Channel D18 and D19 can be used to monitor I2C devices. An adaptater is required if the I2C devices needs to run in 3.3V.
+ * Channel D11, D12 and D13 can be used to connect SPI devices.
+ * Schmit trigger on the XBee TX line to ensure proper line levels.
+<br>
+
+----
+<u>ArduRCT Remote without connectors
+
+<a href="http://ardurct.googlecode.com/svn/images/ArduRCT_Remote1.jpg"><img src="http://ardurct.googlecode.com/svn/images/ArduRCT_Remote1.jpg" width="400"><a><br>
+----
+<u>ArduRCT Remote with connectors
+
+<a href="http://ardurct.googlecode.com/svn/images/ArduRCT_Remote2.jpg"><img src="http://ardurct.googlecode.com/svn/images/ArduRCT_Remote2.jpg" width="400"><a><br>
