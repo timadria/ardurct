@@ -22,15 +22,3 @@ ArduRCT provides 2 sub-systems:
  * Promote re-usability of software components through extensive use of libraries.
  * Use easily available hardware.
  * Aim the main trunk at controlling an [http://code.google.com/p/arducopter/ ArduCopter].
-
- 
-===Hardware===
-
-<table>
-<tr><td>
-<img src="http://ardurct.googlecode.com/svn/images/ArduRCT_Local.jpg" width="250">
-<td>[Local Local]
-<tr>
-<td><img src="http://ardurct.googlecode.com/svn/images/ArduRCT_Remote.jpg" width="250">
-<td>[Remote Remote]
-<tr><table>
