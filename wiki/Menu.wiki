@@ -1,9 +1,10 @@
 ==ArduRCT reference==
  * [ArduRCT Wiki home page]
  * [BlockDiagram Block diagram]
- * [TouScrino]
- * [Remotino]
- * [ControlShield Control shield]
+ * [TouScruino]
+ * [Remotuino]
+ * [ControlShield]
+  * [ControlShield_Assembly ControlShield assembly]
  * [Libraries Libraries]
   * [LCD_PCD8544 LCD_PCD8544 library]
    * [LCD_PCD8544_Simulator  Simulator]
