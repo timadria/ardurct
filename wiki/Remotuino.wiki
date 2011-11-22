@@ -2,8 +2,8 @@
 
 = Overview =
 
-<a href="http://ardurct.googlecode.com/svn/images/ArduRCT_Remote.jpg">
-<img src="http://ardurct.googlecode.com/svn/images/ArduRCT_Remote.jpg" width="600"><a>
+<a href="http://ardurct.googlecode.com/svn/images/Remotuino.jpg">
+<img src="http://ardurct.googlecode.com/svn/images/Remotuino.jpg" width="600"><a>
 
 Features :
  * Runs in 5v, the analog section can be run in 3.3v through a jumper.
@@ -18,8 +18,8 @@ Features :
 ----
 <u>ArduRCT Remote without connectors
 
-<a href="http://ardurct.googlecode.com/svn/images/ArduRCT_Remote1.jpg"><img src="http://ardurct.googlecode.com/svn/images/ArduRCT_Remote1.jpg" width="400"><a><br>
+<a href="http://ardurct.googlecode.com/svn/images/Remotuino1.jpg"><img src="http://ardurct.googlecode.com/svn/images/Remotuino1.jpg" width="400"><a><br>
 ----
 <u>ArduRCT Remote with connectors
 
-<a href="http://ardurct.googlecode.com/svn/images/ArduRCT_Remote2.jpg"><img src="http://ardurct.googlecode.com/svn/images/ArduRCT_Remote2.jpg" width="400"><a><br>
+<a href="http://ardurct.googlecode.com/svn/images/Remotuino2.jpg"><img src="http://ardurct.googlecode.com/svn/images/Remotuino2.jpg" width="400"><a><br>
