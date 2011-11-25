@@ -1,7 +1,8 @@
 #summary Details about the Remotuino
 
-= Overview =
+== Overview ==
 
+Remotuino is the contraction of Remot(e) (Ard)uino.
 <a href="http://ardurct.googlecode.com/svn/images/Remotuino.jpg">
 <img src="http://ardurct.googlecode.com/svn/images/Remotuino.jpg" width="600"><a>
 
