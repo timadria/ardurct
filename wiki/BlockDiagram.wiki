@@ -19,7 +19,7 @@ The *local part* contains:
   * various sensors to control the remote part
   * an XBee to send control commands and receive telemetry.
  * a [TouScruino] which is a TFT screen with a touch panel, backed up by an Arduino compatible board. 
-  * This TouScruino can be replaced by any Arduino board conforming to the Arduino Uno footprint.
+  * This main board can be replaced by any Arduino board conforming to the Arduino Uno footprint.
 
 The *remote part* leverages an [Remotuino] to control servos and send back telemetry.
 
