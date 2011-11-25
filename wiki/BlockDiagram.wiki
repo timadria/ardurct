@@ -14,14 +14,14 @@ http://ardurct.googlecode.com/svn/images/ArduRCT_detail2.png
 
 The grey blocks form the minimum working system, the dashed ones are optional. <br>The red text describes which Arduino library is used to manage the block from the Arduino MCU.
 
-The local part contains:
+The *local part* contains:
  * a [ControlShield] which is an Arduino shield, containing:
   * various sensors to control the remote part
   * an XBee to send control commands and receive telemetry.
  * a [TouScruino] which is a TFT screen with a touch panel, backed up by an Arduino compatible board. 
   * This TouScruino can be replaced by any Arduino board conforming to the Arduino Uno footprint.
 
-The remote part leverages an [Remotuino] to control servos and send back telemetry.
+The *remote part* leverages an [Remotuino] to control servos and send back telemetry.
 
 The two pink blocks go together: the GPS knows the position of the remote vehicule and the magnetometer can therefore give the position and the heading of the remote vehicule relative to the local station.<br>
 This allows remote control without line of sight (fog, rain, darkness, long distance...).<br>
