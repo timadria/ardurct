@@ -1,7 +1,7 @@
 #summary Introduction page for the project
 #labels Featured
 
-= What is ArduRCT? =
+== What is ArduRCT? ==
 
 ===Overview===
 [http://ardurct.googlecode.com/svn/images/ArduRCT_concept.png ArduRCT] stands for *Ardu* ino *R* emote *C* ontrol and *T* elemetry.<br> It is a versatile solution for controlling and receiving telemetry from any remotely controlled vehicule.
