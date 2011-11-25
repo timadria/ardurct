@@ -12,4 +12,4 @@
 
 == Details ==
 
-<center>http://ardurct.googlecode.com/svn/images/pins.png
+<div align="center">http://ardurct.googlecode.com/svn/images/pins.png
