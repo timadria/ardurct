@@ -1,0 +1,8 @@
+#summary Mapping between Arduino pins and the processor pins.
+
+== Overview==
+
+
+== Details ==
+
+http://ardurct.googlecode.com/svn/images/pins.png
