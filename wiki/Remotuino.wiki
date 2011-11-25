@@ -6,11 +6,12 @@
 <img src="http://ardurct.googlecode.com/svn/images/Remotuino.jpg" width="600"><a>
 
 ==Features==
- * Can run in 3.3v or 5v through a solder jumper, the analog section can be run in 3.3v through a jumper.
+ * XBee connector to allow any XBee footprint solution.
+ * Can run in 3.3v or 5v through a solder jumper, the analog section can be run in 3.3v through a solder jumper.
  * Up to 24 RC channels, 20 of which with 3 pins Servo connector.
  * A GPS (or any serial device running at 5V) running at the same time as the XBee at any baudrate.
  * Channel A0 to A8 can alternatively be used to monitor analog values.
- * Channel D18 and D19 can be used to monitor I2C devices. An adaptater is required if the I2C devices needs to run in 3.3V.
+ * Channel D18 and D19 can be used to monitor I2C devices. A voltage  adapter is required if the I2C devices needs to run in 3.3V.
  * Channel D11, D12 and D13 can be used to connect SPI devices.
  * Schmit trigger on the XBee TX line to ensure proper line levels.
 <br>
