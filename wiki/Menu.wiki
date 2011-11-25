@@ -2,6 +2,7 @@
  * [ArduRCT Wiki home page]
  * [BlockDiagram Block diagram]
  * [TouScruino]
+  * [PinsMapping Pins mapping]
  * [Remotuino]
  * [ControlShield]
   * [ControlShield_Assembly ControlShield assembly]
