@@ -2,6 +2,13 @@
 
 == Overview==
 
+ * Arduino Uno mapping has been followed as much as possible, with the exception of:
+  * I2C pins which have been mapped to D19=SCL and D20=SDA, to preserve 8 analog channels.
+  * 4 PWM pins are mapped from D4 to D7.
+  * SS pin has been mapped to D18 to allow the use of SPI without having D10 as an output.
+* PortB can be used as an 8 bits port without affecting Arduino pins when it changes. Some care has to be taken when SPI is used: saving and restoring the state of the pins is required if the 8 bis port is used.
+* PortC and PortD provides pins for the Arduino compatible footprint.
+* PortA provides the analog part
 
 == Details ==
 
