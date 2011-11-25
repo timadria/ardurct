@@ -1,15 +1,23 @@
 #summary Description of the TouScruino
 
-= Introduction =
+== Introduction ==
 
 TouScruino is a contraction for Tou(ch panel) Scr(een) (Ard)uino.<br>
 It is a versatile Arduino compatible board. It copies the connector positions of the Arduino Uno and offers almost the same functions at the same pin positions (PWM are remapped and I2C also).
 
-= Features =
+== Features ==
 
- * Can be used as a shield or as a standalone Arduino compatible board,  capable of plugging into shields.
- * TouScruino uses an Atmega1284, which has:
+ * 240x320 TFT screen capable of displaying 262k colors. With controlable backlight.
+ * Touch panel on the whole surface of the screen.
+ * Can be used as a shield or as a standalone Arduino compatible board, capable of accepting shields.
+ * Single cell LiPo charger and connector to allow battery operation, and a ULDO regulator to generate 3.3V from the LiPo battery. The charge is done through a mini USB connector.
+ * FTDI compatible connector to upgrade the firmware. This requires an FTDI cable or an off board.
+* Uses an Atmega1284, which has:
   * 12 more pins than the Atmega328. The TFT screen and the touch panels can be controlled by the processor without having to use the pins used by Arduino shields (D11, D12 and D13 have to be used for SPI though).
-  * an additional serial port: Serial2. An XBee can be connected at the same time as an usb bridge.
+  * an additional serial port: Serial2 (RX2=D2, TX2=D3). An XBee can be connected at the same time as a USB bridge.
+  * 128K of usable memory.
 
 By default, TouScruino contains a firmware which will draw the commands passed through the Serial2 pins (RX=D2 and TX=D3) or the I2C pins (SCL=D18 and SDA=D19) on the screen, and returns upon request the position of the press on the touch panel.
+
+== Schematics and PCB ==
+See [http://ardurct.googlecode.com/svn/trunk/eagle/TouScrino-v1.sch schematics] and [http://ardurct.googlecode.com/svn/trunk/eagle/TouScrino-v1.brd PCB].
