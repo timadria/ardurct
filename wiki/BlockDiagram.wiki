@@ -1,6 +1,6 @@
 #summary Block diagram for ArduRCT
 
-= How does it work =
+= How does it work ? =
 
 ===Overview===
 http://ardurct.googlecode.com/svn/images/ArduRCT_detail1.png
