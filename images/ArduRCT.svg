@@ -100,9 +100,9 @@
      objecttolerance="10"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.60910589"
-     inkscape:cx="372.04724"
-     inkscape:cy="526.18109"
+     inkscape:zoom="2.2523571"
+     inkscape:cx="322.17563"
+     inkscape:cy="234.353"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -110,8 +110,8 @@
      inkscape:guide-bbox="true"
      inkscape:window-width="1440"
      inkscape:window-height="848"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8" />
+     inkscape:window-x="0"
+     inkscape:window-y="14" />
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -2103,14 +2103,10 @@
        inkscape:export-filename="E:\projects\ArduRCT\googlecode\images\ArduRCT_detail2.png"
        inkscape:export-xdpi="120.69"
        inkscape:export-ydpi="120.69"><tspan
-         y="706.68024"
-         x="114.01755"
-         sodipodi:role="line"
-         id="tspan3535">Control</tspan><tspan
          y="718.68024"
          x="114.01755"
          sodipodi:role="line"
-         id="tspan3446">Shield</tspan></text>
+         id="tspan3446">RCShield</tspan></text>
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="M 160.43373,894.43239 L 260.01917,855.88529"
