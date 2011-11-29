@@ -12,10 +12,10 @@ It is a versatile Arduino compatible board. It copies the connector positions of
  * Can be used as a shield or as a standalone Arduino compatible board, capable of accepting shields.
  * Single cell LiPo charger and connector to allow battery operation, and a ULDO regulator to generate 3.3V from the LiPo battery. The charge is done through a mini USB connector.
  * FTDI compatible connector to upgrade the firmware. This requires an FTDI cable or an off board.
- * Uses an Atmega1284, which has:
+ * Uses an Atmega1284P, which has:
   * 12 more pins than the Atmega328. The TFT screen and the touch panels can be controlled by the processor without having to use the pins used by Arduino shields (D11, D12 and D13 have to be used for SPI though).
   * an additional serial port: Serial2 (RX2=D2, TX2=D3). An XBee can be connected at the same time as a USB bridge.
-  * 128K of usable memory.
+  * 128K of usable flash memory and 8K of RAM.
 
 By default, TouScruino contains a firmware which will draw the commands passed through the Serial2 pins (RX=D2 and TX=D3) or the I2C pins (SCL=D18 and SDA=D19) on the screen, and returns upon request the position of the press on the touch panel.
 
