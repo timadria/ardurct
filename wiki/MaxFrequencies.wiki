@@ -1,0 +1,33 @@
+#summary Maximum usable frequencies and relations to baudrates
+
+===Calculation formulas===
+According to the Atmega datasheets, in the "speed grades" section, the maximum frequency in linear from 1.8 to 2.7v and 2.5 to 4.5v.<br>
+There is a nice graph but it is difficult to define exact values from the curve...<br>
+Here are the formulas to get the frequency in Megahertz
+ * *1.8 < VCC <= 2.7*
+  * FMax = 10 - (2.7 - VCC) x (10 - 4) / (2.7 - 1.8)
+ * *2.7 < VCC <= 4.5* 
+  * FMax = 20 - (4.5 - VCC) x (20 - 10) / (4.5 - 2.7)
+ * *VCC > 4.5*
+  * FMax = 20
+
+=== Recommended values ===
+The *FMax* column contains the maximum frequency the Atmega can safely support.<br>
+The *Performance* contains the nearest standard oscillator frequency, then the *_Error_* in the baudrate for a target of 57 600 b/s.<br>
+The *Serial* column contains the nearest standard oscillator frequency giving 0% error at 57 600 b/s. <br>
+The *_Max. baudrate_* column gives the maximum standard baudrate reachable with 0% error at Serial frequency.<br><br>
+<u>Note:</u> the receive recovery mechanism on the UART will safely allow transmission+reception errors up to +3.9/-4.0% for 8 bits, no parity. 
+||VCC||FMax||Performance||_Error_||Serial||_Max. baudrate_||
+||1.8||4.0000||4.0000||8.0%||3.6864||230 400||
+||2.7||10.0000||10.0000||2.1%||7.3728||230 400||
+||3.3||13.3333||12.2880||-2.1%||11.0592||230 400||
+||5.0||20.0000||20.0000||0.9%||18.4320||230 400||
+
+=== Wiring standards ===
+The *Freq* column contains the recommended value for VCC.<br>
+The *_Error_* column shows the baudrate error for a target of 57 600 b/s.<br>
+The *_Max. baudrate_* column gives the maximum standard baudrate reachable with less than 1.5% error.<br><br>
+<u>Note:</u> following on previous note, one 8Mhz system can safely exchange data at 57 600 b/s with a 16MHz system (worst case scenario gives 2.9% error); but two 8Mhz system can't (worst case scenario gives 4.2% error). 
+||VCC||Freq||_Error_||_Max. baudrate_||
+||3.3||8.0000||2.1%||38 400||
+||5.0||16.0000||-0.8%||76 800||
