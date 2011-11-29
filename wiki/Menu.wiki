@@ -10,3 +10,5 @@
   * [LCD_PCD8544 LCD_PCD8544 library]
    * [LCD_PCD8544_Simulator  Simulator]
   * [HMC6352 HMC6352 library]
+ * [Appendix]
+  * [MaxFrequencies Max. frequencies]
