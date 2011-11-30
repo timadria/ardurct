@@ -1,15 +1,22 @@
 #summary Mapping between Arduino pins and the processor pins.
 
-== Overview==
+== Objectives ==
+ * Preserve as much as possible Arduino functionalities on the same pins as the Uno (up to R3) board.
+ * Create an 8 bit bus with 3 control lines to manage external parallel devices such as memories and graphic screens, without impacting Arduino pins. 
 
+== Overview==
+ * Port A is the analogic input port and port D is the Serial port and PWM port, so can not be used for the 8 bit bus.
+ * If we take port C as the bus and 3 pins for the control lines from port B, we only have 2 pins for D8, D9 and D10, as we have to take D11 to D13 from port B. On top of that, we can't use the bus during a Wire transfer, which can slow things down.
+ * If we take port B as the bus and 3 pins for the control lines from port C, we have enough pins left on port C for D8, D9 and D10. The benefit of this mapping is that we can use Wire at slow speed. The only constrain is we have to use SPI in master mode and have to wait for SPI to complete a transfer before using the bus, which is quite easy to do.
+ 
+== Solution==
  * Arduino Uno mapping has been followed as much as possible, with the exception of:
   * I2C pins which have been mapped to D19=SCL and D20=SDA, to preserve 8 analog channels.
   * 4 PWM pins are mapped from D4 to D7.
-  * SS pin has been mapped to D18 to allow the use of SPI without having D10 as an output.
+  * SS pin has been mapped to D18 to allow the use of SPI without having D10 as an output. This also prevents the use of SPI  in slave mode (SS as low input) which would impact the bus.
  * PortB can be used as an 8 bits port without affecting Arduino pins (other than the SPI pins) when it changes. Some care has to be taken when SPI is used: saving and restoring the state of the pins is required if the 8 bis port is used.
  * PortC and PortD provides pins for the Arduino compatible footprint.
  * PortA provides the analog part
 
-== Details ==
-
+== Schematics ==
 <div align="center">http://ardurct.googlecode.com/svn/images/pins.png
