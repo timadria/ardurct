@@ -1,6 +1,7 @@
-#summary Mapping between Arduino pins and the processor pins.
+#summary Mapping between Arduino pins and the Atmegaxx4 pins.
 
 == Objectives ==
+While using an Atmegaxx4 processor (Atmega164P, Atmega324P, Atmega644P, Atmega1284P):
  * Preserve as much as possible Arduino functionalities on the same pins as the Uno (up to R3) board.
  * Create an 8 bit bus with 3 control lines to manage external parallel devices such as memories and graphic screens, without impacting Arduino pins. 
 
