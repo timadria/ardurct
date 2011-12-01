@@ -5,7 +5,10 @@
 TouScruino is a contraction for Tou(ch panel) Scr(een) (Ard)uino.<br>
 It is a versatile Arduino compatible board: it copies the connector positions of the Arduino Uno R3 and offers almost the same functions at the same pin positions (PWM are remapped).
 
-<img src=http://ardurct.googlecode.com/svn/images/TouScruinoT.jpg">
+<a href="http://ardurct.googlecode.com/svn/images/TouScruinoT.jpg">
+<img src="http://ardurct.googlecode.com/svn/images/TouScruinoT.jpg" width="400"><a><a href="http://ardurct.googlecode.com/svn/images/TouScruinoB.jpg">
+<img src="http://ardurct.googlecode.com/svn/images/TouScruinoB.jpg" width="400"><a>
+
 == Features ==
 
  * 240x320 TFT screen capable of displaying 262k colors. With controlable backlight.
