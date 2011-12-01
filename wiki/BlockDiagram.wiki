@@ -7,7 +7,7 @@
 http://ardurct.googlecode.com/svn/images/ArduRCT_detail1.png
 
 The local and remote parts are based upon :
- * [http://arduino.cc/en/Main/Hardware Arduino] compatible boards to allow for easy reprogramming for different type of RC vehicules.
+ * [http://arduino.cc/en/Main/Hardware Arduino] compatible boards to allow for easy reprogramming for different types of RC vehicules.
  * [http://www.sparkfun.com/categories/111 XBee modems] to allow for the choice of transmitting power, and therefore of range.
 
 ===Details===
