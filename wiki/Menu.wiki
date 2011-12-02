@@ -5,7 +5,7 @@
   * [PinMapping Pins mapping]
  * [Remotuino]
  * [RCShield]
-  * [RCShield_Assembly RCShield assembly]
+  * [RCShieldAssembly RCShield assembly]
  * [Libraries Libraries]
   * [LCD_PCD8544 LCD_PCD8544 library]
    * [LCD_PCD8544_Simulator  Simulator]
