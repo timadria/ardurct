@@ -1,0 +1,3 @@
+#summary How to assemble the RCShield.
+
+This is a description of the assembly to get to the final local part of the block diagram.
