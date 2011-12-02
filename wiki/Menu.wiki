@@ -9,7 +9,6 @@
   * [LCDPCD8544 LCD_PCD8544 library]
    * [LCDPCD8544Simulator  Simulator]
   * [HMC6352 HMC6352 library]
-
  * *Appendix*
   * [PinMapping Pins mapping]
   * [MaxFrequencies Max. frequencies]
