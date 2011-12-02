@@ -16,6 +16,8 @@ ArduRCT provides 2 sub-systems:
   * can be used in replacement of any Receiver on a RC vehicule,
   * processes commands and sends telemetry.
 
+===Implementation===
+
 
 ===Guiding principles===
  * Describe both the hardware and the firmware (software) required to build the ArduRCT solution. 
