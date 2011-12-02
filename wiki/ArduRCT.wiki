@@ -17,7 +17,11 @@ ArduRCT provides 2 sub-systems:
   * processes commands and sends telemetry.
 
 ===Implementation===
-
+One of the possible implementations.<br>
+<a href="http://ardurct.googlecode.com/svn/images/ArduRCT_Local.jpg">
+<img src="http://ardurct.googlecode.com/svn/images/ArduRCT_Local.jpg" width="490"><a>
+<a href="http://ardurct.googlecode.com/svn/images/Remotuino.jpg">
+<img src="http://ardurct.googlecode.com/svn/images/Remotuino_.jpg" width="250"><a>
 
 ===Guiding principles===
  * Describe both the hardware and the firmware (software) required to build the ArduRCT solution. 
