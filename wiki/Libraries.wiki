@@ -8,7 +8,7 @@ ArduRCT uses a number of libraries. They have been developped to be as generic a
 <table>
 <tr><td><img src="http://ardurct.googlecode.com/svn/images/LCD_PCD8544.jpg" width="100">
 <td>
-*[LCD_PCD8544]* [http://code.google.com/p/ardurct/downloads/list http://www.gstatic.com/codesite/ph/images/dl_arrow.gif]
+*[LCDPCD8544 LCD_PCD8544]* [http://code.google.com/p/ardurct/downloads/list http://www.gstatic.com/codesite/ph/images/dl_arrow.gif]
 <br>
 A library to drive a Nokia 5110 graphical screen which uses the PCD8544 driver.<br>
 Such a screen can be found at [http://www.sparkfun.com Sparkfun]  under sku: [http://www.sparkfun.com/products/10168 LCD-10168].
