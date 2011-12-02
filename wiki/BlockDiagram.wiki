@@ -19,7 +19,7 @@ The *local part* contains:
  * a [RCShield] which is an Arduino shield, containing:
   * various sensors to control the remote part
   * an XBee to send control commands and receive telemetry.
- * a [TouScruino] which is an Arduino compatible board. 
+ * On this shield is plugged a [TouScruino] which is an Arduino compatible board. 
   * This main board can be replaced by any Arduino board conforming to the Arduino Uno footprint.
 
 The *remote part* leverages a [Remotuino] to control servos and send back telemetry.
