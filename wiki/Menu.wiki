@@ -1,4 +1,4 @@
-===ArduRCT reference===
+==ArduRCT reference==
  * [ArduRCT Wiki home page]
  * [BlockDiagram Block diagram]
  * [TouScruino]
