@@ -5,7 +5,7 @@ This is a description of the assembly steps required to get to the final "local 
 <img src="http://ardurct.googlecode.com/svn/images/RCShield_assembly_2.jpg" width="350"><a>
 <a href="http://ardurct.googlecode.com/svn/images/RCShield_assembly_3.jpg">
 <img src="http://ardurct.googlecode.com/svn/images/RCShield_assembly_3.jpg" width="350"><a><br>
-1/ Cut the 2 boards along the dash lines, making a left and a right part. Cut the small part at the top left of each board, thsese will allow us to assemble the boards together. One of the 2 small boards has to be cut again.<br>
+1/ Cut the 2 boards along the dashed lines, making a left and a right part. Cut the small part at the top left of each board, these will allow us to assemble the boards together. One of the 2 small boards has to be cut again along the dashes.<br>
 
 <a href="http://ardurct.googlecode.com/svn/images/RCShield_assembly_4.jpg">
 <img src="http://ardurct.googlecode.com/svn/images/RCShield_assembly_4.jpg" width="350"><a>
