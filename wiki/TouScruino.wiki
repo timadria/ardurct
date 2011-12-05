@@ -11,7 +11,7 @@ It is a versatile Arduino compatible board: it copies the connector positions of
 
 == Features ==
 
- * 240x320 TFT screen capable of displaying 262k colors. With controlable backlight.
+ * 240x320 2.8'' TFT screen capable of displaying 262k colors. With controlable backlight.
  * Touch panel on the whole surface of the screen.
  * Can be used as a shield or as a standalone Arduino compatible board, capable of accepting shields.
  * Single cell LiPo charger and connector to allow battery operation, and a ULDO regulator to generate 3.3V from the LiPo battery. The charge is done through a mini USB connector.
