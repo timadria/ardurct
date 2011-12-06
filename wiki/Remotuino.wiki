@@ -16,7 +16,12 @@ Remotuino is a contraction for Remot(e) (Ard)uino.
  * Channel D11, D12 and D13 can be used to connect SPI devices.
  * Schmit trigger on the XBee TX line to ensure proper line levels.
 <br>
-
+== Schematics==
+For more details, see Eagle files: [http://ardurct.googlecode.com/svn/trunk/eagle/Remotuino-v2.sch schematics] and [http://ardurct.googlecode.com/svn/trunk/eagle/Remotuino-v2.brd board].<br><br>
+<a href="http://ardurct.googlecode.com/svn/images/Remotuino-v2.pdf">
+http://ardurct.googlecode.com/svn/images/Remotuino-sch.png
+<a>
+<br><br>
 ==Details==
 <u>Remotuino without connectors
 
