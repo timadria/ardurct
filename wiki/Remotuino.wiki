@@ -17,11 +17,11 @@ Remotuino is a contraction for Remot(e) (Ard)uino.
  * Schmit trigger on the XBee TX line to ensure proper line levels.
 <br>
 
-----
+==Details==
 <u>Remotuino without connectors
 
 <a href="http://ardurct.googlecode.com/svn/images/Remotuino1.jpg"><img src="http://ardurct.googlecode.com/svn/images/Remotuino1.jpg" width="400"><a><br>
-----
+
 <u>Remotuino with connectors
 
 <a href="http://ardurct.googlecode.com/svn/images/Remotuino2.jpg"><img src="http://ardurct.googlecode.com/svn/images/Remotuino2.jpg" width="400"><a><br>
