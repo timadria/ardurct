@@ -23,5 +23,9 @@ It is a versatile Arduino compatible board: it copies the connector positions of
 
 By default, TouScruino contains a firmware which will draw the commands passed through the Serial pins (RX=D0 and TX=D1) or the I2C pins (SCL=D18 and SDA=D19) on the screen, and returns upon request the position of the press on the touch panel.
 
-== Schematics and board==
-See [http://ardurct.googlecode.com/svn/trunk/eagle/TouScrino-v2.sch schematics] and [http://ardurct.googlecode.com/svn/trunk/eagle/TouScrino-v2.brd board].
+== Schematics==
+<a href="http://ardurct.googlecode.com/svn/images/TouScruino-v2.pdf">
+http://ardurct.googlecode.com/svn/images/TouScruino-sch-p1.png<br>
+http://ardurct.googlecode.com/svn/images/TouScruino-sch-p2.png
+<a><br>
+See Eagle files: [http://ardurct.googlecode.com/svn/trunk/eagle/TouScrino-v2.sch schematics] and [http://ardurct.googlecode.com/svn/trunk/eagle/TouScrino-v2.brd board].
