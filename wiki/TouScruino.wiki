@@ -22,7 +22,7 @@ It is a versatile Arduino compatible board: it copies the connector positions of
   * 128K of usable flash memory and 8K of RAM.
 
 By default, TouScruino contains a firmware which will draw the commands passed through the Serial pins (RX=D0 and TX=D1) or the I2C pins (SCL=D18 and SDA=D19) on the screen, and returns upon request the position of the press on the touch panel.
-<br>
+<br><br>
 == Schematics==
 <a href="http://ardurct.googlecode.com/svn/images/TouScruino-v2.pdf">
 http://ardurct.googlecode.com/svn/images/TouScruino-sch-p1.png<br>
