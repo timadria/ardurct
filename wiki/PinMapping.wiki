@@ -24,7 +24,7 @@ http://ardurct.googlecode.com/svn/images/pins.png
 <br>
 
 == Header file ==
-Content of <pins_arduino.h><br>
+Content of <pins_arduino.h> for Arduino 100<br>
 {{{
 #ifndef Pins_Arduino_h
 #define Pins_Arduino_h
