@@ -24,7 +24,7 @@ http://ardurct.googlecode.com/svn/images/pins.png
 <br>
 
 == Header file ==
-Content of <pins_arduino.h> for Arduino 100<br>
+Content of <a href="http://code.google.com/p/ardurct/source/browse/trunk/hardware/arduRCT/variants/standard/pins_arduino.h"><pins_arduino.h><a> for Arduino 100<br>
 {{{
 #ifndef Pins_Arduino_h
 #define Pins_Arduino_h
