@@ -3,7 +3,7 @@
 == Introduction ==
 
 TouScruino is a contraction for Tou(ch panel) Scr(een) (Ard)uino.<br>
-It is a versatile Arduino compatible board: it copies the connector positions of the Arduino Uno R3 and offers almost the same functions at the same pin positions (PWM are remapped).
+It is a versatile Arduino compatible board: it copies the connector positions of the Arduino Uno R3 and offers almost the same functions at the same pin positions (D3 and D10 are not PWMs anymore).
 
 <a href="http://ardurct.googlecode.com/svn/images/TouScruinoT.jpg">
 <img src="http://ardurct.googlecode.com/svn/images/TouScruinoT.jpg" width="400"><a><img src="http://ardurct.googlecode.com/svn/images/blank.jpg"><a href="http://ardurct.googlecode.com/svn/images/TouScruinoB.jpg">
