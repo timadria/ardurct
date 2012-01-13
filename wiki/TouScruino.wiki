@@ -3,7 +3,7 @@
 == Introduction ==
 
 TouScruino is a contraction for Tou(ch panel) Scr(een) (Ard)uino.<br>
-It is a versatile Arduino compatible board: it copies the connector positions of the Arduino Uno R3 and offers almost the same functions at the same pin positions (D3 is not a PWM anymore, it became TX2).
+It is a versatile Arduino compatible board: it copies the connector positions of the Arduino Uno r3 and offers almost the same functions at the same pin positions (D3 is not a PWM anymore, it became TX1).
 
 <a href="http://ardurct.googlecode.com/svn/images/TouScruinoT.jpg">
 <img src="http://ardurct.googlecode.com/svn/images/TouScruinoT.jpg" width="400"><a><img src="http://ardurct.googlecode.com/svn/images/blank.jpg"><a href="http://ardurct.googlecode.com/svn/images/TouScruinoB.jpg">
@@ -13,15 +13,15 @@ It is a versatile Arduino compatible board: it copies the connector positions of
 
  * 240x320 2.8'' TFT screen capable of displaying 262k colors. With controlable backlight.
  * Touch panel on the whole surface of the screen.
- * Can be used as a shield or as a standalone Arduino compatible board, capable of accepting shields.
+ * Can be used as a standalone Arduino compatible board, capable of accepting shields (they are "under shields" though :)). 
  * Single cell LiPo charger and connector to allow battery operation, and a ULDO regulator to generate 3.3V from the LiPo battery. The charge is done through a mini USB connector.
  * Arduino compatible bootloader with FTDI compatible connector to upgrade the firmware. This requires an FTDI cable or an off board. If the TouScruino is plugged into a [RCShield], it can be recharged and firmware upgraded through the USB plug of the RCShield.
  * Uses an Atmega1284P, which has:
   * 12 more pins than the Atmega328. The TFT screen and the touch panels can be controlled by the processor without having to use the pins used by Arduino shields (D11, D12 and D13 have to be used for SPI though).
-  * an additional serial port: Serial2 (RX2=D2, TX2=D3). An XBee can be connected at the same time as a USB bridge.
+  * an additional serial port: Serial1 (RX1=D2, TX1=D3). An XBee can be connected at the same time as a USB bridge.
   * 128K of usable flash memory and 8K of RAM.
 
-By default, TouScruino contains a firmware which will draw the commands passed through the Serial pins (RX=D0 and TX=D1) or the I2C pins (SCL=D18 and SDA=D19) on the screen, and returns upon request the position of the press on the touch panel.
+By default, TouScruino contains a firmware which will draw the commands passed through the Serial pins (RX=D0 and TX=D1) or the I2C pins (SCL=D19 and SDA=D20) on the screen, and returns upon request the position of the touch on the touchpanel.
 <br><br>
 == Schematics==
 For more details, see Eagle files: [http://ardurct.googlecode.com/svn/trunk/eagle/TouScrino-v2.sch schematics] and [http://ardurct.googlecode.com/svn/trunk/eagle/TouScrino-v2.brd board].<br><br>
