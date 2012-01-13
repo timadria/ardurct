@@ -7,7 +7,7 @@ RCShield is a contraction for R(emote) C(ontrol) Shield.<br>
 <img src="http://ardurct.googlecode.com/svn/images/RCShield_assembly_8.jpg" width="600"><a>
 
 ==Features==
- * Comes as 2 boards to allow various configurations
+ * Comes as 2 boards to allow various [RCShieldOptions configurations]
   * From 1 to 5 directly accessible channels
  * XBee connector to allow any XBee solution.
  * I2C connector to connect a magnetometer or a GPS through 
