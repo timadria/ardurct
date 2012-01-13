@@ -23,7 +23,7 @@ The *_Max. baudrate_* column gives the maximum standard baudrate reachable with 
 ||3.3||13.3333||12.2880||-2.1%||11.0592||230 400||
 ||5.0||20.0000||20.0000||0.9%||18.4320||230 400||
 
-=== Wiring standards ===
+=== Wiring standard ===
 The *Freq* column contains the recommended value for VCC.<br>
 The *_Error_* column shows the baudrate error for a target of 57 600 b/s.<br>
 The *_Max. baudrate_* column gives the maximum standard baudrate reachable with less than 1.5% error.<br><br>
