@@ -2,6 +2,8 @@
 
 As the RCShield comes as 2 identical boards (before soldering the components), it can be assembled in various ways to better suit the user requirements in terms of channels.<br>
 <a href="http://ardurct.googlecode.com/svn/images/RCShield_1Ch.jpg">
-<img src="http://ardurct.googlecode.com/svn/images/RCShield_1_Ch.jpg" width="350"><a>
+<img src="http://ardurct.googlecode.com/svn/images/RCShield_1Ch.jpg" width="350"><a>
 <a href="http://ardurct.googlecode.com/svn/images/RCShield_2Ch.jpg">
-<img src="http://ardurct.googlecode.com/svn/images/RCShield_2_Ch.jpg" width="350"><a><br>
+<img src="http://ardurct.googlecode.com/svn/images/RCShield_2Ch.jpg" width="350"><a><br>
+One channel: through one potentiometer: plus, minus. <br>
+Two channels through a joystick: up, down, left, right.<br>
