@@ -6,4 +6,13 @@ As the RCShield comes as 2 identical boards (before soldering the components), i
 <a href="http://ardurct.googlecode.com/svn/images/RCShield_2Ch.jpg">
 <img src="http://ardurct.googlecode.com/svn/images/RCShield_2Ch.jpg" width="350"><a><br>
 One channel: through one potentiometer: plus, minus. <br>
-Two channels through a joystick: up, down, left, right.<br>
+Two channels through a joystick: up, down, left, right.<br><br>
+<a href="http://ardurct.googlecode.com/svn/images/RCShield_3Ch.jpg">
+<img src="http://ardurct.googlecode.com/svn/images/RCShield_3Ch.jpg" width="350"><a>
+<a href="http://ardurct.googlecode.com/svn/images/RCShield_4Ch.jpg">
+<img src="http://ardurct.googlecode.com/svn/images/RCShield_4Ch.jpg" width="350"><a><br>
+Three channel: through one joystick and one potentiometer: up, down, left, right, plus, minus. <br>
+Four channels through two joystick: up, down, left, right, throttle-up, throttle-down, yaw-clockwise, yaw-counter.<br><br>
+<a href="http://ardurct.googlecode.com/svn/images/RCShield_5Ch.jpg">
+<img src="http://ardurct.googlecode.com/svn/images/RCShield_5Ch.jpg" width="350"><a><br>
+Four channels through two joystick: up, down, left, right, throttle-up, throttle-down, yaw-clockwise, yaw-counter, plus, minus.<br>
