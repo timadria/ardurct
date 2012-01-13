@@ -5,7 +5,7 @@
  * [Remotuino]
  * [RCShield]
   * [RCShieldAssembly Assembly]
-  * [RCShieldOptions Options]
+  * [RCShieldOptions Configurations]
  * [Libraries Libraries]
   * [LCDPCD8544 LCD_PCD8544 library]
    * [LCDPCD8544Simulator  Simulator]
