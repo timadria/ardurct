@@ -7,6 +7,8 @@
   * [RCShieldAssembly Assembly]
   * [RCShieldOptions Configurations]
  * [Libraries Libraries]
+  * [Touchscreen Touchscreen library]
+   * [TouchscreenSimulator  Simulator]
   * [LCDPCD8544 LCD_PCD8544 library]
    * [LCDPCD8544Simulator  Simulator]
   * [HMC6352 HMC6352 library]
