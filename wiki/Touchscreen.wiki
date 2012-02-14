@@ -1,24 +1,41 @@
 #summary Details about the Touchscreen library
 
 = Arduino library for Touchscreen =
+== Organisation ==
+<img src="http://ardurct.googlecode.com/svn/images/TouchScreen.png" width="300" align="right">
 
-== Functionalities ==
-<u>*Drawing functions:*</u>
- * Lines: variable thickness. 
- * Rectangles: filled or not, with variable thickness.
- * Circles: filled or not, with variable thickness.
- * Rounded rectangles: filled or not, with variable thickness.
- * Triangles: filled or not, with variable thickness.
- * Arcs: filled or not, with variable thickness.
- * Texts: 4 different size, bold and overlay
-<br>
-<u>*Macros functions:*</u><br>
-Possibility to draw any of the above drawing through simple commands. See [MacroLanguage] for details.
+The library is organized into layers.<br>
+ * The Physical Layer manages the pins and buses.<br>
+ * The Chip Management extends the Physical Layer. <br>For the moment, it can manage the following Chip On Glass devices:
+  * S6D0H0
+  * ILI932x
+ * The Screen Hardware Abstraction Layer manages the low level drawing functions such as: circles, lines, patterns, fonts, bitmaps...
+ * The Touchscreen layer manages the touch panel and the higher level functionalities, such as the user interface and the macros.
 <br><br>
-<u>*Touch panel:*</u><br>
-Manages the touch panel to return only valid points. Also include calibration functions.<br>
-<br>
-<u>*User interface:*</u>
+== Functionalities ==
+The library manages the screen and the touchpanel, including its calibration.<br>
+The screen can be rotated in by 90 degree increments
+<table><tr><td>
+<img src="http://ardurct.googlecode.com/svn/images/Graphics.png">  
+<td valign="top"> 
+<u>*Drawing functions:*</u>
+ * Texts: 4 different size, bold and overlay
+ * Lines: variable thickness. 
+ * Triangles: filled or not, with variable thickness.
+ * Rectangles: filled or not, with variable thickness.
+ * Rounded rectangles: filled or not, with variable thickness.
+ * Arcs: filled or not, with variable thickness.
+ * Circles: filled or not, with variable thickness.
+<tr><td>
+<img src="http://ardurct.googlecode.com/svn/images/MacroTests.png">
+<td valign="top">
+<u>*Macros functions:*</u><br>
+Possibility to draw any of the above drawing through simple commands. <br>See [MacroLanguage Macro language] for details.
+<br><br>
+<tr><td>
+<img src="http://ardurct.googlecode.com/svn/images/UITests.png">
+<td valign="top">
+<u>*User interface:*</u> 
  * Button
  * Push button: grouped or not
  * Label
@@ -26,13 +43,3 @@ Manages the touch panel to return only valid points. Also include calibration fu
  * Slider: vertical and horizontal
  * Area: with drawing callback
 <br>
-== Organisation ==
-<img src="http://ardurct.googlecode.com/svn/images/TouchScreen.png" width="350">
-
-The library is organized into layers.<br>
- * The Physical Layer manages the pins and buses.<br>
- * The Chip Management extends the Physical Layer. For the moment, it can manage:
-  * S6D0H0
-  * ILI932x
- * The Screen Hardware Abstraction Layer manages the low level drawing functions such as: circles, lines, patterns, fonts, bitmaps...
- * The Touchscreen layer manages the touch panel and the higher level functionalities, such as the user interface and the macros.
