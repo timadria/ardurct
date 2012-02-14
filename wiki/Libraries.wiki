@@ -6,6 +6,12 @@
 ArduRCT uses a number of libraries. They have been developped to be as generic as possible. Each one provides a number of examples to better understand the usage of the library.
 
 <table>
+<tr>
+<td><img src="http://ardurct.googlecode.com/svn/images/TouScruinoT.jpg" width="100">
+<td>
+*[Touchscreen]*  [http://code.google.com/p/ardurct/downloads/list http://www.gstatic.com/codesite/ph/images/dl_arrow.gif]<br>
+A library to drive touchscreens. <br>
+Such a touchscreen can be built by looking at [TouScruino] <br><br>
 <tr><td><img src="http://ardurct.googlecode.com/svn/images/LCD_PCD8544.jpg" width="100">
 <td>
 *[LCDPCD8544 LCD_PCD8544]* [http://code.google.com/p/ardurct/downloads/list http://www.gstatic.com/codesite/ph/images/dl_arrow.gif]
