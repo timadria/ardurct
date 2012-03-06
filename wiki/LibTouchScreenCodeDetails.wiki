@@ -4,17 +4,17 @@
 == Organisation ==
 The library is organized into layers.<br><br>
 <img src="http://ardurct.googlecode.com/svn/images/TouchScreen.png" width="500"><br>
- * The TouchScreen layer manages the touch panel and the higher level functionalities, such as the user interface and the macros.<br>These higher functions are separated into other files for clarity but belong to the same TouchScreen class.<br>
+ * The TouchScreen layer manages the touch panel and the higher level functionalities, such as the user interface and the macros.<br>
  * The Screen Hardware Abstraction Layer manages the low level drawing functions such as: circles, lines, patterns, fonts, bitmaps...<br>
  * The Chip Management extends the Physical Layer. <br>For the moment, it can manage the following Chip On Glass devices:
   * S6D0H0
   * ILI932x
  * The Physical Layer manages the pins and buses.
- 
- == Inheritance ==
-<A HREF="../../java/lang/Object.html" title="class in java.lang">java.lang.Object</A><br>
-&nbsp;<IMG SRC="http://ardurct.googlecode.com/svn/images/inherit.gif" ALT="extended by "><A HREF="../../java/awt/Component.html" title="class in java.awt">java.awt.Component</A>
-&nbsp;&nbsp;<IMG SRC="http://ardurct.googlecode.com/svn/images/inherit.gif" ALT="extended by "><A HREF="../../java/awt/Container.html" title="class in java.awt">java.awt.Container</A>
-          <IMG SRC="http://ardurct.googlecode.com/svn/images/inherit.gif" ALT="extended by "><A HREF="../../java/awt/Panel.html" title="class in java.awt">java.awt.Panel</A>
-              <IMG SRC="http://ardurct.googlecode.com/svn/images/inherit.gif" ALT="extended by "><B>java.applet.Applet</B>
- 
+<br> 
+== Inheritance ==
+<a href="http://code.google.com/p/ardurct/source/browse/trunk/libraries/TouchScreen/ScreenPL.cpp">ScreenPL<a><br>
+<img src="http://ardurct.googlecode.com/svn/images/blank.jpg" width="15" height="15"><img src="http://ardurct.googlecode.com/svn/images/inherit.gif"><a href="http://code.google.com/p/ardurct/source/browse/trunk/libraries/TouchScreen/S6D0H0.cpp">S6D0H0<a> (or ILI932x)<br>
+<img src="http://ardurct.googlecode.com/svn/images/blank.jpg" width="45" height="15"><img src="http://ardurct.googlecode.com/svn/images/inherit.gif"><a href="http://code.google.com/p/ardurct/source/browse/trunk/libraries/TouchScreen/ScreenHAL.cpp">ScreenHAL<a><br>
+<img src="http://ardurct.googlecode.com/svn/images/blank.jpg" width="75" height="15"><img src="http://ardurct.googlecode.com/svn/images/inherit.gif"><a href="http://code.google.com/p/ardurct/source/browse/trunk/libraries/TouchScreen/TouchScreen.cpp">TouchScreen<a><br>
+<br>
+To make the code more readable, the higher level functionalities have been separated into sub files: <a href="http://code.google.com/p/ardurct/source/browse/trunk/libraries/TouchScreen/TouchScreen_UserInterface.cpp">UserInterface<a> and <a href="http://code.google.com/p/ardurct/source/browse/trunk/libraries/TouchScreen/TouchScreen_Macros.cpp">Macros<a>
