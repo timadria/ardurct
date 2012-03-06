@@ -1,8 +1,8 @@
 #summary Details about the Touchscreen library
 
-= Arduino library for Touchscreen =
+= Arduino library for touch screens =
 == Functionalities ==
-The library manages the screen and the touchpanel, including its calibration.<br>
+The library manages the screen and the touch panel, including its calibration.<br>
 The screen can be rotated by 90 degree increments.
 <table><tr><td>
 <img src="http://ardurct.googlecode.com/svn/images/Graphics.png">  
