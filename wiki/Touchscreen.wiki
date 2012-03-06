@@ -2,7 +2,7 @@
 
 = Arduino library for Touchscreen =
 == Organisation ==
-<img src="http://ardurct.googlecode.com/svn/images/TouchScreen.png" width="300" align="right">
+<img src="http://ardurct.googlecode.com/svn/images/TouchScreen.png" width="450" align="right">
 
 The library is organized into layers.<br>
  * The Physical Layer manages the pins and buses.<br>
