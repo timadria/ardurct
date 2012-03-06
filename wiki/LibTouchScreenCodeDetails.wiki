@@ -10,15 +10,6 @@ The library is organized into layers.<br><br>
   * S6D0H0
   * ILI932x
  * The Physical Layer manages the pins and buses.
- 
-== Inheritance ==
-<A HREF="../../java/lang/Object.html" title="class in java.lang">java.lang.Object</A><br>
-  <IMG SRC="http://ardurct.googlecode.com/svn/images/inherit.gif" ALT="extended by "><A HREF="../../java/awt/Component.html" title="class in java.awt">java.awt.Component</A>
-     <IMG SRC="http://ardurct.googlecode.com/svn/images/inherit.gif" ALT="extended by "><A HREF="../../java/awt/Container.html" title="class in java.awt">java.awt.Container</A>
-          <IMG SRC="http://ardurct.googlecode.com/svn/images/inherit.gif" ALT="extended by "><A HREF="../../java/awt/Panel.html" title="class in java.awt">java.awt.Panel</A>
-              <IMG SRC="http://ardurct.googlecode.com/svn/images/inherit.gif" ALT="extended by "><B>java.applet.Applet</B>
- 
-=======
 <br> 
 == Inheritance ==
 <a href="http://code.google.com/p/ardurct/source/browse/trunk/libraries/TouchScreen/ScreenPL.cpp">ScreenPL<a><br>
