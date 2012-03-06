@@ -10,11 +10,11 @@ The library is organized into layers.<br>
   * S6D0H0
   * ILI932x
  * The Screen Hardware Abstraction Layer manages the low level drawing functions such as: circles, lines, patterns, fonts, bitmaps...
- * The Touchscreen layer manages the touch panel and the higher level functionalities, such as the user interface and the macros.
+ * The TouchScreen layer manages the touch panel and the higher level functionalities, such as the user interface and the macros. These higher functions are separated into other files for clarity but belong to the same TouchScreen class.
 <br><br>
 == Functionalities ==
 The library manages the screen and the touchpanel, including its calibration.<br>
-The screen can be rotated in by 90 degree increments
+The screen can be rotated by 90 degree increments.
 <table><tr><td>
 <img src="http://ardurct.googlecode.com/svn/images/Graphics.png">  
 <td valign="top"> 
