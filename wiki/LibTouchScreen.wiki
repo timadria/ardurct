@@ -1,16 +1,6 @@
 #summary Details about the Touchscreen library
 
 = Arduino library for Touchscreen =
-== Organisation ==
-
-The library is organized into layers.<br><br>
-<img src="http://ardurct.googlecode.com/svn/images/TouchScreen.png" width="500"><br>
- * The TouchScreen layer manages the touch panel and the higher level functionalities, such as the user interface and the macros.<br>These higher functions are separated into other files for clarity but belong to the same TouchScreen class.<br>
- * The Screen Hardware Abstraction Layer manages the low level drawing functions such as: circles, lines, patterns, fonts, bitmaps...<br>
- * The Chip Management extends the Physical Layer. <br>For the moment, it can manage the following Chip On Glass devices:
-  * S6D0H0
-  * ILI932x
- * The Physical Layer manages the pins and buses.
 == Functionalities ==
 The library manages the screen and the touchpanel, including its calibration.<br>
 The screen can be rotated by 90 degree increments.
