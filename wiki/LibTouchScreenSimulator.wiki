@@ -1,6 +1,6 @@
 #summary Java simulator for the TouchScreen Arduino library
 
-<img src=http://ardurct.googlecode.com/svn/images/Graphics.png"><img src=http://ardurct.googlecode.com/svn/images/UITests.png" align="right">
+<img src="http://ardurct.googlecode.com/svn/images/Graphics.png"><img src="http://ardurct.googlecode.com/svn/images/UITests.png" align="right">
 
 [http://code.google.com/p/ardurct/downloads/list http://www.gstatic.com/codesite/ph/images/dl_arrow.gif] [http://code.google.com/p/ardurct/downloads/list Download]
 
@@ -74,8 +74,9 @@ public class Graphics extends Example {
 }}}
 <br>
 To produce the UITests image above, use the following code.<br><br>
-<u>Note:<u>
-After copying the code to Arduino, you will have to name the callbacks instead of using 'this'. That is to say replace the first this by '&uiActionCallback' and the second one by '&uiDrawCallback'.
+<u>Note:<u><br>
+After copying the code to Arduino, you will have to name the callbacks instead of using 'this'.<br>
+That is to say replace the first this by '&uiActionCallback' and the second one by '&uiDrawCallback'.
 {{{
 package com.google.code.ardurct.touchscreen.examples;
 
