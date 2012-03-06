@@ -2,16 +2,15 @@
 
 = Arduino library for Touchscreen =
 == Organisation ==
-<img src="http://ardurct.googlecode.com/svn/images/TouchScreen.png" width="450" align="right">
 
-The library is organized into layers.<br>
- * The Physical Layer manages the pins and buses.<br>
+The library is organized into layers.<br><br>
+<img src="http://ardurct.googlecode.com/svn/images/TouchScreen.png" width="500"><br>
+ * The TouchScreen layer manages the touch panel and the higher level functionalities, such as the user interface and the macros.<br>These higher functions are separated into other files for clarity but belong to the same TouchScreen class.<br>
+ * The Screen Hardware Abstraction Layer manages the low level drawing functions such as: circles, lines, patterns, fonts, bitmaps...<br>
  * The Chip Management extends the Physical Layer. <br>For the moment, it can manage the following Chip On Glass devices:
   * S6D0H0
   * ILI932x
- * The Screen Hardware Abstraction Layer manages the low level drawing functions such as: circles, lines, patterns, fonts, bitmaps...
- * The TouchScreen layer manages the touch panel and the higher level functionalities, such as the user interface and the macros. These higher functions are separated into other files for clarity but belong to the same TouchScreen class.
-<br><br>
+ * The Physical Layer manages the pins and buses.
 == Functionalities ==
 The library manages the screen and the touchpanel, including its calibration.<br>
 The screen can be rotated by 90 degree increments.
@@ -30,7 +29,7 @@ The screen can be rotated by 90 degree increments.
 <img src="http://ardurct.googlecode.com/svn/images/MacroTests.png">
 <td valign="top">
 <u>*Macros functions:*</u><br>
-Possibility to draw any of the above drawing through simple commands. <br>See [MacroLanguage Macro language] for details.
+Possibility to draw any of the above drawing through simple commands. <br>See [MacroLanguage macro language] for details.
 <br><br>
 <tr><td>
 <img src="http://ardurct.googlecode.com/svn/images/UITests.png">
@@ -41,5 +40,6 @@ Possibility to draw any of the above drawing through simple commands. <br>See [M
  * Label
  * Gauge: vertical and horizontal
  * Slider: vertical and horizontal
- * Area: with drawing callback
+ * Area: to personalize the UI
+Each tab can be assigned a drawing and a handler callback.
 <br>
