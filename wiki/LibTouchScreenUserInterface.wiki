@@ -11,8 +11,7 @@ The library contains some pre configured user interface elements, such as
  * Gauge: vertical and horizontal
  * Slider: vertical and horizontal
  * Area: to personalize the UI
-<br>
-Rules:<br>
+===Rules===
  * The UI and each tab of the UI can have callbacks to handle actions or drawings when an event occurs.
  * For the UI to be responsive, you should call as often as possible the 'touchscreen.handleUI()' function in your loop.
  * You have to add at least one tab, and set it after you have defined the tab elements. 
