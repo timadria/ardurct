@@ -127,7 +127,8 @@ implements IUIActionCallback, IUIDrawCallback {
         COLORS_TAB = touchscreen.addUITab(stringToArray("Colors"), this, this);
         
         touchscreen.addUILabel(TESTS_TAB, LABEL_B_ID, 5, 5, UI_AUTO_SIZE, UI_AUTO_SIZE, stringToArray("Button"));
-        touchscreen.addUIButton(TESTS_TAB, TEST_ID, UI_RIGHT_OF_WITH_MARGIN + LABEL_B_ID, 5, UI_AUTO_SIZE, UI_AUTO_SIZE, stringToArray("Test"));
+        touchscreen.addUIButton(TESTS_TAB, TEST_ID, UI_RIGHT_OF_WITH_MARGIN + LABEL_B_ID, 5, UI_AUTO_SIZE, UI_AUTO_SIZE,
+                stringToArray("Test"));
         touchscreen.addUILabel(TESTS_TAB, LABEL_O_ID, 5, 35, UI_AUTO_SIZE, UI_AUTO_SIZE, stringToArray("Option"));
         touchscreen.addUIPushButton(TESTS_TAB, PUSH_1_ID, GROUP_1, UI_RIGHT_OF_WITH_MARGIN + LABEL_O_ID, 35, 
                 UI_AUTO_SIZE, UI_AUTO_SIZE, stringToArray("30"), UI_SELECTED);
@@ -136,7 +137,8 @@ implements IUIActionCallback, IUIDrawCallback {
         touchscreen.addUIPushButton(TESTS_TAB, PUSH_3_ID, GROUP_1, UI_RIGHT_OF + PUSH_2_ID, UI_SAME_AS + PUSH_1_ID, 
                 UI_SAME_AS + PUSH_1_ID, UI_SAME_AS + PUSH_1_ID, stringToArray("90"), UI_UNSELECTED);
         touchscreen.addUILabel(TESTS_TAB, LABEL_1_ID, 5, 65, UI_AUTO_SIZE, UI_AUTO_SIZE, stringToArray("Push button"));
-        touchscreen.addUIPushButton(TESTS_TAB, T1_ID, UI_NO_GROUP, UI_RIGHT_OF_WITH_MARGIN + LABEL_1_ID, UI_SAME_AS + LABEL_1_ID, UI_AUTO_SIZE, UI_AUTO_SIZE, stringToArray("T1"), UI_SELECTED);
+        touchscreen.addUIPushButton(TESTS_TAB, T1_ID, UI_NO_GROUP, UI_RIGHT_OF_WITH_MARGIN + LABEL_1_ID, 
+                UI_SAME_AS + LABEL_1_ID, UI_AUTO_SIZE, UI_AUTO_SIZE, stringToArray("T1"), UI_SELECTED);
         touchscreen.addUIPushButton(TESTS_TAB, T2_ID, UI_NO_GROUP, UI_RIGHT_OF_WITH_MARGIN + T1_ID, UI_SAME_AS + T1_ID, 
                 UI_SAME_AS + T1_ID, UI_SAME_AS + T1_ID, stringToArray("T2"), UI_UNSELECTED);
         touchscreen.addUILabel(TESTS_TAB, LABEL_2_ID, 5, 95, UI_AUTO_SIZE, UI_AUTO_SIZE, stringToArray("Gauge"));
@@ -150,11 +152,14 @@ implements IUIActionCallback, IUIDrawCallback {
         touchscreen.setUITab(TESTS_TAB);
         
         touchscreen.addUILabel(COLORS_TAB, LABEL_R_ID, 5, 15, UI_AUTO_SIZE, UI_AUTO_SIZE, stringToArray("R"));
-        touchscreen.addUISlider(COLORS_TAB, SLIDER_R_ID, UI_RIGHT_OF_WITH_MARGIN + LABEL_R_ID, 15, 180, UI_SAME_AS + LABEL_R_ID, 0x15, 0, 0x1F);
+        touchscreen.addUISlider(COLORS_TAB, SLIDER_R_ID, UI_RIGHT_OF_WITH_MARGIN + LABEL_R_ID, 15, 180, 
+                UI_SAME_AS + LABEL_R_ID, 0x15, 0, 0x1F);
         touchscreen.addUILabel(COLORS_TAB, 0, 5, 45, UI_AUTO_SIZE, UI_AUTO_SIZE, stringToArray("G"));
-        touchscreen.addUISlider(COLORS_TAB, SLIDER_G_ID, UI_RIGHT_OF_WITH_MARGIN + LABEL_R_ID, 45, 180, UI_SAME_AS + LABEL_R_ID, 0x1E, 0, 0x3F);
+        touchscreen.addUISlider(COLORS_TAB, SLIDER_G_ID, UI_RIGHT_OF_WITH_MARGIN + LABEL_R_ID, 45, 180, 
+                UI_SAME_AS + LABEL_R_ID, 0x1E, 0, 0x3F);
         touchscreen.addUILabel(COLORS_TAB, 0, 5, 75, UI_AUTO_SIZE, UI_AUTO_SIZE, stringToArray("B"));
-        touchscreen.addUISlider(COLORS_TAB, SLIDER_B_ID, UI_RIGHT_OF_WITH_MARGIN + LABEL_R_ID, 75, 180, UI_SAME_AS + LABEL_R_ID, 0xD, 0, 0x1F);
+        touchscreen.addUISlider(COLORS_TAB, SLIDER_B_ID, UI_RIGHT_OF_WITH_MARGIN + LABEL_R_ID, 75, 180, 
+                UI_SAME_AS + LABEL_R_ID, 0xD, 0, 0x1F);
         touchscreen.addUIArea(COLORS_TAB, AREA_COLOR_ID, 50, 130, 140, 140);
         touchscreen.setUIElementEditable(AREA_COLOR_ID, false);
         touchscreen.setUIElementValue(AREA_COLOR_ID, 0xABCD);
@@ -171,7 +176,9 @@ implements IUIActionCallback, IUIDrawCallback {
         if (id == SLIDER_2_ID) touchscreen.setUIElementValue(GAUGE_2_ID, touchscreen.getUIElementValue(SLIDER_2_ID));
         if ((id >= SLIDER_R_ID) && (id <= SLIDER_B_ID)) {
             touchscreen.setUIElementValue(AREA_COLOR_ID, 
-                    (touchscreen.getUIElementValue(SLIDER_R_ID) << 11) + (touchscreen.getUIElementValue(SLIDER_G_ID) << 5) + touchscreen.getUIElementValue(SLIDER_B_ID));
+                    (touchscreen.getUIElementValue(SLIDER_R_ID) << 11) + 
+                    (touchscreen.getUIElementValue(SLIDER_G_ID) << 5) +
+                     touchscreen.getUIElementValue(SLIDER_B_ID));
         }
     }
 
