@@ -14,9 +14,13 @@ The library contains a macro language to draw or affect graphics such as:
  * Presets: erase the screen, set the thickness, the font, the scale
  * Eeprom: save and retrieve macros in and from the Eeprom
 ===Principles===
- * The last point reached by a drawing can be used as a start for the next drawing for lines and arcs.
+ * A macro is a serie of drawing commands which can be chained together.
+ * Each command is a few letters followed by a space and some parameters separated by spaces
+  * Case: There is no case sentitiveness. 
+  * Chaining: If the number of parameters is not sufficient to finish the command, the last point reached by the previous macro command is used.
+  * Numbers: Colors are in hexadecimal, all other numbers are in decimal
 ===Code===
-To produce the MactoTests images above, use the following code.
+To produce the MacroTests images above, use the following code.
 {{{
 #include <TouchScreen.h>
 
@@ -72,14 +76,66 @@ public void loop() {
 }}}
 
 ===Language===
- * To hide an element, use 'setUIElementTab(id, -1)', to show it, use setUIElementTab(id, tabId).
- * The look and feel of the user interface can be tweaked in <a href="http://code.google.com/p/ardurct/source/browse/trunk/arduino/libraries/TouchScreen/TouchScreen_UserInterface.hpp">TouchScreen_UserInterface.hpp</a>. 
- * To help draw the UI, the coordinates of the UI elements can be expressed relative to other UI elements.
-||UI_AUTO_SIZE||for with and height: will surround the text with UI_ELEMENT_TOP_MARGIN or UI_ELEMENT_LEFT_MARGIN||
-||UI_SAME_AS + uiElementId||will return the corresponding coordinate value from uiElementId||
-||UI_LEFT_OF + uiElementId||will return the left coordinate of uiElementId||
-||UI_RIGHT_OF    + uiElementId||will return the right coordinate of uiElementId||
-||UI_RIGHT_OF_WITH_MARGIN    + uiElementId||will return the right coordinate of uiElementId plus UI_ELEMENT_LEFT_MARGIN||
-||UI_TOP_OF + uiElementId||will return the top coordinate of uiElementId||
-||UI_BOTTOM_OF + uiElementId||will return the bottom coordinate of uiElementId||
-||UI_BOTTOM_OF_WITH_MARGIN + uiElementId||will return the bottom coordinate of uiElementId plus UI_ELEMENT_TOP_MARGIN||
+ Items between brackets can be ommited.
+<table>
+<tr><td>p	<td>*Presets*<td>	<td>can preset the thickness, color, background, scale, fontSize, fontBold, fontOverlay
+<tr><td>	<td>pe		<td>	<td>erase the screen: fill the screen with background
+<tr><td>	<td>pt thickness<td>	<td>preset the thickness
+
+
+ *			ps scale [div]	preset the scale, all further drawing will be scaled by scale/div
+ *			pc color		preset the foreground color
+ *			pb color		preset the background color
+ *			pf[b][o] size	preset the font
+ *				b			if present the font will be bold
+ *				o			if present the font will be overlaid
+ *		
+ *		l	Line
+ *			l[d] x1 y1 [x2 y2]
+ *				d		delta: x1 and y1 (or x2 and y2 if they exist) are delta values relative to last point drawn
+ *				x1 y1	start or next point in the line
+ *				x2 y2	next point in the line
+ *
+ *		a	Arc			can be drawn clockwise or counter clockwise and filled
+ *			a[r][f]DDD [x0 y0] radius
+ *				r		if present, the arc will be drawn reversed (counter clockwise). 
+ *						i.e.: if DDD=NE
+ *							if r the East end will be connected to the last point drawn
+ *							else the North end will be attached
+ *				f		if present, the arc will be filled		
+ *				DDD 	can be n, s, e, w, ne, nw, se, sw, nne, nee, see, sse, ssw, sww, nww, nnw
+ *				radius	radius of the arc
+ *				x0 y0	center of the arc. If ommited the top (or bottom) of the arc will be connected to the last point drawn
+ *
+ *		r	Rectangle	can be rounded and filled
+ *			r[r][f] x1 y1 width height [radius]
+ *				r		if present, the rectangle will be rounded and radius is required
+ *				f		if present, the rectangle will be filled
+ *				x1 y1	top left of the rectangle
+ *				width
+ *				height	width and height of the rectangle
+ *
+ *		t	Triangle	can be filled
+ *			t[f] x1 y1 x2 y2 x3 y3
+ *				x1 y1	first point
+ *				x2 y2	second point
+ *				x3 y3	third point
+ *
+ *		c	Circle		can be filled
+ *			c[f] x0 y0 radius
+ *				x0 y0	center of the circle
+ *				radius	radius of the circle
+ * 
+ *		s	String
+ *			s x1 y1 "text"
+ *				x1 y1	top left of the first char drawn
+ *				"text"	text to draw. Some characters can be escaped \n, \", \\
+ *
+ *		w	Write		Write a macro in EEPROM, all following commands are written to the eeprom
+ *			w n
+ *				n		the macro number to write
+ *
+ *		e	Execute		Execute a macro from EEPROM
+ *			e[r] n
+ *				r		reset the macro variables before executing
+ *				n		the macro number to execute
