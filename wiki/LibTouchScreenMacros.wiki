@@ -87,50 +87,62 @@ Items between brackets can be ommited.
 <tr><td>pf(b)(o) size<td>	<td>preset the font
 <tr><td>		<td>b<td>if present the font will be bold
 <tr><td>		<td>o<td>if present the font will be overlaid
-<tr><td><img src="http://ardurct.googlecode.com/svn/images/blank.jpg" width="10" height="25"><td><td>
+<tr><td><img src="http://ardurct.googlecode.com/svn/images/blank.jpg" width="10" height="15"><td><td>
+
 <tr><td>*Lines*<td><td>
 <tr><td>l(d) x1 y1 (x2 y2)<td><td>
 <tr><td>		<td>d<td>delta: if present, x1 and y1 (or x2 and y2 if they exist) are delta values relative to last point drawn
 <tr><td>		<td>x1 y1<td>start or next point in the line
 <tr><td>		<td>x2 y2<td>next point in the line
-<tr><td>		<td><td>
+<tr><td><img src="http://ardurct.googlecode.com/svn/images/blank.jpg" width="10" height="15"><td><td>
+
 <tr><td>*Arcs*<td><td>can be drawn clockwise or counter clockwise and filled
-<tr><td>a(r)(f)DDD (x0 y0) radius
+<tr><td>a(r)(f)DDD (x0 y0) radius<td><td>
 <tr><td>		<td>r<td>if present, the arc will be drawn reversed (counter clockwise).<br>i.e.: if DDD=NE<br>- if r the East end will be connected to the last point drawn<br>- else the North end will be attached<br>
 <tr><td>		<td>f<td>if present, the arc will be filled		
 <tr><td>		<td>DDD<td>can be n, s, e, w, ne, nw, se, sw, nne, nee, see, sse, ssw, sww, nww, nnw
 <tr><td>		<td>radius<td>radius of the arc
 <tr><td>		<td>x0 y0<td>center of the arc. If ommited the top (or bottom) of the arc will be connected to the last point drawn
-<tr><td>		<td><td>
- *		r	Rectangle	can be rounded and filled
- *			r[r][f] x1 y1 width height [radius]
- *				r		if present, the rectangle will be rounded and radius is required
- *				f		if present, the rectangle will be filled
- *				x1 y1	top left of the rectangle
- *				width
- *				height	width and height of the rectangle
- *
- *		t	Triangle	can be filled
- *			t[f] x1 y1 x2 y2 x3 y3
- *				x1 y1	first point
- *				x2 y2	second point
- *				x3 y3	third point
- *
- *		c	Circle		can be filled
- *			c[f] x0 y0 radius
- *				x0 y0	center of the circle
- *				radius	radius of the circle
- * 
- *		s	String
- *			s x1 y1 "text"
- *				x1 y1	top left of the first char drawn
- *				"text"	text to draw. Some characters can be escaped \n, \", \\
- *
- *		w	Write		Write a macro in EEPROM, all following commands are written to the eeprom
- *			w n
- *				n		the macro number to write
- *
- *		e	Execute		Execute a macro from EEPROM
- *			e[r] n
- *				r		reset the macro variables before executing
- *				n		the macro number to execute
+<tr><td><img src="http://ardurct.googlecode.com/svn/images/blank.jpg" width="10" height="15"><td><td>
+
+<tr><td>*Rectangles*<td><td>can be rounded and filled
+<tr><td>r(r)(f) x1 y1 width height (radius)<td><td>
+<tr><td>		<td>r<td>if present, the rectangle will be rounded and radius is required
+<tr><td>		<td>f<td>if present, the rectangle will be filled
+<tr><td>		<td>x1 y1<td>top left of the rectangle
+<tr><td>		<td>width<td>
+<tr><td>		<td>height<td>width and height of the rectangle
+<tr><td><img src="http://ardurct.googlecode.com/svn/images/blank.jpg" width="10" height="15"><td><td>
+
+<tr><td>*Triangles*<td><td>can be filled
+<tr><td>t(f) x1 y1 x2 y2 x3 y3<td><td>
+<tr><td>		<td>f<td>if present, the triangle will be filled		
+<tr><td>		<td>x1 y1<td>first point
+<tr><td>		<td>x2 y2<td>second point
+<tr><td>		<td>x3 y3<td>third point
+<tr><td><img src="http://ardurct.googlecode.com/svn/images/blank.jpg" width="10" height="15"><td><td>
+
+<tr><td>*Circles*<td><td>can be filled
+<tr><td>c(f) x0 y0 radius<td><td>
+<tr><td>		<td>f<td>if present, the circle will be filled		
+<tr><td>		<td>x0 y0<td>center of the circle
+<tr><td>		<td>radius<td>radius of the circle
+<tr><td><img src="http://ardurct.googlecode.com/svn/images/blank.jpg" width="10" height="15"><td><td>
+
+<tr><td>*Strings*<td><td>
+<tr><td>s x1 y1 "text"<td><td>
+<tr><td>		<td>x1 y1<td>top left of the first char drawn
+<tr><td>		<td>"text"<td>text to draw. Some characters can be escaped \n, \", \\
+<tr><td><img src="http://ardurct.googlecode.com/svn/images/blank.jpg" width="10" height="15"><td><td>
+
+<tr><td>*Writes*<td><td>Write a macro in EEPROM, all following commands are written to the eeprom
+<tr><td>w n<td><td>
+<tr><td>		<td>n<td>the macro number to write
+<tr><td><img src="http://ardurct.googlecode.com/svn/images/blank.jpg" width="10" height="15"><td><td>
+
+<tr><td>*Executes*<td><td>Execute a macro from EEPROM
+<tr><td>e[r] n<td><td>
+<tr><td>		<td>r<td>reset the macro variables before executing
+<tr><td>		<td>n<td>the macro number to execute
+<tr><td><img src="http://ardurct.googlecode.com/svn/images/blank.jpg" width="10" height="15"><td><td>
+
