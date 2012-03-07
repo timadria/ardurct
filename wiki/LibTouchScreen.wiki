@@ -19,11 +19,14 @@ The screen can be rotated by 90 degree increments.
  * Rounded rectangles: filled or not, with variable thickness.
  * Arcs: filled or not, with variable thickness.
  * Circles: filled or not, with variable thickness.
+ * Bitmaps
+ * Patterns: scaled or not
+<br>See [LibTouchScreenGraphics Graphics] for details.
 <tr><td>
 <img src="http://ardurct.googlecode.com/svn/images/MacroTests.png">
 <td valign="top">
 <u>*Macros functions:*</u><br>
-Possibility to draw any of the above drawing through simple commands. <br>See [LibTouchScreenMacros macro language] for details.
+Possibility to draw any of the above drawing through simple commands. <br>See [LibTouchScreenMacros Macros] for details.
 <br><br>
 <tr><td>
 <img src="http://ardurct.googlecode.com/svn/images/UITests.png">
@@ -35,5 +38,5 @@ Possibility to draw any of the above drawing through simple commands. <br>See [L
  * Gauge: vertical and horizontal
  * Slider: vertical and horizontal
  * Area: to personalize the UI
-Each tab can be assigned a drawing and a handler callback.
+<br>See [LibTouchScreenUserInterface User interface] for details.
 <br>
