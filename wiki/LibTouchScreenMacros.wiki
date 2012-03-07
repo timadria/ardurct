@@ -78,7 +78,7 @@ public void loop() {
 ===Language===
 Items between brackets can be ommited.
 <table>
-<tr><td>p	<td>*presets*<td><img src="http://ardurct.googlecode.com/svn/images/blank.jpg" width="25" height="10"><td>can preset the thickness, color, background, scale, fontSize, fontBold, fontOverlay
+<tr><td>p<img src="http://ardurct.googlecode.com/svn/images/blank.jpg" width="20" height="10"><td>*presets*<td><img src="http://ardurct.googlecode.com/svn/images/blank.jpg" width="25" height="10"><td>can preset the thickness, color, background, scale, fontSize, fontBold, fontOverlay
 <tr><td>	<td>pe		<td>	<td>erase the screen: fill the screen with background
 <tr><td>	<td>pt thickness<td>	<td>preset the thickness
 <tr><td>	<td>ps scale (div)<td>	<td>preset the scale, all further drawing will be scaled by scale/div
