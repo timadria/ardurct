@@ -12,9 +12,9 @@ The library is organized into layers.<br><br>
  * The Physical Layer manages the pins and buses.
 <br> 
 == Inheritance ==
-<a href="http://code.google.com/p/ardurct/source/browse/trunk/libraries/TouchScreen/ScreenPL.cpp">ScreenPL<a><br>
-<img src="http://ardurct.googlecode.com/svn/images/blank.jpg" width="15" height="15"><img src="http://ardurct.googlecode.com/svn/images/inherit.gif"><a href="http://code.google.com/p/ardurct/source/browse/trunk/libraries/TouchScreen/S6D0H0.cpp">S6D0H0<a> (or ILI932x)<br>
-<img src="http://ardurct.googlecode.com/svn/images/blank.jpg" width="45" height="15"><img src="http://ardurct.googlecode.com/svn/images/inherit.gif"><a href="http://code.google.com/p/ardurct/source/browse/trunk/libraries/TouchScreen/ScreenHAL.cpp">ScreenHAL<a><br>
-<img src="http://ardurct.googlecode.com/svn/images/blank.jpg" width="75" height="15"><img src="http://ardurct.googlecode.com/svn/images/inherit.gif"><a href="http://code.google.com/p/ardurct/source/browse/trunk/libraries/TouchScreen/TouchScreen.cpp">TouchScreen<a><br>
+<a href="http://code.google.com/p/ardurct/source/browse/trunk/arduino/libraries/TouchScreen/ScreenPL.cpp">ScreenPL<a><br>
+<img src="http://ardurct.googlecode.com/svn/images/blank.jpg" width="15" height="15"><img src="http://ardurct.googlecode.com/svn/images/inherit.gif"><a href="http://code.google.com/p/ardurct/source/browse/trunk/arduino/libraries/TouchScreen/S6D0H0.cpp">S6D0H0<a> (or ILI932x)<br>
+<img src="http://ardurct.googlecode.com/svn/images/blank.jpg" width="45" height="15"><img src="http://ardurct.googlecode.com/svn/images/inherit.gif"><a href="http://code.google.com/p/ardurct/source/browse/trunk/arduino/libraries/TouchScreen/ScreenHAL.cpp">ScreenHAL<a><br>
+<img src="http://ardurct.googlecode.com/svn/images/blank.jpg" width="75" height="15"><img src="http://ardurct.googlecode.com/svn/images/inherit.gif"><a href="http://code.google.com/p/ardurct/source/browse/trunk/arduino/libraries/TouchScreen/TouchScreen.cpp">TouchScreen<a><br>
 <br>
-To make the code more readable, the higher level functionalities have been separated into sub files: <a href="http://code.google.com/p/ardurct/source/browse/trunk/libraries/TouchScreen/TouchScreen_UserInterface.cpp">UserInterface<a> and <a href="http://code.google.com/p/ardurct/source/browse/trunk/libraries/TouchScreen/TouchScreen_Macros.cpp">Macros<a>
+To make the code more readable, the higher level functionalities have been separated into sub files: <a href="http://code.google.com/p/ardurct/source/browse/trunk/arduino/libraries/TouchScreen/TouchScreen_UserInterface.cpp">UserInterface<a> and <a href="http://code.google.com/p/ardurct/source/browse/trunk/arduino/libraries/TouchScreen/TouchScreen_Macros.cpp">Macros<a>
