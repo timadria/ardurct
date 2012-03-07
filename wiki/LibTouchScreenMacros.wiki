@@ -1,0 +1,85 @@
+#summary TouchScreen Arduino library example - Macros
+
+<img src="http://ardurct.googlecode.com/svn/images/MacroTests2.png" align="right"><br>
+
+===Description===
+The library contains a macro language to draw or affect graphics such as: 
+ * Texts: 4 different size, bold and overlay
+ * Lines: variable thickness. 
+ * Triangles: filled or not, with variable thickness.
+ * Rectangles: filled or not, with variable thickness.
+ * Rounded rectangles: filled or not, with variable thickness.
+ * Arcs: filled or not, with variable thickness.
+ * Circles: filled or not, with variable thickness.
+ * Presets: erase the screen, set the thickness, the font, the scale
+ * Eeprom: save and retrieve macros in and from the Eeprom
+===Principles===
+ * The last point reached by a drawing can be used as a start for the next drawing for lines and arcs.
+===Code===
+To produce the MactoTests images above, use the following code.
+{{{
+#include <TouchScreen.h>
+
+TouchScreen touchscreen;
+
+// size 23x37
+uint8_t seven[] = "ld 0 0 22 0 ld 0 9 arnww 38";
+uint8_t eight[] = "ld 10 0 2 0 ae 8 ld -2 0 ld 2 0 ae 10 ld -2 0 aw 10 aw 8";
+
+uint8_t buffer[256];
+uint8_t bufferPtr = 0;
+
+public void setup() {
+    touchscreen.begin(BLACK, WHITE, FONT_MEDIUM, FONT_PLAIN, NO_OVERLAY);
+    touchscreen.setBacklight(180);
+    
+    // draw in blue, with a scalable line thickness of 2
+    touchscreen.executeMacro("pts 2 pc 1F");
+    // draw a seven
+    touchscreen.executeMacro(seven, 10, 10, 3, 1, true);
+    // write eight into eeprom for future use, in slot 0
+    touchscreen.executeMacro("w 0 " + eight);
+    // write hello into eeprom for future use, in slot 1
+    touchscreen.executeMacro("w 1 s 0 0 \"Hello\"");
+    // set foreground to red
+    touchscreen.executeMacro("pc F800 pts 2");
+    // draw the macro stored in eeprom in slot 0
+    touchscreen.executeMacro("e 0", 120, 10, 3, 1, true);
+    // draw the macro stored in eeprom in slot 1
+    // draw in size 1 black
+    touchscreen.executeMacro("pf 1 pc 0 e 1", 10, 160, 1, 1, true);
+    // draw in size 2 bold gray
+    touchscreen.executeMacro("pfb 2 pc " + Integer.toHexString(GREY) + " e 1", 10, 180, 1, 1, true);
+
+    delay(5000);
+}
+
+public void loop() {
+    while (Serial.available()) buffer[bufferPtr++] = Serial.read();
+    if (bufferPtr == 0) return;
+    
+    // wait for end of sentence
+    if (buffer[bufferPtr-1] == '.') {
+        // mark end of macro
+        buffer[bufferPtr-1] = 0;
+        bufferPtr = 0;
+        // execute the macro
+        touchscreen.executeMacro(buffer, 10, 10);
+    }
+    delay(10);
+}
+
+}}}
+
+===Language===
+ * To hide an element, use 'setUIElementTab(id, -1)', to show it, use setUIElementTab(id, tabId).
+ * The look and feel of the user interface can be tweaked in <a href="http://code.google.com/p/ardurct/source/browse/trunk/arduino/libraries/TouchScreen/TouchScreen_UserInterface.hpp">TouchScreen_UserInterface.hpp</a>. 
+ * To help draw the UI, the coordinates of the UI elements can be expressed relative to other UI elements.
+||UI_AUTO_SIZE||for with and height: will surround the text with UI_ELEMENT_TOP_MARGIN or UI_ELEMENT_LEFT_MARGIN||
+||UI_SAME_AS + uiElementId||will return the corresponding coordinate value from uiElementId||
+||UI_LEFT_OF + uiElementId||will return the left coordinate of uiElementId||
+||UI_RIGHT_OF    + uiElementId||will return the right coordinate of uiElementId||
+||UI_RIGHT_OF_WITH_MARGIN    + uiElementId||will return the right coordinate of uiElementId plus UI_ELEMENT_LEFT_MARGIN||
+||UI_TOP_OF + uiElementId||will return the top coordinate of uiElementId||
+||UI_BOTTOM_OF + uiElementId||will return the bottom coordinate of uiElementId||
+||UI_BOTTOM_OF_WITH_MARGIN + uiElementId||will return the bottom coordinate of uiElementId plus UI_ELEMENT_TOP_MARGIN||

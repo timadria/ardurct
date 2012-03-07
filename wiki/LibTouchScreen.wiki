@@ -19,7 +19,7 @@ The screen can be rotated by 90 degree increments.
 <img src="http://ardurct.googlecode.com/svn/images/MacroTests.png">
 <td valign="top">
 <u>*Macros functions:*</u><br>
-Possibility to draw any of the above drawing through simple commands. <br>See [MacroLanguage macro language] for details.
+Possibility to draw any of the above drawing through simple commands. <br>See [LibTouchScreenMacros macro language] for details.
 <br><br>
 <tr><td>
 <img src="http://ardurct.googlecode.com/svn/images/UITests.png">
