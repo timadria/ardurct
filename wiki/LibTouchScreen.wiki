@@ -1,7 +1,10 @@
 #summary Details about the Touchscreen library
 
 = Arduino library for touch screens =
-== Functionalities ==
+==Content==
+The library is designed to manage small touch screens such as TouScruino or the one from adafruit.<br>
+For the moment, it manages screens based on the SAMSUNG S6D06H chip on class. It will soon manage ILI932x based screens.
+==Functionalities ==
 The library manages the screen and the touch panel, including its calibration.<br>
 The screen can be rotated by 90 degree increments.
 <table><tr><td>
