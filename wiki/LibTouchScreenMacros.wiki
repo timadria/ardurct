@@ -16,9 +16,11 @@ The library contains a macro language to draw or affect graphics such as:
 ===Principles===
  * A macro is a serie of drawing commands which can be chained together.
  * Each command is a few letters followed by a space and some parameters separated by spaces
-  * Case: There is no case sentitiveness. 
-  * Chaining: If the number of parameters is not sufficient to finish the command, the last point reached by the previous macro command is used.
-  * Numbers: Colors are in hexadecimal, all other numbers are in decimal
+ * Case: There is no case sentitiveness. 
+ * Chaining: If the number of parameters is not sufficient to finish the command, the last point reached by the previous macro command is used.
+ * Numbers: Colors are in hexadecimal, all other numbers are in decimal
+===Examples===
+Draw a filled circle {{{ cf 20 20 10 }}}
 ===Code===
 To produce the MacroTests images above, use the following code.
 {{{
