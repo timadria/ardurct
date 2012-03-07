@@ -76,15 +76,15 @@ public void loop() {
 }}}
 
 ===Language===
- Items between brackets can be ommited.
+Items between brackets can be ommited.
 <table>
-<tr><td>p	<td>*presets*<td>	<td>can preset the thickness, color, background, scale, fontSize, fontBold, fontOverlay
+<tr><td>p	<td>*presets*<td><img src="http://ardurct.googlecode.com/svn/images/blank.jpg" width="25" height="10"><td>can preset the thickness, color, background, scale, fontSize, fontBold, fontOverlay
 <tr><td>	<td>pe		<td>	<td>erase the screen: fill the screen with background
 <tr><td>	<td>pt thickness<td>	<td>preset the thickness
-<tr><td>	<td>ps scale [div]<td>	<td>preset the scale, all further drawing will be scaled by scale/div
+<tr><td>	<td>ps scale (div)<td>	<td>preset the scale, all further drawing will be scaled by scale/div
 <tr><td>	<td>pc color<td>	<td>preset the foreground color
 <tr><td>	<td>pb color<td>	<td>preset the background color
-<tr><td>	<td>pf[b][o] size<td>	<td>preset the font
+<tr><td>	<td>pf(b)(o) size<td>	<td>preset the font
 <tr><td>	<td>		<td>b<td>if present the font will be bold
 <tr><td>	<td>		<td>o<td>if present the font will be overlaid
  *		
