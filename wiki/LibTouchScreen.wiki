@@ -2,7 +2,7 @@
 
 = Arduino library for touch screens =
 ==Content==
-The library is designed to manage small touch screens such as TouScruino or the one from adafruit.<br>
+The library is designed to manage small touch screens such as TouScruino or the <a href="http://www.adafruit.com/products/335">one from adafruit</a>.<br>
 For the moment, it manages screens based on the SAMSUNG S6D06H chip on class. It will soon manage ILI932x based screens.<br>
 Porting the library for other screens or other MCUs is quite simple as the hardware has been completely abstracted: see [LibTouchScreenCodeDetails code details]
 ==Functionalities ==
