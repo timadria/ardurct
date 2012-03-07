@@ -87,7 +87,7 @@ Items between brackets can be ommited.
 <tr><td>pf(b)(o) size<td>	<td>preset the font
 <tr><td>		<td>b<td>if present the font will be bold
 <tr><td>		<td>o<td>if present the font will be overlaid
-<tr><td>		<td><td>
+<tr><td><img src="http://ardurct.googlecode.com/svn/images/blank.jpg" width="10" height="25"><td><td>
 <tr><td>*Lines*<td><td>
 <tr><td>l(d) x1 y1 (x2 y2)<td><td>
 <tr><td>		<td>d<td>delta: if present, x1 and y1 (or x2 and y2 if they exist) are delta values relative to last point drawn
@@ -96,10 +96,7 @@ Items between brackets can be ommited.
 <tr><td>		<td><td>
 <tr><td>*Arcs*<td><td>can be drawn clockwise or counter clockwise and filled
 <tr><td>a(r)(f)DDD (x0 y0) radius
-<tr><td>		<td>r<td>if present, the arc will be drawn reversed (counter clockwise).<br> 
- 						i.e.: if DDD=NE<br>
- 						- if r the East end will be connected to the last point drawn<br>
- 						- else the North end will be attached<br>
+<tr><td>		<td>r<td>if present, the arc will be drawn reversed (counter clockwise).<br>i.e.: if DDD=NE<br>- if r the East end will be connected to the last point drawn<br>- else the North end will be attached<br>
 <tr><td>		<td>f<td>if present, the arc will be filled		
 <tr><td>		<td>DDD<td>can be n, s, e, w, ne, nw, se, sw, nne, nee, see, sse, ssw, sww, nww, nnw
 <tr><td>		<td>radius<td>radius of the arc
