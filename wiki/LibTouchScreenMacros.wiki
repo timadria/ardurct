@@ -20,8 +20,19 @@ The library contains a macro language to draw or affect graphics such as:
  * Chaining: If the number of parameters is not sufficient to finish the command, the last point reached by the previous macro command is used.
  * Numbers: Colors are in hexadecimal, all other numbers are in decimal
 ===Examples===
-{{{cf 20 20 10      }}}Draw a filled circle of radius 10 at 20, 20 on the screen.
-{{{arnee 10	        }}}Draw an arc in the NEE octant of radius 1O with the bottom starting at the last point drawn.
+{{{
+// draw a filled circle of radius 10 at 20,20
+cf 20 20 10
+
+// draw a line starting at 10,10 and finishing at 10,20
+l 10 10 10 20
+
+// draw a line starting at 10,10 and finishing at 20,10
+ld 10 10 10 0
+
+// draw an arc in the NEE octant of radius 10 with the bottom starting at the last point drawn.
+arnee 10
+}}}
 ===Code===
 To produce the MacroTests images above, use the following code.
 {{{
