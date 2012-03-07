@@ -16,6 +16,7 @@
   * [LibLCDPCD8544 LCD_PCD8544 library]
    * [LibLCDPCD8544Simulator  LCDPCD8544 simulator]
   * [LibHMC6352 HMC6352 library]
+  * [LibPrintf Printf library]
  * *Appendix*
   * [PinMapping Pins mapping]
   * [MaxFrequencies Max. frequencies]

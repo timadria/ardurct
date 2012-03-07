@@ -1,0 +1,24 @@
+#summary Details about the Printf library
+=Arduino library for printf=
+[http://code.google.com/p/ardurct/downloads/list http://www.gstatic.com/codesite/ph/images/dl_arrow.gif] [http://code.google.com/p/ardurct/downloads/list Download]
+
+===Content===
+A simple library to facilitate the printing of messages containing variables.<br>
+It works on any class inheriting from Print (TouchScreen, LCD_PCD8544, LCD, Serial...).<br>
+It is JUST a repackaging of <a href="http://www.utopiamechanicus.com/article/sprintf-arduino/">http://www.utopiamechanicus.com/article/sprintf-arduino/</a> by David Pankhurst. Many thanks to him !
+
+===Example usage===
+{{{
+#include <Printf.h>
+
+void setup() {
+    Serial.begin(57600);
+    pinMode(4, INPUT);
+}
+
+void loop() {
+    // beware the underscore instead of the dot is required
+    Serial_printf("Time=%d, pin_4=%d", millis(), digitalRead(4));
+    delay(250);
+}
+}}}
