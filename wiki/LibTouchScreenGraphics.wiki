@@ -1,4 +1,4 @@
-#summary TouchScreen Arduino library example - Macros
+#summary TouchScreen Arduino library example - Graphics
 
 <img src="http://ardurct.googlecode.com/svn/images/Graphics.png" align="right"><br>
 
@@ -13,7 +13,9 @@ The library can draw graphics such as:
  * Circles: filled or not, with variable thickness.
  * Bitmaps
  * Patterns: scaled or not
-It can also rotate the screen.<br>After rotation, all subsequent drawings will be done rotated. But the existing drawing will not be rotated.
+It can also rotate the screen.<br>
+After rotation, all subsequent drawings will be done rotated.<br>
+But the existing drawing will not be rotated.
 ===Code===
 To produce the Graphics image above, use the following code.
 {{{
