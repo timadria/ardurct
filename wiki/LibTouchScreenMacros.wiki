@@ -141,8 +141,8 @@ Items between brackets can be ommited.
 <tr><td><img src="http://ardurct.googlecode.com/svn/images/blank.jpg" width="10" height="15"><td><td>
 
 <tr><td>*Executes*<td><td>Execute a macro from EEPROM
-<tr><td>e[r] n<td><td>
-<tr><td>		<td>r<td>reset the macro variables before executing
+<tr><td>e(r) n<td><td>
+<tr><td>		<td>r<td>if present, resets the macro variables before executing
 <tr><td>		<td>n<td>the macro number to execute
 <tr><td><img src="http://ardurct.googlecode.com/svn/images/blank.jpg" width="10" height="15"><td><td>
 
