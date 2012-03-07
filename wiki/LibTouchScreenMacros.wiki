@@ -94,17 +94,17 @@ Items between brackets can be ommited.
 <tr><td>		<td>x1 y1<td>start or next point in the line
 <tr><td>		<td>x2 y2<td>next point in the line
 <tr><td>		<td><td>
- *		a	Arc			can be drawn clockwise or counter clockwise and filled
- *			a[r][f]DDD [x0 y0] radius
- *				r		if present, the arc will be drawn reversed (counter clockwise). 
- *						i.e.: if DDD=NE
- *							if r the East end will be connected to the last point drawn
- *							else the North end will be attached
- *				f		if present, the arc will be filled		
- *				DDD 	can be n, s, e, w, ne, nw, se, sw, nne, nee, see, sse, ssw, sww, nww, nnw
- *				radius	radius of the arc
- *				x0 y0	center of the arc. If ommited the top (or bottom) of the arc will be connected to the last point drawn
- *
+<tr><td>*Arcs*<td><td>can be drawn clockwise or counter clockwise and filled
+<tr><td>a(r)(f)DDD (x0 y0) radius
+<tr><td>		<td>r<td>if present, the arc will be drawn reversed (counter clockwise).<br> 
+ 						i.e.: if DDD=NE<br>
+ 						- if r the East end will be connected to the last point drawn<br>
+ 						- else the North end will be attached<br>
+<tr><td>		<td>f<td>if present, the arc will be filled		
+<tr><td>		<td>DDD<td>can be n, s, e, w, ne, nw, se, sw, nne, nee, see, sse, ssw, sww, nww, nnw
+<tr><td>		<td>radius<td>radius of the arc
+<tr><td>		<td>x0 y0<td>center of the arc. If ommited the top (or bottom) of the arc will be connected to the last point drawn
+<tr><td>		<td><td>
  *		r	Rectangle	can be rounded and filled
  *			r[r][f] x1 y1 width height [radius]
  *				r		if present, the rectangle will be rounded and radius is required
