@@ -1,6 +1,6 @@
 #summary TouchScreen Arduino library example - User interface
 
-<img src="http://ardurct.googlecode.com/svn/images/UITests.png" align="right">
+<img src="http://ardurct.googlecode.com/svn/images/UITests.png" align="right"><br>
 
 ===Description===
 The library contains some pre configured user interface elements, such as 
@@ -12,9 +12,10 @@ The library contains some pre configured user interface elements, such as
  * Slider: vertical and horizontal
  * Area: to personalize the UI
 <br>
-The UI and each tab od the UI can have callbacks to handle actions or drawings when an event occurs.
-<br>
-For the UI to be responsive, you should call as often as possible the 'touchscreen.handleUI()' function in your loop.
+Rules:<br>
+ * The UI and each tab of the UI can have callbacks to handle actions or drawings when an event occurs.
+ * For the UI to be responsive, you should call as often as possible the 'touchscreen.handleUI()' function in your loop.
+ * You have to add at least one tab, and set it after you have defined the tab elements. 
 ===Code===
 To produce the UITests image above, use the following code.
 {{{
@@ -128,7 +129,9 @@ void drawColor(uint8_t id, int16_t x, int16_t y, uint16_t width, uint16_t height
 }}}
 
 ===Usefull tips===
-To help draw the UI, the coordinates of the UI elements can be expressed relative to other UI elements.
+ * To hide an element, use 'setUIElementTab(id, -1)', to show it, use setUIElementTab(id, tabId).
+ * The look and feel of the user interface can be tweaked in 'TouchScreen_UserInterface.hpp'. 
+ * To help draw the UI, the coordinates of the UI elements can be expressed relative to other UI elements.
 ||UI_AUTO_SIZE||for with and height: will surround the text with UI_ELEMENT_TOP_MARGIN or UI_ELEMENT_LEFT_MARGIN||
 ||UI_SAME_AS + uiElementId||will return the corresponding coordinate value from uiElementId||
 ||UI_LEFT_OF + uiElementId||will return the left coordinate of uiElementId||
