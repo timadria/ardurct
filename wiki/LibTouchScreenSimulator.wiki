@@ -78,7 +78,7 @@ public class Graphics extends Example {
 <u>*UITests*</u><br>
 To produce the UITests image above, use the following code.<br><br>
 <u>Note:</u><br>
-After copying the code to Arduino, you will have to rename the callbacks (that is to say replace the first 'this' by '&uiActionCallback' and the second one by '&uiDrawCallback'), and remove the 'public' and 'static' keywords (alternatively, you can replace 'public static VAR = x' by '#define VAR x').
+Some minor changes will have to be done to this code after copying it to the Arduino IDE. See [LibTouchScreenUserInterface User interface].
 {{{
 public class UITests extends Example {
 
