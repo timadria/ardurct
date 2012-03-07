@@ -8,6 +8,7 @@
   * [RCShieldOptions Configurations]
  * [Libraries Libraries]
   * [LibTouchScreen TouchScreen library]
+   * [LibTouchScreenUserInterface  User interface]
    * [LibTouchScreenCodeDetails  Code details]
    * [LibTouchScreenSimulator  Simulator]
   * [LibLCDPCD8544 LCD_PCD8544 library]
