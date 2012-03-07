@@ -129,8 +129,7 @@ void drawColor(uint8_t id, int16_t x, int16_t y, uint16_t width, uint16_t height
 
 ===Usefull tips===
  * To hide an element, use 'setUIElementTab(id, -1)', to show it, use setUIElementTab(id, tabId).
- * The look and feel of the user interface can be tweaked in 
-<a href="http://code.google.com/p/ardurct/source/browse/trunk/arduino/libraries/TouchScreen/TouchScreen_UserInterface.hpp">TouchScreen_UserInterface.hpp</a>. 
+ * The look and feel of the user interface can be tweaked in <a href="http://code.google.com/p/ardurct/source/browse/trunk/arduino/libraries/TouchScreen/TouchScreen_UserInterface.hpp">TouchScreen_UserInterface.hpp</a>. 
  * To help draw the UI, the coordinates of the UI elements can be expressed relative to other UI elements.
 ||UI_AUTO_SIZE||for with and height: will surround the text with UI_ELEMENT_TOP_MARGIN or UI_ELEMENT_LEFT_MARGIN||
 ||UI_SAME_AS + uiElementId||will return the corresponding coordinate value from uiElementId||
