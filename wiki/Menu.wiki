@@ -8,7 +8,7 @@
   * [RCShieldOptions Configurations]
  * [Libraries Libraries]
   * [LibTouchScreen TouchScreen library]
-   * [LibTouchScreenMarcos  Macros]
+   * [LibTouchScreenMacros  Macros]
    * [LibTouchScreenUserInterface  User interface]
    * [LibTouchScreenCodeDetails  Code details]
    * [LibTouchScreenSimulator  Simulator]
