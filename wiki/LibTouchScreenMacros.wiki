@@ -49,7 +49,7 @@ public void setup() {
     // draw in size 1 black
     touchscreen.executeMacro("pf 1 pc 0 e 1", 10, 160, 1, 1, true);
     // draw in size 2 bold gray
-    touchscreen.executeMacro("pfb 2 pc " + Integer.toHexString(GREY) + " e 1", 10, 180, 1, 1, true);
+    touchscreen.executeMacro("pfb 2 pc 9CD3 e 1", 10, 180, 1, 1, true);
 
     delay(5000);
 }
