@@ -20,7 +20,7 @@ The library contains a macro language to draw or affect graphics such as:
  * Chaining: If the number of parameters is not sufficient to finish the command, the last point reached by the previous macro command is used.
  * Numbers: Colors are in hexadecimal, all other numbers are in decimal
 ===Examples===
-Draw a filled circle {{{ cf 20 20 10 }}}
+||{{{ cf 20 20 10 }}}||Draw a filled circle of radius 10 at 20, 20 on the screen||
 ===Code===
 To produce the MacroTests images above, use the following code.
 {{{
