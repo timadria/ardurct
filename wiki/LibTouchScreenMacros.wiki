@@ -30,7 +30,7 @@ l 10 10 10 20
 // draw a line starting at 10,10 and finishing at 20,10
 ld 10 10 10 0
 
-// draw an arc in the NEE octant of radius 10 with the bottom starting at the last point drawn.
+// draw a NEE arc of radius 10 with the bottom starting at the last point drawn.
 arnee 10
 }}}
 ===Code===
