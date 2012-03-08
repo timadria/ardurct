@@ -34,7 +34,7 @@ Content of <a href="http://code.google.com/p/ardurct/source/browse/trunk/hardwar
 #define NUM_DIGITAL_PINS            32
 #define NUM_ANALOG_INPUTS           8
 #define analogInputToDigitalPin(p)  ((p < 8) ? (p) + 24 : -1)
-#define digitalPinHasPWM(p)         ((p) == 5 || (p) == 6 || (p) == 9 || (p) == 10 || (p) == 11 || (p) == 17 || (p) == 18)
+#define digitalPinHasPWM(p)         ((p) == 5 || (p) == 6 || (p) == 9 || (p) == 10 || (p) == 17 || (p) == 18)
 
 const static uint8_t SS   = 18;
 const static uint8_t MOSI = 11;
