@@ -20,3 +20,5 @@
  * *Appendix*
   * [PinMapping Pins mapping]
   * [MaxFrequencies Max. frequencies]
+ * *Projects*
+  * [MP3Player MP3 Player]
