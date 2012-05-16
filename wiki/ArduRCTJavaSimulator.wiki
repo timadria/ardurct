@@ -31,8 +31,9 @@ As of now, the Simulator can simulate:
 ===Usage===
  # Duplicate one of the files under the examples folder, such as Graphics,
  # Modify it to suit your needs,
- # Run the 'TouchscreenSimulator' application, and choose from the examples menu your test.
- # Copy the content of setup and loop into your Arduino code.
+ # Run the 'TouchscreenSimulator' application, and choose from the examples menu your Application.
+ # Copy the content of the file into your code and remove the 'public' word. 
+ # Adjust the indentation, compile and run on the hardware.
 
 ===Examples===
 <u>*Graphics*</u><br>
