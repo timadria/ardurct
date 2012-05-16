@@ -8,8 +8,8 @@
    * [RCShieldAssembly Assembly]
    * [RCShieldOptions Configurations]
  * *Software*
-  * [ArduRCTLocal ArduRCTLocal]
-  * [ArduRCTRemote ArduRCTRemote]
+  * [ArduRCTLocal Local]
+  * [ArduRCTRemote Remote]
   * [Libraries Libraries]
    * [LibTouchScreen TouchScreen library]
     * [LibTouchScreenGraphics  Graphics]
