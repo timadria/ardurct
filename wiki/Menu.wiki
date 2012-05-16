@@ -16,11 +16,11 @@
     * [LibTouchScreenMacros  Macros]
     * [LibTouchScreenUserInterface  User interface]
     * [LibTouchScreenCodeDetails  Code details]
-    * [LibTouchScreenSimulator  Simulator]
    * [LibLCDPCD8544 LCD_PCD8544 library]
     * [LibLCDPCD8544Simulator  Simulator]
    * [LibHMC6352 HMC6352 library]
    * [LibPrintf Printf library]
+   * [LibTouchScreenSimulator  Simulator]
  * *Appendix*
   * [PinMapping Pins mapping]
   * [MaxFrequencies Max. frequencies]
