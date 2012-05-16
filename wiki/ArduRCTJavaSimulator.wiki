@@ -1,27 +1,37 @@
-#summary Java simulator for the TouchScreen Arduino library
+#summary Java simulator for ArduRCT
 
 <img src="http://ardurct.googlecode.com/svn/images/Graphics.png"><img src="http://ardurct.googlecode.com/svn/images/UITests.png" align="right">
 
 [http://code.google.com/p/ardurct/downloads/list http://www.gstatic.com/codesite/ph/images/dl_arrow.gif] [http://code.google.com/p/ardurct/downloads/list Download]
 
-===Content===
-This archive contains the Eclipse source for a simulator of the TouchScreen. This facilitates the development of screen layouts for the display.<br>
-
+===Overview===
 The idea is to write code in java as if it was code for Arduino and then copy and paste the code in Arduino and obtain the same result on the hardware. 
 That is to say: fill in a setup and a loop function.<br>
+Because the objective is ultimately to write Arduino code, the Java code is not written as good Java code should be written!
 
+===Content===
+This archive contains the Eclipse source for various simulators of ArduRCT components:
+ * ArduRCTSimulator running the complete application: local and remote
+ * ArduRCSimulator running ArduRCT_Local code
+ * RemotuinoSimulator running ArduRCT_Remote code
+ * TouchscreenSimulator running the TouchScreen library examples code
+
+===Functionalities===
 As of now, the Simulator can simulate:
  * HardwareSerial
+ * XBeeRadio
+ * GPS
  * SD
  * EEPROM
  * TouchScreen
   * Screen
   * Touch panel
+ * Servo
 
 ===Usage===
  # Duplicate one of the files under the examples folder, such as Graphics,
  # Modify it to suit your needs,
- # Run the 'Simulator' application, and choose from the examples menu your test.
+ # Run the 'TouchscreenSimulator' application, and choose from the examples menu your test.
  # Copy the content of setup and loop into your Arduino code.
 
 ===Examples===
@@ -78,7 +88,8 @@ public class Graphics extends Example {
 <u>*UITests*</u><br>
 To produce the UITests image above, use the following code.<br><br>
 <u>Note:</u><br>
-Some minor changes will have to be done to this code after copying it to the Arduino IDE. See [LibTouchScreenUserInterface User interface].
+Some minor changes will have to be done to this code after copying it to the Arduino IDE, as Java and Arduino handle pointers differently. 
+See [LibTouchScreenUserInterface User interface].
 {{{
 public class UITests extends Example {
 
@@ -115,42 +126,42 @@ public class UITests extends Example {
         touchscreen.setBacklight(180);
         
         touchscreen.setupUI(0, 0, touchscreen.getWidth(), touchscreen.getHeight());
-        listTab = touchscreen.addUITab(stringToArray("List"));
-        testsTab = touchscreen.addUITab(stringToArray("Tests"), doTestsAction);
-        colorsTab = touchscreen.addUITab(stringToArray("Colors"), setColor, drawColor);
+        listTab = touchscreen.addUITab("List");
+        testsTab = touchscreen.addUITab("Tests", doTestsAction);
+        colorsTab = touchscreen.addUITab("Colors", setColor, drawColor);
         
-        touchscreen.addUILabel(testsTab, LABEL_B_ID, 5, 5, UI_AUTO_SIZE, UI_AUTO_SIZE, stringToArray("Button"));
+        touchscreen.addUILabel(testsTab, LABEL_B_ID, 5, 5, UI_AUTO_SIZE, UI_AUTO_SIZE, "Button");
         touchscreen.addUIButton(testsTab, TEST_ID, UI_RIGHT_OF_WITH_MARGIN + LABEL_B_ID, 5, UI_AUTO_SIZE, UI_AUTO_SIZE, 
-                stringToArray("Test"));
-        touchscreen.addUILabel(testsTab, LABEL_O_ID, 5, 35, UI_AUTO_SIZE, UI_AUTO_SIZE, stringToArray("Option"));
+                "Test");
+        touchscreen.addUILabel(testsTab, LABEL_O_ID, 5, 35, UI_AUTO_SIZE, UI_AUTO_SIZE, "Option");
         touchscreen.addUIPushButton(testsTab, PUSH_1_ID, GROUP_1, UI_RIGHT_OF_WITH_MARGIN + LABEL_O_ID, 35, 
-                UI_AUTO_SIZE, UI_AUTO_SIZE, stringToArray("30"), UI_SELECTED);
+                UI_AUTO_SIZE, UI_AUTO_SIZE, "30", UI_SELECTED);
         touchscreen.addUIPushButton(testsTab, PUSH_2_ID, GROUP_1, UI_RIGHT_OF + PUSH_1_ID, UI_SAME_AS + PUSH_1_ID, 
-                UI_SAME_AS + PUSH_1_ID, UI_SAME_AS + PUSH_1_ID, stringToArray("60"), UI_UNSELECTED);
+                UI_SAME_AS + PUSH_1_ID, UI_SAME_AS + PUSH_1_ID, "60", UI_UNSELECTED);
         touchscreen.addUIPushButton(testsTab, PUSH_3_ID, GROUP_1, UI_RIGHT_OF + PUSH_2_ID, UI_SAME_AS + PUSH_1_ID, 
-                UI_SAME_AS + PUSH_1_ID, UI_SAME_AS + PUSH_1_ID, stringToArray("90"), UI_UNSELECTED);
-        touchscreen.addUILabel(testsTab, LABEL_1_ID, 5, 65, UI_AUTO_SIZE, UI_AUTO_SIZE, stringToArray("Push button"));
+                UI_SAME_AS + PUSH_1_ID, UI_SAME_AS + PUSH_1_ID, "90", UI_UNSELECTED);
+        touchscreen.addUILabel(testsTab, LABEL_1_ID, 5, 65, UI_AUTO_SIZE, UI_AUTO_SIZE, "Push button");
         touchscreen.addUIPushButton(testsTab, T1_ID, UI_NO_GROUP, UI_RIGHT_OF_WITH_MARGIN + LABEL_1_ID, 
-                UI_SAME_AS + LABEL_1_ID, UI_AUTO_SIZE, UI_AUTO_SIZE, stringToArray("T1"), UI_SELECTED);
+                UI_SAME_AS + LABEL_1_ID, UI_AUTO_SIZE, UI_AUTO_SIZE, "T1", UI_SELECTED);
         touchscreen.addUIPushButton(testsTab, T2_ID, UI_NO_GROUP, UI_RIGHT_OF_WITH_MARGIN + T1_ID, UI_SAME_AS + T1_ID, 
-                UI_SAME_AS + T1_ID, UI_SAME_AS + T1_ID, stringToArray("T2"), UI_UNSELECTED);
-        touchscreen.addUILabel(testsTab, LABEL_2_ID, 5, 95, UI_AUTO_SIZE, UI_AUTO_SIZE, stringToArray("Gauge"));
+                UI_SAME_AS + T1_ID, UI_SAME_AS + T1_ID, "T2", UI_UNSELECTED);
+        touchscreen.addUILabel(testsTab, LABEL_2_ID, 5, 95, UI_AUTO_SIZE, UI_AUTO_SIZE, "Gauge");
         touchscreen.addUIGauge(testsTab, GAUGE_1_ID, UI_RIGHT_OF_WITH_MARGIN + LABEL_2_ID, UI_SAME_AS + LABEL_2_ID, 
                 150, UI_SAME_AS + LABEL_2_ID, 40, 0, 100);
-        touchscreen.addUILabel(testsTab, LABEL_3_ID, 5, 125, UI_AUTO_SIZE, UI_AUTO_SIZE, stringToArray("Slider"));
+        touchscreen.addUILabel(testsTab, LABEL_3_ID, 5, 125, UI_AUTO_SIZE, UI_AUTO_SIZE, "Slider");
         touchscreen.addUISlider(testsTab, SLIDER_1_ID, UI_RIGHT_OF_WITH_MARGIN + LABEL_3_ID, UI_SAME_AS + LABEL_3_ID, 
                 150, UI_SAME_AS + LABEL_3_ID, 40, 0, 100);
         touchscreen.addUISlider(testsTab, SLIDER_2_ID, 15, 150, 20, 120, 2, 0, 10);
         touchscreen.addUIGauge(testsTab, GAUGE_2_ID, 60, 150, 20, 120, 2, 0, 10);
         touchscreen.setUITab(testsTab);
         
-        touchscreen.addUILabel(colorsTab, LABEL_R_ID, 5, 15, UI_AUTO_SIZE, UI_AUTO_SIZE, stringToArray("R"));
+        touchscreen.addUILabel(colorsTab, LABEL_R_ID, 5, 15, UI_AUTO_SIZE, UI_AUTO_SIZE, "R");
         touchscreen.addUISlider(colorsTab, SLIDER_R_ID, UI_RIGHT_OF_WITH_MARGIN + LABEL_R_ID, 15, 180, 
                 UI_SAME_AS + LABEL_R_ID, 0x15, 0, 0x1F);
-        touchscreen.addUILabel(colorsTab, 0, 5, 45, UI_AUTO_SIZE, UI_AUTO_SIZE, stringToArray("G"));
+        touchscreen.addUILabel(colorsTab, 0, 5, 45, UI_AUTO_SIZE, UI_AUTO_SIZE, "G");
         touchscreen.addUISlider(colorsTab, SLIDER_G_ID, UI_RIGHT_OF_WITH_MARGIN + LABEL_R_ID, 45, 180, 
                 UI_SAME_AS + LABEL_R_ID, 0x1E, 0, 0x3F);
-        touchscreen.addUILabel(colorsTab, 0, 5, 75, UI_AUTO_SIZE, UI_AUTO_SIZE, stringToArray("B"));
+        touchscreen.addUILabel(colorsTab, 0, 5, 75, UI_AUTO_SIZE, UI_AUTO_SIZE, "B");
         touchscreen.addUISlider(colorsTab, SLIDER_B_ID, UI_RIGHT_OF_WITH_MARGIN + LABEL_R_ID, 75, 180, 
                 UI_SAME_AS + LABEL_R_ID, 0xD, 0, 0x1F);
         touchscreen.addUIArea(colorsTab, AREA_COLOR_ID, 50, 130, 140, 140);

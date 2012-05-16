@@ -20,7 +20,7 @@
     * [LibLCDPCD8544Simulator  Simulator]
    * [LibHMC6352 HMC6352 library]
    * [LibPrintf Printf library]
-  * [LibTouchScreenSimulator  Simulator]
+  * [ArduRCTJavaSimulator  Simulator]
  * *Appendix*
   * [PinMapping Pins mapping]
   * [MaxFrequencies Max. frequencies]
