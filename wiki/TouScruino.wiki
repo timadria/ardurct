@@ -24,17 +24,17 @@ All versions can be used, they have been made as PCB and some libraries exist to
 Content: ATMEGA1284, PCD8544 as screen, 4 buttons for interaction.<br>
 Status: finished<br>
 Although usefull for simple interaction, the screen is too limited to be used for ArduRCT.
-<br>
+<br><br>
 <u>v1</u><br>
 Content: ATMEGA1284, JD-T1800 as screen, 4 buttons for interaction.<br>
-Status: work in progress<br>
-<br>
-<u>[TouScruinoV2 v2]</u><br>
+Status: work in progress.
+<br><br>
+<u>*[TouScruinoV2 v2]*</u><br>
 Content: ATMEGA1284, PJ28004 as touchscreen.<br>
 Status: cancelled<br>
 A bit of a deception really: the lack of a specialised chip to interact with the panel makes the all experience a bit buggy...<br>
 Because in the mean time, Arduino can use more powerful arm devices, V3 has been started.
-<br>
+<br><br>
 <u>v3</u><br>
 Content: ATSAM3S4C, PJ28004 as touchscreen, AR1021 as eeprom and TSC.<br>
 Status: project
