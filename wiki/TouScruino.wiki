@@ -2,31 +2,40 @@
 
 == Introduction ==
 
-TouScruino is a contraction for Tou(ch panel) Scr(een) (Ard)uino.<br>
-It is a versatile Arduino compatible board: it copies the connector positions of the Arduino Uno (Rev. 3) and offers almost the same functions at the same pin positions (D3 is not a PWM anymore, it became TX1). See [PinMapping pins mapping] for details.
-
-<a href="http://ardurct.googlecode.com/svn/images/TouScruinoT.jpg">
-<img src="http://ardurct.googlecode.com/svn/images/TouScruinoT.jpg" width="400"><a><img src="http://ardurct.googlecode.com/svn/images/blank.jpg"><a href="http://ardurct.googlecode.com/svn/images/TouScruinoB.jpg">
-<img src="http://ardurct.googlecode.com/svn/images/TouScruinoB.jpg" width="340"><a>
+TouScruino is a contraction for Tou(ch) Scr(een) (Ard)uino.<br>
+It is a versatile Arduino compatible board: it copies the connector positions of the Arduino Uno (Rev. 3) and offers 
+almost the same functions at the same pin positions (D3 is not a PWM anymore, it became TX1). 
+See [PinMapping pins mapping] for details.
 
 == Features ==
 
- * 240x320 2.8'' TFT screen capable of displaying 262k colors. With controlable backlight.
- * Touch panel on the whole surface of the screen.
  * Can be used as a standalone Arduino compatible board, capable of accepting shields (they are "under shields" though :)). 
- * Single cell LiPo charger and connector to allow battery operation, and a ULDO regulator to generate 3.3V from the LiPo battery. The charge is done through a mini USB connector.
- * Arduino compatible bootloader with FTDI compatible connector to upgrade the firmware. This requires an FTDI cable or an off board. If the TouScruino is plugged into a [RCShield], it can be recharged and firmware upgraded through the USB plug of the RCShield.
- * Uses an Atmega1284P, which has:
-  * 12 more pins than the Atmega328. The TFT screen and the touch panels can be controlled by the processor without having to use the pins used by Arduino shields (D11, D12 and D13 have to be used for SPI though).
-  * an additional serial port: Serial1 (RX1=D2, TX1=D3). An XBee can be connected at the same time as a USB bridge.
-  * 128K of usable flash memory, 4K of EEPROM and 16K of RAM.
+ * Has a single cell LiPo charger and connector to allow battery operation, and a ULDO regulator to generate 3.3V from the LiPo battery. The charge is done through a mini USB connector.
+ * Contains a screen and some input to interact with it: either a joystick, some buttons, or a touchpanel.
 
-By default, TouScruino contains a firmware which will draw the commands passed through the Serial pins (RX=D0 and TX=D1) or the I2C pins (SCL=D19 and SDA=D20) on the screen, and returns upon request the position of the touch on the touchpanel.
+By default, TouScruino contains a firmware which will draw the commands passed through the Serial pins (RX=D0 and TX=D1) or the I2C pins (SCL=D19 and SDA=D20) on the screen, 
+and returns upon request the state of the inputs.
 <br><br>
-== Schematics==
-For more details, see Eagle files: [http://ardurct.googlecode.com/svn/trunk/eagle/TouScrino-v2.sch schematics] and [http://ardurct.googlecode.com/svn/trunk/eagle/TouScrino-v2.brd board].<br><br>
-<a href="http://ardurct.googlecode.com/svn/images/TouScruino-v2.pdf">
-http://ardurct.googlecode.com/svn/images/TouScruino-sch-p1.png<br>
-http://ardurct.googlecode.com/svn/images/TouScruino-sch-p2.png
-<a>
+== Versions ==
+<img src="http://ardurct.googlecode.com/svn/images/TouScruino-versions.png" width="400">
+All versions can be used, they have been made as PCB and some libraries exist to interact with them.<br>
+<u>v0</u>
+Content: ATMEGA1284, PCD8544 as screen, 4 buttons for interaction.<br>
+Status: finished<br>
+Although usefull for simple interaction, the screen is too limited to be used for ArduRCT.
 <br><br>
+
+<u>v1</u>
+Content: ATMEGA1284, JD-T1800 as screen, 4 buttons for interaction.<br>
+Status: work in progress<br>
+<br><br>
+
+<u>[TouScruino-v2 v2]</u>
+Content: ATMEGA1284, PJ28004 as touchscreen.<br>
+Status: cancelled<br>
+A bit of a deception really: the lack of a specialised chip to interact with the panel makes the all experience a bit buggy...<br>
+Because in the mean time, Arduino can use more powerful arm devices, V3 has been started.
+<br><br>
+<u>v3</u>
+Content: ATSAM3S4C, PJ28004 as touchscreen, AR1021 as eeprom and TSC.<br>
+Status: project
