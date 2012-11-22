@@ -17,7 +17,7 @@ By default, TouScruino contains a firmware which will draw the commands passed t
 and returns upon request the state of the inputs.
 <br><br>
 == Versions ==
-<img src="http://ardurct.googlecode.com/svn/images/TouScruino-versions.png" width="400">
+<img src="http://ardurct.googlecode.com/svn/images/TouScruino-versions.png">
 All versions can be used, they have been made as PCB and some libraries exist to interact with them.<br>
 <u>v0</u>
 Content: ATMEGA1284, PCD8544 as screen, 4 buttons for interaction.<br>
