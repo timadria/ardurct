@@ -3,7 +3,7 @@
 
 = Arduino libraries =
 
-ArduRCT uses a number of libraries. They have been developped to be as generic as possible. Each one provides a number of examples to better understand the usage of the library.
+ArduRCT uses a number of libraries. They have been developped to be as generic as possible. Each one provides a number of examples to better understand its usage.
 
 <table>
 <tr>

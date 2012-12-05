@@ -1,4 +1,4 @@
-#summary Description of the TouScruino
+#summary Description of the TouScruino v2
 
 == Features ==
 

@@ -3,6 +3,7 @@
  * [BlockDiagram Block diagram]
  * *Hardware*
   * [TouScruino]
+   * [TouScruinoV1 v1]
    * [TouScruinoV2 v2]
   * [Remotuino]
   * [RCShield]

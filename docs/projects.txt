@@ -1,0 +1,13 @@
+MP3 player
+- MP3 shield from Sparkfun
+- LiPo battery for large autonomy
+
+Alarm clock
+- Good precision crystal
+- Buzzer for sound output
+- Screen falsh for pre wake-up
+- Timer function
+- Solar panel to top-up the battery charge ?
+
+Game of Life
+- Initiate patterns with buttons
