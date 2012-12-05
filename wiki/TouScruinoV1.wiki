@@ -7,7 +7,7 @@
   * 12 more pins than the Atmega328. The TFT screen and the touch panels can be controlled by the processor without having to use the pins used by Arduino shields (D11, D12 and D13 have to be used for SPI though).
   * an additional serial port: Serial1 (RX1=D2, TX1=D3). An XBee can be connected at the same time as a USB bridge.
   * 128K of usable flash memory, 4K of EEPROM and 16K of RAM.
-<br><br>
+<br>
 == Schematics==
 For more details, see Eagle files: [http://ardurct.googlecode.com/svn/trunk/eagle/TouScruino-v1.sch schematics] and [http://ardurct.googlecode.com/svn/trunk/eagle/TouScruino-v1.brd board].<br><br>
 <a href="http://ardurct.googlecode.com/svn/images/TouScruino-v1.pdf">http://ardurct.googlecode.com/svn/images/TouScruino-v1-sch.png</a>
