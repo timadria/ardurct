@@ -1,9 +1,7 @@
 #summary Description of the TouScruino v1
-
 == Features ==
-
  * 128x160 1.8'' TFT screen capable of displaying 262k colors. With controlable backlight.
- * 5 ways switch or 4 buttons under the screen
+ * 5 ways switch or 4 buttons at the bottom of the screen
  * Arduino compatible bootloader with FTDI compatible connector to upgrade the firmware. This requires an FTDI cable or an off board. If the TouScruino is plugged into a [RCShield], it can be recharged and firmware upgraded through the USB plug of the RCShield.
  * Uses an Atmega1284P, which has:
   * 12 more pins than the Atmega328. The TFT screen and the touch panels can be controlled by the processor without having to use the pins used by Arduino shields (D11, D12 and D13 have to be used for SPI though).
@@ -12,8 +10,5 @@
 <br><br>
 == Schematics==
 For more details, see Eagle files: [http://ardurct.googlecode.com/svn/trunk/eagle/TouScruino-v1.sch schematics] and [http://ardurct.googlecode.com/svn/trunk/eagle/TouScruino-v1.brd board].<br><br>
-<a href="http://ardurct.googlecode.com/svn/images/TouScruino-v1.pdf">
-http://ardurct.googlecode.com/svn/images/TouScruino-v1-sch-p1.png<br>
-http://ardurct.googlecode.com/svn/images/TouScruino-v1-sch-p2.png
-<a>
+<a href="http://ardurct.googlecode.com/svn/images/TouScruino-v1.pdf">http://ardurct.googlecode.com/svn/images/TouScruino-v1-sch.png</a>
 <br><br>
