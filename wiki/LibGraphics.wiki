@@ -1,0 +1,30 @@
+#summary Details about the ArduRCT_Graphics library
+
+= Arduino library for graphic screens =
+==Content==
+The library is designed to manage small screens such as TouScruino or the <a href="http://www.adafruit.com/products/335">one from adafruit</a>.<br>
+For the moment, it manages screens based on the S6D0H0, and the ST7735. It will soon manage ILI932x based screens.<br>
+Porting the library for other screens or other MCUs is quite simple as the hardware has been completely abstracted: see [LibGraphicsCodeDetails code details]
+==Functionalities ==
+The screen can be rotated by 90 degree increments.
+<table><tr><td>
+<img src="http://ardurct.googlecode.com/svn/images/Graphics.png">  
+<td valign="top"> 
+<u>*Drawing functions:*</u>
+ * Texts: 4 different size, bold and overlay
+ * Lines: variable thickness. 
+ * Triangles: filled or not, with variable thickness.
+ * Rectangles: filled or not, with variable thickness.
+ * Rounded rectangles: filled or not, with variable thickness.
+ * Arcs: filled or not, with variable thickness.
+ * Circles: filled or not, with variable thickness.
+ * Bitmaps
+ * Patterns: scaled or not
+ * Big digits: any size in width and height
+<br>See [LibGraphicsGraphics Graphics] for details.
+<tr><td>
+<img src="http://ardurct.googlecode.com/svn/images/MacroTests.png">
+<td valign="top">
+<u>*Macros functions:*</u><br>
+Possibility to draw any of the above drawing through simple commands. <br>See [LibGraphicsMacros Macros] for details.
+<br><br>
