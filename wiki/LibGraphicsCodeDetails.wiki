@@ -5,18 +5,20 @@
 The library is organized into layers.<br><br>
 <img src="http://ardurct.googlecode.com/svn/images/ArduRCT_Graphics.png"><br>
  * The Physical layer defines the implementation of the basic drawing functions at the hardware level:
-  * void initScreenImpl();
-  * void fillAreaImpl(uint16_t lx, uint16_t ly, uint16_t hx, uint16_t hy, uint16_t color);
-  * uint16_t *retrieveBitmapImpl(uint16_t *bitmap, uint16_t x, uint16_t y, uint16_t width, uint16_t height);
-  * void pasteBitmapImpl(uint16_t *bitmap, uint16_t x, uint16_t y, uint16_t width, uint16_t height);
-  * void setRotationImpl(uint8_t rotation);
-  * void drawPixelImpl(uint16_t x, uint16_t y, uint16_t color);
-  * void selectScreenImpl();
-  * void unselectScreenImpl();		
- * Several implementation of the physical layer exist, you only have to use one:
+{{{
+void initScreenImpl();
+void fillAreaImpl(uint16_t lx, uint16_t ly, uint16_t hx, uint16_t hy, uint16_t color);
+uint16_t *retrieveBitmapImpl(uint16_t *bitmap, uint16_t x, uint16_t y, uint16_t width, uint16_t height);
+void pasteBitmapImpl(uint16_t *bitmap, uint16_t x, uint16_t y, uint16_t width, uint16_t height);
+void setRotationImpl(uint8_t rotation);
+void drawPixelImpl(uint16_t x, uint16_t y, uint16_t color);
+void selectScreenImpl();
+void unselectScreenImpl();
+}}}		
+ Several implementation of the physical layer exist, you only have to use one:
    * ArduRCT_S6D04H0
    * ArduRCT_ST7735
- * The Hardware Abstraction Layer manages the drawing functions such as: circles, lines, patterns, fonts, bitmaps. It is called ArduRCT_Graphics.<br>To make the code more readable:
+ * The Hardware Abstraction Layer manages the drawing functions such as: circles, lines, patterns, fonts, bitmaps. It is called ArduRCT_Graphics. To make the code more readable:
   * the macros functions have been put in ArduRCT_GraphicsMacros.<br>
 <br> 
 == Inheritance ==
