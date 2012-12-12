@@ -3,18 +3,23 @@
 = Arduino library for graphic screens - Code details =
 == Organisation ==
 The library is organized into layers.<br><br>
-<img src="http://ardurct.googlecode.com/svn/images/ArduRCT_Graphics.png" width="500"><br>
- * The Screen Implementation layer defines the implementation of the basic drawing functions at the hardware level, several implementation exist, you only have to use one:
+<img src="http://ardurct.googlecode.com/svn/images/ArduRCT_Graphics.png"><br>
+ * The Physical layer defines the implementation of the basic drawing functions at the hardware level:
+  * void initScreenImpl();
+  * void fillAreaImpl(uint16_t lx, uint16_t ly, uint16_t hx, uint16_t hy, uint16_t color);
+  * uint16_t *retrieveBitmapImpl(uint16_t *bitmap, uint16_t x, uint16_t y, uint16_t width, uint16_t height);
+  * void pasteBitmapImpl(uint16_t *bitmap, uint16_t x, uint16_t y, uint16_t width, uint16_t height);
+  * void setRotationImpl(uint8_t rotation);
+  * void drawPixelImpl(uint16_t x, uint16_t y, uint16_t color);
+  * void selectScreenImpl();
+  * void unselectScreenImpl();		
+ * Several implementation of the physical layer exist, you only have to use one:
    * ArduRCT_S6D04H0
    * ArduRCT_ST7735
- * The Screen Hardware Abstraction Layer manages the low level drawing functions such as: circles, lines, patterns, fonts, bitmaps. It is called ArduRCT_Graphics.<br>To make the code more readable:
+ * The Hardware Abstraction Layer manages the drawing functions such as: circles, lines, patterns, fonts, bitmaps. It is called ArduRCT_Graphics.<br>To make the code more readable:
   * the macros functions have been put in ArduRCT_GraphicsMacros.<br>
- * The Chip Management extends the Physical Layer. <br>For the moment, it can manage the following Chip On Glass devices:
-  * S6D0H0
-  * ILI932x
- * The Physical Layer manages the pins and buses.
 <br> 
 == Inheritance ==
 <a href="http://code.google.com/p/ardurct/source/browse/trunk/arduino/libraries/TouchScreen/ArduRCT_Graphics.cpp">ArduRCT_Graphics</a> (<a href="http://code.google.com/p/ardurct/source/browse/trunk/arduino/libraries/TouchScreen/ArduRCT_GraphicsMacros.cpp">ArduRCT_GraphicsMacros</a>)<br>
-<img src="http://ardurct.googlecode.com/svn/images/blank.jpg" width="15" height="15"><img src="http://ardurct.googlecode.com/svn/images/inherit.gif"><a href="http://code.google.com/p/ardurct/source/browse/trunk/arduino/libraries/TouchScreen/ArduRCT_S6D04H0.cpp">ArduRCT_S6D04H0</a>
+<img src="http://ardurct.googlecode.com/svn/images/blank.jpg" width="15" height="15"><img src="http://ardurct.googlecode.com/svn/images/inherit.gif"><a href="http://code.google.com/p/ardurct/source/browse/trunk/arduino/libraries/TouchScreen/ArduRCT_S6D04H0.cpp">ArduRCT_S6D04H0</a><br>
 <img src="http://ardurct.googlecode.com/svn/images/blank.jpg" width="15" height="15"><img src="http://ardurct.googlecode.com/svn/images/inherit.gif"><a href="http://code.google.com/p/ardurct/source/browse/trunk/arduino/libraries/TouchScreen/ArduRCT_ST7735.cpp">ArduRCT_ST7735</a>
