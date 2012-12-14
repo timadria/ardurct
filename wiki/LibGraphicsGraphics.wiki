@@ -1,6 +1,6 @@
 #summary TouchScreen Arduino library example - Graphics
 
-<img src="http://ardurct.googlecode.com/svn/images/Graphics160x128.png" align="right"><br>
+<img src="http://ardurct.googlecode.com/svn/images/Graphics128x160.png" align="right"><br>
 
 ===Description===
 The library can draw graphics such as: 
