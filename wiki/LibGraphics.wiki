@@ -6,11 +6,13 @@ The library is designed to manage small screens such as TouScruino or the <a hre
 For the moment, it manages screens based on the S6D04H0, and the ST7735. It will soon manage ILI932x based screens.<br>
 Porting the library for other screens or other MCUs is quite simple as the hardware has been completely abstracted: see [LibGraphicsCodeDetails code details]
 ===Pin mapping===
-<u>ST7735<u>
+<u>ST7735</u><br>
 ||Arduino||GND||5V ||8  ||9  ||       ||10    ||MOSI||SCK||    ||3.3V||
 ||LCD    ||GND||VCC||RST||D/C||CARD_CS||TFT_CS||MOSI||SCK||MISO||LITE||
-<br>The library uses hardware SPI to achieve a good refresh speed. At 16MHz, the screen can be painted any color in less than 50ms.
-<br><u>S6D04H0<u>
+
+The library uses hardware SPI to achieve a good refresh speed. At 16MHz, the screen can be painted any color in less than 50ms.
+
+<br><u>S6D04H0</u><br>
 See schematics for [TouScruino]
 
 ===Functionalities===
