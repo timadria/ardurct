@@ -17,6 +17,7 @@
     * [LibGraphicsGraphics  Graphics]
     * [LibGraphicsMacros  Macros]
     * [LibGraphicsCodeDetails  Code details]
+   * [LibEventManager ArduRCT_EventManager]
    * [LibLCDPCD8544 LCD_PCD8544]
     * [LibLCDPCD8544Simulator  Simulator]
    * [LibHMC6352 HMC6352]
