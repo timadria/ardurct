@@ -12,6 +12,7 @@ The library can draw graphics such as:
  * Circles: filled or not, with variable thickness.
  * Bitmaps
  * Patterns: scaled or not
+ * Big digits: width, height, thickness and style can be controlled
 It can also rotate the screen.<br>
 After rotation, all subsequent drawings will be done rotated.<br>
 But the existing drawing will not be rotated.
@@ -21,7 +22,7 @@ To produce the Graphics image above, use the following code.
 #include <SPI.h>
 #include <ArduRCT_ST7735.h>
 
-ArduRCT_ST7735 graphics(10, 9 , 8);							// graphics(CD, CS, RESET)
+ArduRCT_ST7735 graphics(10, 9 , 8);    // graphics(CD, CS, RESET)
 
 uint16_t wait = 3000;
 

@@ -1,11 +1,18 @@
 #summary Details about the ArduRCT_Graphics library
 
 = Arduino library for graphic screens =
-==Content==
+===Content===
 The library is designed to manage small screens such as TouScruino or the <a href="http://www.adafruit.com/products/335">one from adafruit</a>.<br>
-For the moment, it manages screens based on the S6D0H0, and the ST7735. It will soon manage ILI932x based screens.<br>
+For the moment, it manages screens based on the S6D04H0, and the ST7735. It will soon manage ILI932x based screens.<br>
 Porting the library for other screens or other MCUs is quite simple as the hardware has been completely abstracted: see [LibGraphicsCodeDetails code details]
-==Functionalities ==
+===Pin mapping===
+<u>ST7735</u>
+||*Arduino*||GND||5V ||8  ||9  ||       ||10    ||MOSI||SCK||    ||3.3V||
+||*LCD*    ||GND||VCC||RST||D/C||CARD_CS||TFT_CS||MOSI||SCK||MISO||LITE||
+The library uses hardware SPI to achieve a good refresh speed. At 16MHz, the screen can be painted any color in less than 50ms.
+<br><u>S6D04H0</u>
+See schematics for [TouScruino]
+===Functionalities===
 The screen can be rotated by 90 degree increments.
 <table><tr><td>
 <img src="http://ardurct.googlecode.com/svn/images/Graphics.png">  
