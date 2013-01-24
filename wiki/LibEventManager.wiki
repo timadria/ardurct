@@ -67,10 +67,10 @@ void loop() {
 
 int8_t handleButtons(uint8_t eventType, uint8_t buttonId) {
     if (eventType == EVENT_SWITCH_PRESSED) {
-        if (buttonId == 4) digitalWrite(13, LOW);
-        else digitalWrite(13, HIGH);
+        if (buttonId == 4) digitalWrite(13, HIGH);  // if the off switch is pressed, switch off the led
+        else digitalWrite(13, LOW);                 // else if any other switch is pressed, switch it on
     } else if (eventType == EVENT_SWITCH_RELEASED) {
-        if (buttonId == 5) digitalWrite(13, LOW);
+        if (buttonId == 5) digitalWrite(13, HIGH);  // switch off the led if the button is released
     }
     return EVENT_HANDLING_DONE;
 }
