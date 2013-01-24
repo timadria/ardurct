@@ -55,8 +55,8 @@ ArduRCT_EventHandler buttonsHandler(EVENT_SWITCH, EVENT_ANY_VALUE, &handleButton
 void setup() {
     // register the switches
     eventManager.registerSwitch(&on);
-    eventManager.registerEventHandler(&off);
-    eventManager.registerEventHandler(&momentary);
+    eventManager.registerSwitch(&off);
+    eventManager.registerSwitch(&momentary);
     // register an EventHandler for the switches
     eventManager.registerEventHandler(&buttonsHandler);
 }
