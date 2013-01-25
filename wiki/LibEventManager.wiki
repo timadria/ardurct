@@ -32,10 +32,22 @@ The callback can be called by:
  * A class of event such as EVENT_SYSTEM, EVENT_TIME, EVENT_SWITCH, EVENT_ENCODER, EVENT_TOUCHPANEL, EVENT_ANALOG
  * An event and an event value
 
-The EVENT_SYSTEM_TICK handler is slighly apart: it can be called every N tick. The tick counter is 8 bit long. 
- * {{{ArduRCT_EventHandler everyTickHandler(EVENT_SYSTEM_TICK, 1, &function)}}} will call function every tick
- * ArduRCT_EventHandler everyFourTickHandler(EVENT_SYSTEM_TICK, 4, &function) will call function every 4 ticks
- * ArduRCT_EventHandler everySixtyFourTickHandler(EVENT_SYSTEM_TICK, 64, &function) will call function every 64 ticks
+The EVENT_SYSTEM_TICK handler is slighly apart: it can call a function every N tick.
+Beware that since the tick counter is 8 bit long, you should use powers of two. 
+{{{
+ArduRCT_EventHandler everyTickHandler(EVENT_SYSTEM_TICK, 1, &function1);            // will call function1 every tick
+ArduRCT_EventHandler everyFourTickHandler(EVENT_SYSTEM_TICK, 4, &function4);        // will call function4 every 4 ticks
+ArduRCT_EventHandler everySixtyFourTickHandler(EVENT_SYSTEM_TICK, 64, &function64); // will call function64 every 64 ticks
+}}}
+
+== Configuration ==
+The time between two polls of the sources can be adjusted in ArduRCT_Events.hpp:
+{{{
+#define EVENT_MANAGER_CYCLE 25
+}}}
+The lower the value, the better the reactivity to events; but the less time each callback has to perform its task.
+If a callback hangs or takes very long to perform, the next loop can be delayed. So you can't rely on ticks to properly mark timing.
+A good balance is a value between 20 (better for rotary encoders) and 50 (ok for all other sources). 
 
 == Example ==
 {{{
