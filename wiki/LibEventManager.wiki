@@ -33,9 +33,9 @@ The callback can be called by:
  * An event and an event value
 
 The EVENT_SYSTEM_TICK handler is slighly apart: it can be called every N tick. The tick counter is 8 bit long. 
- * ArduRCT_EventHandler everyTick(EVENT_SYSTEM_TICK, 1, &function) will call function every tick
- * ArduRCT_EventHandler everyTick(EVENT_SYSTEM_TICK, 4, &function) will call function every 4 ticks
- * ArduRCT_EventHandler everyTick(EVENT_SYSTEM_TICK, 64, &function) will call function every 64 ticks
+ * {{{ArduRCT_EventHandler everyTickHandler(EVENT_SYSTEM_TICK, 1, &function)}}} will call function every tick
+ * ArduRCT_EventHandler everyFourTickHandler(EVENT_SYSTEM_TICK, 4, &function) will call function every 4 ticks
+ * ArduRCT_EventHandler everySixtyFourTickHandler(EVENT_SYSTEM_TICK, 64, &function) will call function every 64 ticks
 
 == Example ==
 {{{
