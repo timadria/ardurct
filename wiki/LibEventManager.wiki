@@ -6,8 +6,6 @@
 == Principle ==
 At the begining of your file
  * Define the EventManager
- * Define listener objects for the EventManager: they will be polled on a regular basis
- * Define handler objects for the collected events: they will be called if a corresponding event is found.
 In the setup()
  * Register the listeners
  * Register the handlers
@@ -20,24 +18,26 @@ In the loop()
 {{{
 #include <ArduRCT_EventManager.h>
 
+#define ON_BUTTON        3
+#define OFF_BUTTON       4
+#define MOMENTARY_BUTTON 5
+
+#define LED_PIN 13
+
 // define the eventManager
 ArduRCT_EventManager eventManager;
 
-// define some switches
-ArduRCT_Switch on(3); 
-ArduRCT_Switch off(4); 
-ArduRCT_Switch momentary(5); 
-
-// call handleButtons if an event happen on any switch
-ArduRCT_EventHandler buttonsHandler(EVENT_SWITCH, EVENT_ANY_VALUE, &handleButtons); 
-
 void setup() {
-    // register the switches
-    eventManager.registerSwitch(&on);
-    eventManager.registerSwitch(&off);
-    eventManager.registerSwitch(&momentary);
-    // register an EventHandler for the switches
-    eventManager.registerEventHandler(&buttonsHandler);
+    // prepare the led output
+    pinMode(LED_PIN, OUTPUT);
+
+    // register some switches
+    eventManager.registerSwitch(new ArduRCT_Switch(ON_BUTTON));
+    eventManager.registerSwitch(new ArduRCT_Switch(OFF_BUTTON));
+    eventManager.registerSwitch(new ArduRCT_Switch(MOMENTARY_BUTTON));
+    
+    // register an EventHandler for the switches: handleButtons will be called for every EVENT_SWITCH
+    eventManager.registerEventHandler(new ArduRCT_EventHandler(EVENT_SWITCH, EVENT_ANY_VALUE, &handleButtons));
 }
 
 void loop() {
@@ -46,14 +46,13 @@ void loop() {
 
 int8_t handleButtons(uint8_t eventType, uint8_t buttonId) {
     if (eventType == EVENT_SWITCH_PRESSED) {
-        if (buttonId == 4) digitalWrite(13, HIGH);  // if the off switch is pressed, switch off the led
-        else digitalWrite(13, LOW);                 // else if any other switch is pressed, switch it on
+        if (buttonId == OFF_BUTTON) digitalWrite(13, LOW);            // if the off switch is pressed, switch off the led
+        else digitalWrite(LED_PIN, HIGH);                             // else if any other switch is pressed, switch it on
     } else if (eventType == EVENT_SWITCH_RELEASED) {
-        if (buttonId == 5) digitalWrite(13, HIGH);  // switch off the led if the button is released
+        if (buttonId == MOMENTARY_BUTTON) digitalWrite(LED_PIN, LOW); // switch off the led if the button is released
     }
     return EVENT_HANDLING_DONE;
 }
-
 }}}
 
 == Listeners ==
