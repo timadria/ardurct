@@ -32,8 +32,14 @@ Status: work in progress.
 <u>*[TouScruinoV2 v2]*</u><br>
 Content: ATMEGA1284, PJ28004 as touchscreen.<br>
 Status: cancelled<br>
-A bit of a deception really: the lack of a specialised chip to interact with the panel makes the all experience a bit buggy...<br>
+A bit of a deception really: 
+ * The toggling of the RD and WR pins is really slow (need 700ms to fill the screen at 16Mhz)
+ * the sharing of the bus to interact with the panel makes the whole experience a bit buggy...
 Because in the mean time, Arduino can use more powerful arm devices, V3 has been started.
+<br><br>
+<u>*[TouScruinoV21 v2.1]*</u><br>
+Content: ATMEGA2561, PJ28004 as touchscreen.<br>
+Status: work in progress<br>
 <br><br>
 <u>*v3*</u><br>
 Content: ATSAM3S4C, PJ28004 as touchscreen, AR1021 as eeprom and TSC.<br>
