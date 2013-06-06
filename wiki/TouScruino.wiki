@@ -5,42 +5,32 @@
 TouScruino is a contraction for Tou(ch) Scr(een) (Ard)uino.<br>
 It is a versatile Arduino compatible board: it copies the connector positions of the Arduino Uno (Rev. 3) and offers 
 almost the same functions at the same pin positions (D3 is not a PWM anymore, it became TX1). 
-See [PinMapping pins mapping] for details.
+See [PinMapping pins mapping] for details for TouScruino-avr.
 
 == Features ==
 
  * Can be used as a standalone Arduino compatible board, capable of accepting shields (they are "under shields" though :)). 
- * Has a single cell LiPo charger and connector to allow battery operation, and a ULDO regulator to generate 3.3V from the LiPo battery. The charge is done through a mini USB connector.
+ * Has a single cell LiPo charger and connector to allow battery operation, and a ULDO regulator to generate 3.3V from the LiPo battery. The charge is done through a micro USB connector.
  * Contains a screen and some input to interact with it: either a joystick, some buttons, or a touchpanel.
 
-By default, TouScruino contains a firmware which will draw the commands passed through the Serial pins (RX=D0 and TX=D1) or the I2C pins (SCL=D19 and SDA=D20) on the screen, 
+By default, TouScruino contains a firmware which will draw the commands passed through the Serial pins (RX=D0 and TX=D1) on the screen, 
 and returns upon request the state of the inputs.
 <br><br>
 == Versions ==
 <img src="http://ardurct.googlecode.com/svn/images/TouScruino-versions.png"><br><br>
-All versions can be used and some libraries exist to interact with them, version 0, 1 and 2 are completed as PCB.<br>
-
-<u>*v0*</u><br>
-Content: ATMEGA1284, PCD8544 as screen, 4 buttons for interaction.<br>
+At this stage only the avr version is fully functional. The arm version will come at a later date.<br>
+<br>
+An User Interface board should be connected on the TouScruino, using a 20 pins connector at the top of the board (the only one without edge connectors).<br>
+At this stage three different ui boards have been designed. These can, of course, be re-used in any design.<br><br>
+<u>*ui0*</u><br>
+Content: PCD8544 as screen, 4 buttons for interaction.<br>
 Status: finished<br>
 Although usefull for simple interaction, the screen is too limited to be used for ArduRCT.
 <br><br>
-<u>*[TouScruinoV1 v1]*</u><br>
-Content: ATMEGA1284, JD-T1800 as screen, 4 buttons or a 5 ways switch for interaction.<br>
+<u>*ui1*</u><br>
+Content: JD-T1800 as screen, 4 buttons or a 5 ways switch for interaction.<br>
 Status: work in progress.
 <br><br>
-<u>*[TouScruinoV2 v2]*</u><br>
-Content: ATMEGA1284, PJ28004 as touchscreen.<br>
-Status: cancelled<br>
-A bit of a deception really: 
- * The toggling of the RD and WR pins is really slow (need 700ms to fill the screen at 16Mhz)
- * the sharing of the bus to interact with the panel makes the whole experience a bit buggy...
-Because in the mean time, Arduino can use more powerful arm devices, V3 has been started.
-<br><br>
-<u>*[TouScruinoV21 v2.1]*</u><br>
-Content: ATMEGA2561, PJ28004 as touchscreen.<br>
+<u>*ui2*</u><br>
+Content: PJ28004 as touchscreen.<br>
 Status: work in progress<br>
-<br><br>
-<u>*v3*</u><br>
-Content: ATSAM3S4C, PJ28004 as touchscreen, AR1021 as eeprom and TSC.<br>
-Status: project
