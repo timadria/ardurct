@@ -2,11 +2,10 @@
 
 == Overview ==
 
-Remotuino is a contraction for Remot(e) (Ard)uino.
-<a href="http://ardurct.googlecode.com/svn/images/Touscruino-avr-top.png">
-<img src="http://ardurct.googlecode.com/svn/images/Touscruino-avr-top.png" width="380"><a>
-<a href="http://ardurct.googlecode.com/svn/images/Touscruino-avr-bot.png">
-<img src="http://ardurct.googlecode.com/svn/images/Touscruino-avr-bot.png" width="380"><a>
+Remotuino is a contraction for Remot(e) (Ard)uino.<br>
+
+<a href="http://ardurct.googlecode.com/svn/images/TouScruino-avr-top.png"><img src="http://ardurct.googlecode.com/svn/images/TouScruino-avr-top.png" width="380"><a><a href="http://ardurct.googlecode.com/svn/images/TouScruino-avr-bot.png">
+<img src="http://ardurct.googlecode.com/svn/images/TouScruino-avr-bot.png" width="400"><a>
 
 ==Features==
  * AtMega1284P with Arduino bootloader.
@@ -17,7 +16,5 @@ Remotuino is a contraction for Remot(e) (Ard)uino.
 <br>
 == Schematics==
 For more details, see Eagle files: [http://ardurct.googlecode.com/svn/trunk/eagle/TouScruino-avr-v0.sch schematics] and [http://ardurct.googlecode.com/svn/trunk/eagle/TouScruino-avr-v0.brd board].<br><br>
-<a href="http://ardurct.googlecode.com/svn/images/TouScruino-avr-v0.pdf">
-<img src="http://ardurct.googlecode.com/svn/images/TouScruino-avr-v0.png" width="740">
-<a>
+<a href="http://ardurct.googlecode.com/svn/images/TouScruino-avr-v0.pdf"><img src="http://ardurct.googlecode.com/svn/images/TouScruino-avr-v0-sch.png" width="800"><a>
 <br><br>
