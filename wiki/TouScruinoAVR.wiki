@@ -1,0 +1,23 @@
+#summary Details about TouScruino-avr
+
+== Overview ==
+
+Remotuino is a contraction for Remot(e) (Ard)uino.
+<a href="http://ardurct.googlecode.com/svn/images/Touscruino-avr-top.png">
+<img src="http://ardurct.googlecode.com/svn/images/Touscruino-avr-top.png" width="380"><a>
+<a href="http://ardurct.googlecode.com/svn/images/Touscruino-avr-bot.png">
+<img src="http://ardurct.googlecode.com/svn/images/Touscruino-avr-bot.png" width="380"><a>
+
+==Features==
+ * AtMega1284P with Arduino bootloader.
+ * AR1021 as touch controller on I2C port (only required if you plan to use a touch panel)
+ * LiPo charger with JST 2 battery plug.
+ * Arduino programming header.
+ * Micro-usb connector to charge the battery and run the board.
+<br>
+== Schematics==
+For more details, see Eagle files: [http://ardurct.googlecode.com/svn/trunk/eagle/TouScruino-avr-v0.sch schematics] and [http://ardurct.googlecode.com/svn/trunk/eagle/TouScruino-avr-v0.brd board].<br><br>
+<a href="http://ardurct.googlecode.com/svn/images/TouScruino-avr-v0.pdf">
+<img src="http://ardurct.googlecode.com/svn/images/TouScruino-avr-v0.png" width="740">
+<a>
+<br><br>
