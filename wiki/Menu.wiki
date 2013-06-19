@@ -12,7 +12,7 @@
   * [RCShield]
    * [RCShieldAssembly Assembly]
    * [RCShieldOptions Configurations]
- * *Software*
+ * *Firmware*
   * [ArduRCTLocal Local]
   * [ArduRCTRemote Remote]
   * [Libraries Libraries]
