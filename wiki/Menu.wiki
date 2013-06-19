@@ -3,8 +3,11 @@
  * [BlockDiagram Block diagram]
  * *Hardware*
   * [TouScruino]
-   * [TouScruinoV1 v1]
-   * [TouScruinoV2 v2]
+   * [TouScruinoAVR avr]
+   * [TouscruinoARM arm]
+   * [TouScruinoUI0 ui0]
+   * [TouScruinoUI1 ui1]
+   * [TouScruinoUI2 ui2]
   * [Remotuino]
   * [RCShield]
    * [RCShieldAssembly Assembly]
