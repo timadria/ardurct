@@ -23,26 +23,26 @@ You only need one main board ans one user interface, but you can make your desig
 ===Main board===
 At this stage only the avr version is fully functional. The arm version will come at a later date.<br>
 <br>
-<u>*avr*</u><br>
+<u>*[TouScruinoAVR avr]*</u><br>
 Content: ATMEGA1284 as MPU, AR1021 as touch controller.<br>
 Status: work in progress.<br>
 <br><br>
-<u>*arm*</u><br>
+<u>*[TouScruinoARM arm]*</u><br>
 Content: SAM3S100 as MPU, AR1021 as touch controller and EEPROM.<br>
 Status: ideas stage.
 <br><br>
 ===User Interface board===
 A User Interface board should be connected on the TouScruino, using a 20 pins connector at the top of the board (the only one without edge connectors).<br>
 At this stage three different ui boards have been designed. These can, of course, be re-used in any design.<br><br>
-<u>*ui0*</u><br>
+<u>*[TouScruinoUI0 ui0]*</u><br>
 Content: PCD8544 as screen, 4 buttons for interaction.<br>
 Status: finished<br>
 Although usefull for simple interaction, the screen is too limited to be used for ArduRCT.
 <br><br>
-<u>*ui1*</u><br>
+<u>*[TouScruinoUI1 ui1]*</u><br>
 Content: JD-T1800 as screen, 4 buttons or a 5 ways switch for interaction.<br>
 Status: work in progress.
 <br><br>
-<u>*ui2*</u><br>
+<u>*[TouScruinoUI2 ui2]*</u><br>
 Content: IL932X as touchscreen.<br>
 Status: work in progress<br>

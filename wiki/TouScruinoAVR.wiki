@@ -2,8 +2,6 @@
 
 == Overview ==
 
-Remotuino is a contraction for Remot(e) (Ard)uino.<br>
-
 <a href="http://ardurct.googlecode.com/svn/images/TouScruino-avr-top.png"><img src="http://ardurct.googlecode.com/svn/images/TouScruino-avr-top.png" width="380"><a><a href="http://ardurct.googlecode.com/svn/images/TouScruino-avr-bot.png">
 <img src="http://ardurct.googlecode.com/svn/images/TouScruino-avr-bot.png" width="400"><a>
 
