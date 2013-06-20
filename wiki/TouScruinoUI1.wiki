@@ -19,3 +19,6 @@ When joined with TouScruino-avr, the complete assembly will have a double board 
 You should add a very thin layer of pastic (rows of transparent tape will do) on the back of the ui board to prevent electrical contacts.
 Alternatively, you can have the UI completely separated from the avr/arm board and join them with wires.<br/><br/>
 <img src="http://ardurct.googlecode.com/svn/images/TouScruino-avr-ui1.png" width="600">
+==Options==
+Using the same board, instead of 4 switches, you can have a rocker switch (also called navigational switch) from Adafruit or Sparkfun.<br>
+<img src="http://ardurct.googlecode.com/svn/images/TouScruino-ui1.r.png" width="350">
