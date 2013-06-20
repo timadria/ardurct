@@ -1,0 +1,21 @@
+#summary Details about TouScruino-ui2
+
+== Overview ==
+
+<a href="http://ardurct.googlecode.com/svn/images/TouScruino-ui2-top.png"><img src="http://ardurct.googlecode.com/svn/images/TouScruino-ui2-top.png" width="250"><a>
+<a href="http://ardurct.googlecode.com/svn/images/TouScruino-ui2-bot.png"><img src="http://ardurct.googlecode.com/svn/images/TouScruino-ui2-bot.png" width="300"><a>
+
+==Features==
+ * JD-T1800 (from Adafruit).
+ * 4 buttons or one rocker switch
+ * 20 pins connector compatible with TouScruino-avr or TouScruino-arm
+<br>
+== Schematics==
+For more details, see Eagle files: [http://ardurct.googlecode.com/svn/trunk/eagle/TouScruino-ui2.IL-v0.sch schematics] and [http://ardurct.googlecode.com/svn/trunk/eagle/TouScruino-ui2.IL-v0.brd board].<br><br>
+<a href="http://ardurct.googlecode.com/svn/images/TouScruino-ui2.IL-v0.pdf"><img src="http://ardurct.googlecode.com/svn/images/TouScruino-ui2.IL-v0-sch.png" width="800"><a>
+<br>
+==Joining==
+When joined with TouScruino-avr, the complete assembly will have a double board thickness.<br/>
+You should add a very thin layer of pastic (rows of transparent tape will do) on the back of the ui board to prevent electrical contacts.<br/>
+Alternatively, you can have the UI completely separated from the avr/arm board and join them with wires.<br>
+<img src="http://ardurct.googlecode.com/svn/images/TouScruino-avr-ui2.png" width="400">
