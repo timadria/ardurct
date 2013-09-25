@@ -4,7 +4,7 @@
  * *Hardware*
   * [TouScruino]
    * [TouScruinoAvrUi0 avr-ui0]
-   * [TouscruinoAvrUi1 avr-ui1]
+   * [TouScruinoAvrUi1 avr-ui1]
    * [TouScruinoAvrUi2 avr-ui2]
    * [TouScruinoArmUi2 arm-ui2]
   * [Remotuino]
