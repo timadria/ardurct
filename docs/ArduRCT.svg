@@ -101,7 +101,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.7228116"
-     inkscape:cx="385.08138"
+     inkscape:cx="271.31386"
      inkscape:cy="245.97066"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -1522,7 +1522,7 @@
        height="26.261374"
        width="48.834679"
        id="rect3457"
-       style="fill:#fff86f;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:3, 1;stroke-dashoffset:0;stroke-opacity:1" />
+       style="fill:#d98fff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:3, 1;stroke-dashoffset:0;stroke-opacity:1" />
     <text
        xml:space="preserve"
        style="font-size:9px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Calibri;-inkscape-font-specification:Calibri"
@@ -1538,7 +1538,7 @@
          x="239.58826"
          y="825.1189">Serial</tspan></text>
     <rect
-       style="fill:#fff86f;fill-opacity:1;stroke:#000000;stroke-width:1.04866671999999990;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:2.09733342999999990, 2.09733342999999990;stroke-dashoffset:0;stroke-opacity:1"
+       style="fill:#d98fff;fill-opacity:1;stroke:#000000;stroke-width:1.04866671999999990;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:2.09733342999999990, 2.09733342999999990;stroke-dashoffset:0;stroke-opacity:1"
        id="rect3470"
        width="43.420704"
        height="26.323517"
@@ -2252,7 +2252,7 @@
        height="26.25333"
        width="41.829021"
        id="rect3456"
-       style="fill:#f0b1b1;fill-opacity:1;stroke:#000000;stroke-width:0.75203264;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:1.50406528,1.50406528;stroke-dashoffset:0;stroke-opacity:1" />
+       style="fill:#d1d1d1;fill-opacity:1;stroke:#000000;stroke-width:0.75203264000000003;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:1.50406528000000010, 1.50406528000000010;stroke-dashoffset:0;stroke-opacity:1" />
     <text
        inkscape:export-ydpi="120.69"
        inkscape:export-xdpi="120.69"
