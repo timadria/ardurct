@@ -3,22 +3,25 @@
 == Overview ==
 
 RCShield is a contraction for R(emote) C(ontrol) Shield.<br>
-<a href="http://ardurct.googlecode.com/svn/images/RCShield_assembly_8.jpg">
-<img src="http://ardurct.googlecode.com/svn/images/RCShield_assembly_8.jpg" width="600"><a>
+<a href="http://ardurct.googlecode.com/svn/images/RCShield-assembly-9.png">
+<img src="http://ardurct.googlecode.com/svn/images/RCShield-assembly-9.png" width="600"><a>
 
 ==Features==
  * Comes as 2 boards to allow various [RCShieldOptions configurations]
-  * From 1 to 5 directly accessible channels
+  * From 1 to 5 analog channels
+  * Or 4 analog channels and one rotary encoder
  * XBee connector to allow any XBee solution.
- * I2C connector to connect a magnetometer or a GPS through 
- * compatible with any 3.3V Arduino Uno footprint board
+ * I2C connector to connect a magnetometer or a GPS, available on both sides. 
+ * Compatible with any 3.3V Arduino Uno footprint board
  * All digital ports are replicated
- * FTDI chip to allow programming of any Arduino compatible board. TouScruino and Remotuino can be programmed simply by connecting on the shield.
+ * FTDI chip to allow programming of any Arduino compatible board. 
+  * TouScruino and Remotuino can be programmed simply by connecting on the shield.
+  * Micro USB port with reinforcement
 <br>
 == Schematics==
 For more details, see Eagle files: [http://ardurct.googlecode.com/svn/trunk/eagle/RCShield-v3.sch schematics] and [http://ardurct.googlecode.com/svn/trunk/eagle/RCShield-v3.brd board].<br><br>
 <a href="http://ardurct.googlecode.com/svn/images/RCShield.pdf">http://ardurct.googlecode.com/svn/images/RCShield-sch.png<a>
 <br><br>
 == Bare board==
-<a href="http://ardurct.googlecode.com/svn/images/RCShield.jpg">
-<img src="http://ardurct.googlecode.com/svn/images/RCShield.jpg" width="500"><a>
+<a href="http://ardurct.googlecode.com/svn/images/RCShield.png">
+<img src="http://ardurct.googlecode.com/svn/images/RCShield.png" width="500"><a>
