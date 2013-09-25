@@ -18,7 +18,7 @@ and returns upon request the state of the inputs.
 <br><br>
 == Building principle ==
 <img src="http://ardurct.googlecode.com/svn/images/TouScruino-versions.png"><br><br>
-The Main board on top is combined with a User Interface to give the different Versions of TouScruino.
+The Main board on top is combined with a User Interface to give the different Versions of TouScruino.<br>
 ===Main board===
 At this stage only the avr version is fully functional. The arm version will come at a later date.<br>
 <br>
@@ -27,27 +27,28 @@ Content: ATMEGA1284 as MPU, AR1021 as touch controller.<br>
 <br>
 <u>*arm*</u><br>
 Content: SAM3S100 as MPU, AR1021 as touch controller and EEPROM.<br>
-<br><br>
+<br>
 ===User Interfaces===
 <u>*ui0*</u><br>
 Content: PCD8544 as screen, 4 buttons for interaction.<br>
 Although usefull for simple interaction, the screen is too limited to be used for ArduRCT.
 <br><br>
 <u>*ui1*</u><br>
-Content: JD-T1800 as screen, 4 buttons or a 5 ways switch for interaction.<br>
+Content: JD-T1800 as screen, 4 buttons or a 5 ways switch for interaction.
 <br><br>
 <u>*ui2*</u><br>
 Content: IL932X as touchscreen.<br>
+<br>
 ===Versions===
-<u>*[TouScruinoAvrUi0 avr-ui0]*</u><br/>
+<u>*[TouScruinoAvrUi0 avr-ui0]*</u><br>
 Status: Terminated.
 <br><br>
-<u>*[TouScruinoAvrUi1 avr-ui1]*</u><br/>
+<u>*[TouScruinoAvrUi1 avr-ui1]*</u><br>
 Status: Complete.
 <br><br>
-<u>*[TouScruinoAvrUi2 avr-ui2]*</u><br/>
+<u>*[TouScruinoAvrUi2 avr-ui2]*</u><br>
 Status: Complete.
 <br><br>
-<u>*[TouScruinoArmUi2 arm-ui2]*</u><br/>
+<u>*[TouScruinoArmUi2 arm-ui2]*</u><br>
 Status: Pin mapping is done, Schematic in is progress.
 <br><br>
