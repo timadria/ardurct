@@ -16,33 +16,38 @@ See [PinMapping pins mapping] for details for TouScruino-avr.
 By default, TouScruino contains a firmware which will draw the commands passed through the Serial pins (RX=D0 and TX=D1) on the screen, 
 and returns upon request the state of the inputs.
 <br><br>
-== Versions ==
+== Building principle ==
 <img src="http://ardurct.googlecode.com/svn/images/TouScruino-versions.png"><br><br>
-To bring maximum flexibility and facilitate reusability, the user interface and main boards are kept separate. <br/> 
-You only need one main board ans one user interface, but you can make your design evolve without loosing all previous investment.
+The Main board on top is combined with a User Interface to give the different Versions of TouScruino.
 ===Main board===
 At this stage only the avr version is fully functional. The arm version will come at a later date.<br>
 <br>
-<u>*[TouScruinoAVR avr]*</u><br>
+<u>*avr*</u><br>
 Content: ATMEGA1284 as MPU, AR1021 as touch controller.<br>
-Status: work in progress.<br>
-<br><br>
-<u>*[TouScruinoARM arm]*</u><br>
+<br>
+<u>*arm*</u><br>
 Content: SAM3S100 as MPU, AR1021 as touch controller and EEPROM.<br>
-Status: ideas stage.
 <br><br>
-===User Interface board===
-A User Interface board should be connected on the TouScruino, using a 20 pins connector at the top of the board (the only one without edge connectors).<br>
-At this stage three different ui boards have been designed. These can, of course, be re-used in any design.<br><br>
-<u>*[TouScruinoUI0 ui0]*</u><br>
+===User Interfaces===
+<u>*ui0*</u><br>
 Content: PCD8544 as screen, 4 buttons for interaction.<br>
-Status: finished<br>
 Although usefull for simple interaction, the screen is too limited to be used for ArduRCT.
 <br><br>
-<u>*[TouScruinoUI1 ui1]*</u><br>
+<u>*ui1*</u><br>
 Content: JD-T1800 as screen, 4 buttons or a 5 ways switch for interaction.<br>
-Status: work in progress.
 <br><br>
-<u>*[TouScruinoUI2 ui2]*</u><br>
+<u>*ui2*</u><br>
 Content: IL932X as touchscreen.<br>
-Status: work in progress<br>
+===Versions===
+<u>*[TouScruinoAvrUi0 avr-ui0]*</u><br/>
+Status: Terminated.
+<br><br>
+<u>*[TouScruinoAvrUi1 avr-ui1]*</u><br/>
+Status: Complete.
+<br><br>
+<u>*[TouScruinoAvrUi2 avr-ui2]*</u><br/>
+Status: Complete.
+<br><br>
+<u>*[TouScruinoArmUi2 arm-ui2]*</u><br/>
+Status: Pin mapping is done, Schematic in is progress.
+<br><br>
