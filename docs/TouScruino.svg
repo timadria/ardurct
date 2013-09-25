@@ -38,14 +38,14 @@
      inkscape:pageshadow="2"
      inkscape:zoom="0.83725927"
      inkscape:cx="526.18109"
-     inkscape:cy="372.04724"
+     inkscape:cy="467.5971"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1422"
-     inkscape:window-height="830"
-     inkscape:window-x="1"
-     inkscape:window-y="1" />
+     inkscape:window-width="1440"
+     inkscape:window-height="848"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8" />
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -74,7 +74,7 @@
          y="196.83754"
          x="421.15964"
          id="tspan3211"
-         sodipodi:role="line">TouScruino-ui2</tspan></text>
+         sodipodi:role="line">TouScruino-axx-ui2</tspan></text>
     <rect
        y="209.45622"
        x="421.19913"
@@ -172,7 +172,7 @@
          sodipodi:role="line"
          id="tspan2389"
          x="59.002541"
-         y="196.83754">TouScruino-ui0</tspan></text>
+         y="196.83754">TouScruino-axx-ui0</tspan></text>
     <rect
        style="fill:#e4f0e5;fill-opacity:1;stroke:#000000;stroke-width:1.52793252;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect2391"
@@ -270,7 +270,7 @@
          y="196.83754"
          x="235.74814"
          id="tspan2517"
-         sodipodi:role="line">TouScruino-ui1</tspan></text>
+         sodipodi:role="line">TouScruino-axx-ui1</tspan></text>
     <rect
        y="209.41856"
        x="237.13007"
