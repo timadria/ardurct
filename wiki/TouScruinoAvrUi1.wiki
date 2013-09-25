@@ -1,0 +1,19 @@
+#summary Details about TouScruino-avr-ui1
+
+== Overview ==
+
+<a href="http://ardurct.googlecode.com/svn/images/TouScruino-avr-ui1-top.png"><img src="http://ardurct.googlecode.com/svn/images/TouScruino-avr-ui1-top.png" width="380"><a><a href="http://ardurct.googlecode.com/svn/images/TouScruino-avr-ui1-bot.png">
+<img src="http://ardurct.googlecode.com/svn/images/TouScruino-avr-ui1-bot.png" width="400"><a>
+
+==Features==
+ * AtMega1284P with Arduino bootloader.
+ * LiPo charger with JST 2 battery plug.
+ * Arduino programming header.
+ * Micro-usb connector to charge the battery and run the board.
+ * JD-T1800 (from Adafruit).
+ * 4 buttons or one rocker switch
+<br>
+== Schematics==
+For more details, see Eagle files: [http://ardurct.googlecode.com/svn/trunk/eagle/TouScruino-avr-ui1-v0.sch schematics] and [http://ardurct.googlecode.com/svn/trunk/eagle/TouScruino-avr-ui1-v0.brd board].<br><br>
+<a href="http://ardurct.googlecode.com/svn/images/TouScruino-avr-ui1.pdf"><img src="http://ardurct.googlecode.com/svn/images/TouScruino-avr-ui1-sch.png" width="800"><a>
+<br><br>

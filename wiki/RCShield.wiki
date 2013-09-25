@@ -16,10 +16,8 @@ RCShield is a contraction for R(emote) C(ontrol) Shield.<br>
  * FTDI chip to allow programming of any Arduino compatible board. TouScruino and Remotuino can be programmed simply by connecting on the shield.
 <br>
 == Schematics==
-For more details, see Eagle files: [http://ardurct.googlecode.com/svn/trunk/eagle/RCShield-v1.sch schematics] and [http://ardurct.googlecode.com/svn/trunk/eagle/RCShield-v1.brd board].<br><br>
-<a href="http://ardurct.googlecode.com/svn/images/RCShield-v1.pdf">
-http://ardurct.googlecode.com/svn/images/RCShield-sch.png
-<a>
+For more details, see Eagle files: [http://ardurct.googlecode.com/svn/trunk/eagle/RCShield-v3.sch schematics] and [http://ardurct.googlecode.com/svn/trunk/eagle/RCShield-v3.brd board].<br><br>
+<a href="http://ardurct.googlecode.com/svn/images/RCShield.pdf">http://ardurct.googlecode.com/svn/images/RCShield-sch.png<a>
 <br><br>
 == Bare board==
 <a href="http://ardurct.googlecode.com/svn/images/RCShield.jpg">

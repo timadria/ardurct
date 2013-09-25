@@ -1,0 +1,19 @@
+#summary Details about TouScruino-avr-ui2
+
+== Overview ==
+
+<a href="http://ardurct.googlecode.com/svn/images/TouScruino-avr-ui2-top.png"><img src="http://ardurct.googlecode.com/svn/images/TouScruino-avr-ui2-top.png" width="380"><a><a href="http://ardurct.googlecode.com/svn/images/TouScruino-avr-ui2-bot.png">
+<img src="http://ardurct.googlecode.com/svn/images/TouScruino-avr-ui2-bot.png" width="400"><a>
+
+==Features==
+ * AtMega1284P with Arduino bootloader.
+ * LiPo charger with JST 2 battery plug.
+ * Arduino programming header.
+ * Micro-usb connector to charge the battery and run the board.
+ * 2.8" TFT screen with backlight
+ * TouchPanel controller (AR1021) on I2C bus.
+<br>
+== Schematics==
+For more details, see Eagle files: [http://ardurct.googlecode.com/svn/trunk/eagle/TouScruino-avr-ui2-v0.sch schematics] and [http://ardurct.googlecode.com/svn/trunk/eagle/TouScruino-avr-ui2-v0.brd board].<br><br>
+<a href="http://ardurct.googlecode.com/svn/images/TouScruino-avr-ui2-v0.pdf"><img src="http://ardurct.googlecode.com/svn/images/TouScruino-avr-ui2-sch.png" width="800"><a>
+<br><br>

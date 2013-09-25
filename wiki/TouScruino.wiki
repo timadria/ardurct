@@ -18,7 +18,11 @@ and returns upon request the state of the inputs.
 <br><br>
 == Building principle ==
 <img src="http://ardurct.googlecode.com/svn/images/TouScruino-versions.png"><br><br>
+<<<<<<< .mine
+The Main board on top is combined with a User Interface to give the different Versions of TouScruino.
+=======
 The Main board on top is combined with a User Interface to give the different Versions of TouScruino.<br>
+>>>>>>> .r786
 ===Main board===
 At this stage only the avr version is fully functional. The arm version will come at a later date.<br>
 <br>
@@ -38,6 +42,20 @@ Content: JD-T1800 as screen, 4 buttons or a 5 ways switch for interaction.
 <br><br>
 <u>*ui2*</u><br>
 Content: IL932X as touchscreen.<br>
+<<<<<<< .mine
+===Versions===
+<u>*[TouScruinoAvrUi0 avr-ui0]*</u>
+Status: Terminated.
+<br><br>
+<u>*[TouScruinoAvrUi1 avr-ui1]*</u>
+Status: Complete.
+<br><br>
+<u>*[TouScruinoAvrUi2 avr-ui2]*</u>
+Status: Complete.
+<br><br>
+<u>*[TouScruinoArmUi2 arm-ui2]*</u>
+Status: Pin mapping is done, Schematic in is progress.
+<br><br>=======
 <br>
 ===Versions===
 <u>*[TouScruinoAvrUi0 avr-ui0]*</u><br>
@@ -51,4 +69,4 @@ Status: Complete.
 <br><br>
 <u>*[TouScruinoArmUi2 arm-ui2]*</u><br>
 Status: Pin mapping is done, Schematic in is progress.
-<br><br>
+<br><br>>>>>>>> .r786
