@@ -24,4 +24,5 @@ For more details, see Eagle files: [http://ardurct.googlecode.com/svn/trunk/eagl
 == Options==
 The board can also accept a 5 way switch instead of 4 switches.<br>
 Since the 5 way switch uses the same pins as the buttons, it is not possible to use the 5-way-switch and 2 buttons at the same time.<br>
+<br><br>
 <a href="http://ardurct.googlecode.com/svn/images/TouScruino-avr-ui1-top-rocker.png"><img src="http://ardurct.googlecode.com/svn/images/TouScruino-avr-ui1-top-rocker.png" width="380"><a>
