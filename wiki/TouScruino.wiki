@@ -37,7 +37,7 @@ Although usefull for simple interaction, the screen is too limited to be used fo
 Content: JD-T1800 as screen, 4 buttons or a 5 ways switch for interaction.
 <br><br>
 <u>*ui2*</u><br>
-Content: IL932X as touchscreen.<br>
+Content: IL932X as touchscreen.<br><br>
 ===Versions===
 <u>*[TouScruinoAvrUi0 avr-ui0]*</u>
 Status: Terminated.
