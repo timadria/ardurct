@@ -2,8 +2,8 @@
 
 == Overview ==
 
-<a href="http://ardurct.googlecode.com/svn/images/TouScruino-avr-ui2-top.png"><img src="http://ardurct.googlecode.com/svn/images/TouScruino-avr-ui2-top.png" width="380"><a><a href="http://ardurct.googlecode.com/svn/images/TouScruino-avr-ui2-bot.png">
-<img src="http://ardurct.googlecode.com/svn/images/TouScruino-avr-ui2-bot.png" width="400"><a>
+<a href="http://ardurct.googlecode.com/svn/images/TouScruino-avr-ui2-top.png"><img src="http://ardurct.googlecode.com/svn/images/TouScruino-avr-ui2-top.png" width="390"><a><a href="http://ardurct.googlecode.com/svn/images/TouScruino-avr-ui2-bot.png">
+<img src="http://ardurct.googlecode.com/svn/images/TouScruino-avr-ui2-bot.png" width="390"><a>
 
 ==Features==
  * AtMega1284P with Arduino bootloader.
