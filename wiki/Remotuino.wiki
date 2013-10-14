@@ -3,8 +3,8 @@
 == Overview ==
 
 Remotuino is a contraction for Remot(e) (Ard)uino.
-<a href="http://ardurct.googlecode.com/svn/images/Remotuino.jpg">
-<img src="http://ardurct.googlecode.com/svn/images/Remotuino.jpg" width="600"><a>
+<a href="http://ardurct.googlecode.com/svn/images/Remotuino.png">
+<img src="http://ardurct.googlecode.com/svn/images/Remotuino.png" width="600"><a>
 
 ==Features==
  * XBee connector to allow any XBee footprint solution.
@@ -25,8 +25,8 @@ http://ardurct.googlecode.com/svn/images/Remotuino-sch.png
 ==Details==
 <u>Remotuino without connectors
 
-<a href="http://ardurct.googlecode.com/svn/images/Remotuino1.jpg"><img src="http://ardurct.googlecode.com/svn/images/Remotuino1.jpg" width="400"><a><br>
+<a href="http://ardurct.googlecode.com/svn/images/Remotuino1.jpg"><img src="http://ardurct.googlecode.com/svn/images/Remotuino1.png" width="400"><a><br>
 
 <u>Remotuino with connectors
 
-<a href="http://ardurct.googlecode.com/svn/images/Remotuino2.jpg"><img src="http://ardurct.googlecode.com/svn/images/Remotuino2.jpg" width="400"><a><br>
+<a href="http://ardurct.googlecode.com/svn/images/Remotuino2.jpg"><img src="http://ardurct.googlecode.com/svn/images/Remotuino2.png" width="400"><a><br>
