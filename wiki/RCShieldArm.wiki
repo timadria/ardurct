@@ -1,0 +1,28 @@
+#summary Details about the RCShield arm version
+
+== Overview ==
+
+RCShield is a contraction for R(emote) C(ontrol) Shield.<br>
+<a href="http://ardurct.googlecode.com/svn/images/RCShield-arm.png">
+<img src="http://ardurct.googlecode.com/svn/images/RCShield-arm.png" width="600"><a>
+
+==Features==
+ * Comes as 2 boards to allow various [RCShieldOptions configurations]
+  * From 1 to 5 analog channels
+  * Or 4 analog channels and one rotary encoder
+ * XBee connector to allow any XBee solution.
+ * I2C connector to connect a magnetometer or a GPS, available on both sides. 
+ * GPS connector
+ * All digital ports are replicated
+ * Micro USB port with reinforcement
+ * Digital switches
+  * Automatically connect Serial2 to the arduino on the programming port
+  * Allow the arduino plugged on the shield to read from the local XBee and program the XBee of the Remotuino
+<br>
+== Schematics==
+For more details, see Eagle files: [http://ardurct.googlecode.com/svn/trunk/eagle/RCShield-arm-v0.sch schematics] and [http://ardurct.googlecode.com/svn/trunk/eagle/RCShield-arm-v0.brd board].<br><br>
+<a href="http://ardurct.googlecode.com/svn/images/RCShield-arm.pdf">http://ardurct.googlecode.com/svn/images/RCShield-arm-sch.png<a>
+<br><br>
+== Bare board==
+<a href="http://ardurct.googlecode.com/svn/images/RCShield-arm-board.png">
+<img src="http://ardurct.googlecode.com/svn/images/RCShield-arm-board.png" width="500"><a>

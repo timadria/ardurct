@@ -1,33 +1,28 @@
 #summary How to assemble the RCShield.
 
-This is a description of the assembly steps required to get to the final "local part" of the block diagram.<br>
-<a href="http://ardurct.googlecode.com/svn/images/RCShield_assembly_2.jpg">
-<img src="http://ardurct.googlecode.com/svn/images/RCShield_assembly_2.jpg" width="350"><a>
-<a href="http://ardurct.googlecode.com/svn/images/RCShield_assembly_3.jpg">
-<img src="http://ardurct.googlecode.com/svn/images/RCShield_assembly_3.jpg" width="350"><a><br>
-1/ Cut the 2 boards along the dashed lines, making a left and a right part. Cut the small part at the top left of each board, these will allow us to assemble the boards together. One of the 2 small boards has to be cut again along the dashes.<br>
-
-<a href="http://ardurct.googlecode.com/svn/images/RCShield_assembly_4.jpg">
-<img src="http://ardurct.googlecode.com/svn/images/RCShield_assembly_4.jpg" width="350"><a>
-<a href="http://ardurct.googlecode.com/svn/images/RCShield_assembly_5.jpg">
-<img src="http://ardurct.googlecode.com/svn/images/RCShield_assembly_5.jpg" width="350"><a><br>
-2/ Solder pins on the 2 smaller boards<br>
-3/ Then solder the small boards to the big ones, following the lettering on the boards.
-
-<a href="http://ardurct.googlecode.com/svn/images/RCShield_assembly_6.jpg">
-<img src="http://ardurct.googlecode.com/svn/images/RCShield_assembly_6.jpg" width="350"><a>
-<a href="http://ardurct.googlecode.com/svn/images/RCShield_assembly_7.jpg">
-<img src="http://ardurct.googlecode.com/svn/images/RCShield_assembly_7.jpg" width="350"><a><br>
-4/ Solder the SMS components on the board. Follow the desoltering wick method for the FT232 as the pins are pretty near!<br>
-5/ Then solder the female headers and the on-off button. Don't forget to solder special extra long pins headers if you want to put your Arduino under the RCShield.
-
-<a href="http://ardurct.googlecode.com/svn/images/RCShield_assembly_8.jpg">
-<img src="http://ardurct.googlecode.com/svn/images/RCShield_assembly_8.jpg" width="350"><a>
-<a href="http://ardurct.googlecode.com/svn/images/RCShield_assembly_9.jpg">
-<img src="http://ardurct.googlecode.com/svn/images/RCShield_assembly_9.jpg" width="350"><a><br>
-6/ Solder the joysticks and the potentiometer if you need it.<br>
-7/ You can now plug your XBee module and your TouScruino, or your Arduino board.
-
-<img src="http://ardurct.googlecode.com/svn/images/blank.jpg" width="100">
-<a href="http://ardurct.googlecode.com/svn/images/RCShield_assembly_10.jpg">
-<img src="http://ardurct.googlecode.com/svn/images/RCShield_assembly_10.jpg" width="500"><a>
+This is a description of the assembly steps required to get the RCShield: "local part" of the block diagram.
+<br>
+<br>
+<a href="http://ardurct.googlecode.com/svn/images/RCShield-Assembly0.jpg">
+<img src="http://ardurct.googlecode.com/svn/images/RCShield-Assembly0.jpg" width="500"><a>
+<br>
+<a href="http://ardurct.googlecode.com/svn/images/RCShield-Assembly1.jpg">
+<img src="http://ardurct.googlecode.com/svn/images/RCShield-Assembly1.jpg" width="500"><a>
+<br>
+<a href="http://ardurct.googlecode.com/svn/images/RCShield-Assembly2.jpg">
+<img src="http://ardurct.googlecode.com/svn/images/RCShield-Assembly2.jpg" width="500"><a>
+<br>
+<a href="http://ardurct.googlecode.com/svn/images/RCShield-Assembly3.jpg">
+<img src="http://ardurct.googlecode.com/svn/images/RCShield-Assembly3.jpg" width="500"><a>
+<br>
+<a href="http://ardurct.googlecode.com/svn/images/RCShield-Assembly4.jpg">
+<img src="http://ardurct.googlecode.com/svn/images/RCShield-Assembly4.jpg" width="500"><a>
+<br>
+<a href="http://ardurct.googlecode.com/svn/images/RCShield-Assembly5.jpg">
+<img src="http://ardurct.googlecode.com/svn/images/RCShield-Assembly5.jpg" width="500"><a>
+<br>
+<a href="http://ardurct.googlecode.com/svn/images/RCShield-Assembly6.jpg">
+<img src="http://ardurct.googlecode.com/svn/images/RCShield-Assembly6.jpg" width="500"><a>
+<br>
+<a href="http://ardurct.googlecode.com/svn/images/RCShield-Assembly7.jpg">
+<img src="http://ardurct.googlecode.com/svn/images/RCShield-Assembly7.jpg" width="500"><a>

@@ -9,6 +9,8 @@
    * [TouScruinoArmUi2 arm-ui2]
   * [Remotuino]
   * [RCShield]
+   * [RCShieldAvr avr]
+   * [RCShieldArm arm]
    * [RCShieldAssembly Assembly]
    * [RCShieldOptions Configurations]
  * *Firmware*
