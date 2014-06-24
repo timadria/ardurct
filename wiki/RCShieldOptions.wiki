@@ -12,7 +12,7 @@ Two channels through 2 potentiometers: up, down, left, right<br><br><br>
 <a href="http://ardurct.googlecode.com/svn/images/RCShield-Option2P1E.jpg">
 <img src="http://ardurct.googlecode.com/svn/images/RCShield-Option2P1E.jpg" width="350"><a><br>
 Three channel through three potentiometer: up, down, left, right, plus, minus. <br>
-Three channel through two potentiometer and one encoder through two joysticks: up, down, left, right, plus, minus.<br><br><br>
+Three channel through two potentiometer and one encoder: up, down, left, right, plus, minus.<br><br><br>
 <a href="http://ardurct.googlecode.com/svn/images/RCShield-Option2J.jpg">
 <img src="http://ardurct.googlecode.com/svn/images/RCShield-Option2J.jpg" width="350"><a>
 <a href="http://ardurct.googlecode.com/svn/images/RCShield-Option2J1P.jpg">
