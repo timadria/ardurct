@@ -22,5 +22,4 @@ Five channels through two joysticks and one potentiometer: up, down, left, right
 <a href="http://ardurct.googlecode.com/svn/images/RCShield-Option2J1E.jpg">
 <img src="http://ardurct.googlecode.com/svn/images/RCShield-Option2J1E.jpg" width="700"><a><br>
 Five channels through two joysticks and one encoder: up, down, left, right, throttle-up, throttle-down, yaw-clockwise, yaw-counter, plus, minus.<br><br><br>
-<br>
-Up to 21 channels (limited by Remotuino channels) can then be defined on the screen.
+*Up to 21 channels (limited by Remotuino channels) can then be defined on the screen.*
