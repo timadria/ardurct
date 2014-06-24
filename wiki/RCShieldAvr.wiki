@@ -3,8 +3,8 @@
 == Overview ==
 
 RCShield is a contraction for R(emote) C(ontrol) Shield.<br>
-<a href="http://ardurct.googlecode.com/svn/images/RCShield-avr.png">
-<img src="http://ardurct.googlecode.com/svn/images/RCShield-avr.png" width="600"><a>
+<a href="http://ardurct.googlecode.com/svn/images/RCShield-avr.jpg">
+<img src="http://ardurct.googlecode.com/svn/images/RCShield-avr.jpg" width="750"><a>
 
 ==Features==
  * Comes as 2 boards to allow various [RCShieldOptions configurations]
