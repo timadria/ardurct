@@ -26,5 +26,5 @@ For more details, see Eagle files: [http://ardurct.googlecode.com/svn/trunk/eagl
 <a href="http://ardurct.googlecode.com/svn/images/RCShield-avr.pdf">http://ardurct.googlecode.com/svn/images/RCShield-avr-sch.png<a>
 <br><br>
 == Bare board==
-<a href="http://ardurct.googlecode.com/svn/images/RCShield-avr-board.png">
-<img src="http://ardurct.googlecode.com/svn/images/RCShield-avr-board.png" width="500"><a>
+<a href="http://ardurct.googlecode.com/svn/images/RCShield-arm-board.jpg">
+<img src="http://ardurct.googlecode.com/svn/images/RCShield-arm-board.jpg" width="500"><a>
